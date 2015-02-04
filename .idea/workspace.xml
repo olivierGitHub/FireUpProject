@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="" />
+    <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="FireUpProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,7 +89,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="21" selection-start="37" selection-end="37" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="476">
+            <state line="16" column="6" selection-start="443" selection-end="443" vertical-scroll-proportion="-6.576923" vertical-offset="101" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -114,7 +118,7 @@
       <file leaf-file-name="router.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/route/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="30" selection-start="479" selection-end="479" vertical-scroll-proportion="0.63496935" vertical-offset="99" max-vertical-offset="493">
+            <state line="20" column="0" selection-start="515" selection-end="515" vertical-scroll-proportion="1.0429448" vertical-offset="0" max-vertical-offset="493">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -138,15 +142,18 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
         <option value="$PROJECT_DIR$/web/home/home.html" />
         <option value="$PROJECT_DIR$/web/route/router.js" />
+        <option value="$PROJECT_DIR$/web/index.html" />
       </list>
     </option>
   </component>
@@ -156,7 +163,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -595,17 +602,34 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="" />
       <created>1423046731476</created>
       <updated>1423046731476</updated>
-      <workItem from="1423046734652" duration="4733000" />
+      <workItem from="1423046734652" duration="6078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4733000" />
+    <option name="totallyTimeSpent" value="6078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -684,13 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="21" selection-start="37" selection-end="37" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="19" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
@@ -707,9 +724,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="6" selection-start="443" selection-end="443" vertical-scroll-proportion="-6.576923" vertical-offset="101" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/route/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="479" selection-end="479" vertical-scroll-proportion="0.63496935" vertical-offset="99" max-vertical-offset="493">
+        <state line="20" column="0" selection-start="515" selection-end="515" vertical-scroll-proportion="1.0429448" vertical-offset="0" max-vertical-offset="493">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
