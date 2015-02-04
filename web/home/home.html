@@ -1,0 +1,49 @@
+<div  ng-app="homeApp" ng-controller="homeController">
+        <div id="home_authentification">
+            <table width="100%">
+                <tr>
+                    <th id="application_name" width="60%"><h3 >Fire Up</h3></th>
+                    <th id="authentification_params" width="40%">
+                        <input type="text" ng-model="usernameLogIn" placeholder="username">
+                        <input type="password" ng-model="passwordLogIn" placeholder="password">
+                        <input type="submit" ng-submit="logIn()">
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+         <div id="home_quick_identification">
+            <table>
+                <tr>
+                    <th width="75%" id="einstein_quote"><img src="einstein_quote.png" ></th>
+                    <th id="quick_account_creation" width="25%" >
+                        Quick account creation:
+                        <table>
+                            <tr>
+                                <th>username</th>
+                                <th><input type="text" ng-model="usernameSignUp" ></th>
+                            </tr>
+                            <tr>
+                                <th>username</th>
+                                <th><input type="password" ng-model="passwordSignUp" ></th>
+                            </tr>
+                            <tr>
+                                <th>password</th>
+                                <th><input type="password" ng-model="passwordSignUp2"></th>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <th><input type="submit" ng-submit="signUp()"></th>
+                            </tr>
+                        </table>
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="home_full_identification">
+            <input id="full_identification_submit" type="submit" value="Full Account Creation" ng-submit="goToFullLogUpPage()">
+        </div>
+
+</div>
+

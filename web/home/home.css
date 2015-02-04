@@ -1,0 +1,51 @@
+body{
+    background-image:linear-gradient(white 60%, orange);
+}
+
+#home_authentification
+{
+    background: orange;
+    width: 95%;
+    border-radius: 15px;
+    margin: 3.5% 2.5%;/*
+    text-align: right;
+    position: fixed;*/
+}
+
+#home_quick_identification
+{
+    width: 100%;
+    border-radius: 15px;
+    margin: 10% 15%;/*
+    text-align: right;
+    position: fixed;*/
+}
+
+#home_full_identification
+{
+    margin: 3.5% 60%;
+}
+
+#authentification_params
+{
+    text-align: right;
+
+}
+
+#application_name
+{
+    text-align: center;
+
+}
+
+#quick_account_creation
+{
+    text-align: left;
+
+}
+
+#einstein_quote
+{
+    text-align: left;
+}
+

@@ -1,0 +1,13 @@
+{
+    "name": "expert1labo",
+    "version": "1.0.0",
+    "dependencies": {
+        "angular": "*",
+        "bootstrap": "*",
+        "angular-ui-router": "*",
+        "angular-resource": "*",
+        "angular-md5": "*",
+        "angular-sanitize": "*"
+
+    }
+}
