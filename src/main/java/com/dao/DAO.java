@@ -12,6 +12,7 @@ public interface DAO<T> {
     void update(T obj);
     void delete(T obj);
 
+
     List<T> readSelected(String sql);
 
 }
