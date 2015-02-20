@@ -12,8 +12,6 @@ import java.util.List;
 public class DaoUser implements DAO<User> {
 
     private EntityManagerFactory emf;
-//    private EntityManager em;
-//    private EntityTransaction t;
 
     private static final DaoUser instance = new DaoUser();
     private DaoUser(){

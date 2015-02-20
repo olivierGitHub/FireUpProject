@@ -16,7 +16,7 @@ angular.module('homeApp', ['ui.router', 'home'])
             })
             .state('signup', {
                 url: '/signup',
-                templateUrl: 'signup/signup.html'
+                template: '<h1>My Contacts</h1>'
             });
 
 
