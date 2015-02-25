@@ -3,7 +3,7 @@
  */
 
 /*global angular */
-angular.module('homeApp', ['ui.router', 'home'])
+angular.module('homeApp', ['ui.router'])
 
     .config(function ($stateProvider, $urlRouterProvider) {
         'use strict';
