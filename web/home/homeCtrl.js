@@ -1,7 +1,7 @@
 /*global angular*/
 
 angular.module('home', [])
-    .controller('homeController', [function ($scope, $state, homeService) {
+    .controller('homeController', ['$scope', '$state', function ($scope, $state) {
         'use strict';
 
         $scope.goToFullLogUpPage = function(){
