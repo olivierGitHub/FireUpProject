@@ -1,12 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="Correction souci WebServices&#10;&#10;Il fallait rajouter les librairies dans les artifacts&#10;project structures -&gt; artifacts -&gt; available elements -&gt; clic droit -&gt; Put Into Output Root&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/home.css" afterPath="$PROJECT_DIR$/web/home/home.css" />
+    <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="Souci router&#10;&#10;Image fixed&#10;">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/api/angular-ui-router.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/resolve.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/stateDirectives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/stateFilters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/templateFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/urlMatcherFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/urlRouter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/viewDirective.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/viewScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular.min.js.gzip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-md5\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-md5\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-md5\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-md5\angular-md5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-md5\angular-md5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-md5\angular-md5.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-md5\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-md5\example\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-md5\lib\filters\gravatar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-md5\lib\filters\md5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-md5\lib\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-md5\lib\services\md5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-md5\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-resource\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-resource\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-resource\angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-resource\angular-resource.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-resource\angular-resource.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-resource\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-resource\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-sanitize\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-sanitize\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-sanitize\angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-sanitize\angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-sanitize\angular-sanitize.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-sanitize\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\angular-sanitize\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\dist\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\dist\css\bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\dist\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\dist\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\dist\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\dist\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\dist\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\dist\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\dist\js\npm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\grunt\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\grunt\bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\grunt\bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\grunt\bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\grunt\bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\grunt\configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\grunt\sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\js\.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\js\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\js\affix.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\js\alert.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\js\button.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\js\carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\js\collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\js\dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\js\modal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\js\popover.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\js\scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\js\tab.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\js\tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\js\transition.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\.csscomb.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\.csslintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\badges.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\close.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\code.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\media.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\image.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\resize.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\size.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\mixins\vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\modals.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\navs.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\pager.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\print.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\tables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\theme.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\type.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\less\wells.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\bootstrap\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\dist\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\dist\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\dist\jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\ajax\jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\ajax\load.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\ajax\parseJSON.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\ajax\parseXML.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\ajax\script.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\ajax\var\nonce.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\ajax\var\rquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\ajax\xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\attributes\attr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\attributes\classes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\attributes\prop.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\attributes\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\attributes\val.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\core.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\core\access.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\core\init.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\core\parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\core\ready.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\core\var\rsingleTag.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\css.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\css\addGetHookIf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\css\curCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\css\defaultDisplay.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\css\hiddenVisibleSelectors.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\css\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\css\swap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\css\var\cssExpand.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\css\var\getStyles.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\css\var\isHidden.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\css\var\rmargin.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\css\var\rnumnonpx.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\data\Data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\data\accepts.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\data\var\data_priv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\data\var\data_user.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\effects.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\effects\Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\effects\animatedSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\event.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\event\ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\event\alias.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\event\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\exports\amd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\exports\global.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\intro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\manipulation\_evalUrl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\manipulation\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\manipulation\var\rcheckableType.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\offset.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\outro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\queue.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\queue\delay.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\selector-native.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\selector-sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\selector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\sizzle\dist\sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\sizzle\dist\sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\sizzle\dist\sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\traversing\findFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\traversing\var\rneedsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\var\arr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\var\class2type.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\var\concat.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\var\hasOwn.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\var\indexOf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\var\pnum.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\var\push.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\var\rnotwhite.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\var\slice.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\var\strundefined.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\var\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\var\toString.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\bower_components\jquery\src\wrap.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bower.json" afterPath="$PROJECT_DIR$/web/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/home.html" afterPath="$PROJECT_DIR$/web/home/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/homeCtrl.js" afterPath="$PROJECT_DIR$/web/home/homeCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/route/router.js" afterPath="$PROJECT_DIR$/web/route/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/signup/signup.html" afterPath="$PROJECT_DIR$/web/signup/signup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FireUpProject.iws" />
@@ -92,19 +355,8 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="43" selection-start="1936" selection-end="1936" vertical-scroll-proportion="-4.923077" vertical-offset="603" max-vertical-offset="969">
+            <state line="17" column="66" selection-start="786" selection-end="786" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="969">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homeCtrl.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="21" selection-start="154" selection-end="154" vertical-scroll-proportion="0.1954023" vertical-offset="0" max-vertical-offset="816">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -113,37 +365,6 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/route/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="38" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DaoUser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/home/dataAccess/DaoUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="30" selection-start="3436" selection-end="3436" vertical-scroll-proportion="0.0" vertical-offset="1643" max-vertical-offset="3009">
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#447#448#0" expanded="false" />
-                <element signature="e#478#479#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="6" selection-start="443" selection-end="443" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -158,10 +379,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bower.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="7" column="1" selection-start="139" selection-end="139" vertical-scroll-proportion="0.36842105" vertical-offset="0" max-vertical-offset="323">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".bower.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/bower_components/angular/.bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="einstein_quote.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/home/einstein_quote.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="einstein_name.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/home/einstein_name.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="10" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
@@ -195,10 +448,11 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/home/dataAccess/DaoUser.java" />
         <option value="$PROJECT_DIR$/web/signup/signup.html" />
-        <option value="$PROJECT_DIR$/web/route/router.js" />
-        <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
         <option value="$PROJECT_DIR$/web/home/home.css" />
+        <option value="$PROJECT_DIR$/web/route/router.js" />
+        <option value="$PROJECT_DIR$/web/bower.json" />
         <option value="$PROJECT_DIR$/web/home/home.html" />
+        <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
       </list>
     </option>
   </component>
@@ -293,60 +547,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="signup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="route" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -780,7 +980,7 @@
       <workItem from="1424458319132" duration="1402000" />
       <workItem from="1424522152623" duration="99000" />
       <workItem from="1424822629038" duration="333000" />
-      <workItem from="1424853035639" duration="2222000" />
+      <workItem from="1424853035639" duration="8196000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -802,15 +1002,19 @@
       <created>1424458467203</created>
       <updated>1424458467203</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Souci router">
+      <created>1424855490884</created>
+      <updated>1424855490884</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26419000" />
+    <option name="totallyTimeSpent" value="32393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -834,8 +1038,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24848942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32593855" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24848942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32423207" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -859,7 +1063,9 @@
     <MESSAGE value="Ajout de la partie DAO&#10;&#10;CRUD&#10;    CR est OK&#10;    UD not OK&#10;&#10;" />
     <MESSAGE value="Ajout de la partie DAO (partie 2)&#10;&#10;CRUD&#10;    CR est OK&#10;    UD not OK&#10;" />
     <MESSAGE value="Correction souci WebServices&#10;&#10;Il fallait rajouter les librairies dans les artifacts&#10;project structures -&gt; artifacts -&gt; available elements -&gt; clic droit -&gt; Put Into Output Root&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction souci WebServices&#10;&#10;Il fallait rajouter les librairies dans les artifacts&#10;project structures -&gt; artifacts -&gt; available elements -&gt; clic droit -&gt; Put Into Output Root&#10;" />
+    <MESSAGE value="Souci router" />
+    <MESSAGE value="Souci router&#10;&#10;Image fixed&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Souci router&#10;&#10;Image fixed&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -869,23 +1075,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="816" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="49" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="680" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="62" selection-start="2857" selection-end="2857" vertical-scroll-proportion="0.0" vertical-offset="1072" max-vertical-offset="1700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="66" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="663">
@@ -1112,13 +1301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="49" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="629" />
@@ -1149,6 +1331,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="6" selection-start="443" selection-end="443" vertical-scroll-proportion="-7.3846154" vertical-offset="80" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/signup/signup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="515">
@@ -1156,9 +1345,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
+    <entry file="file://$PROJECT_DIR$/web/route/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="443" selection-end="443" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="459">
+        <state line="5" column="38" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bower_components/angular/.bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="66" selection-start="786" selection-end="786" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="969">
           <folding />
         </state>
       </provider>
@@ -1170,26 +1380,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="43" selection-start="1936" selection-end="1936" vertical-scroll-proportion="-4.923077" vertical-offset="603" max-vertical-offset="969">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/web/home/einstein_quote.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/route/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/web/home/einstein_name.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
+    <entry file="file://$PROJECT_DIR$/web/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="154" selection-end="154" vertical-scroll-proportion="0.1954023" vertical-offset="0" max-vertical-offset="816">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="7" column="1" selection-start="139" selection-end="139" vertical-scroll-proportion="0.36842105" vertical-offset="0" max-vertical-offset="323">
+          <folding />
         </state>
       </provider>
     </entry>

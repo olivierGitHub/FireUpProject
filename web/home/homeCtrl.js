@@ -1,16 +1,16 @@
 /*global angular*/
 
-angular.module('home', ['ui.router'])
-    .controller('homeController', function ($scope, $state, homeService) {
+angular.module('home', [])
+    .controller('homeController', [function ($scope, $state, homeService) {
         'use strict';
 
-        $scope.goToFullLogUpPage = function () {
+        $scope.goToFullLogUpPage = function(){
             $state.go('signup');
         };
         /* $scope.signUp = function () {
          homeService.LogIn($scope.usernameSignUp, $scope.passwordSignUp);
          };*/
-    });
+    }]);
 
    /* .service('homeService', function ($scope, $http) {
         'use strict';
