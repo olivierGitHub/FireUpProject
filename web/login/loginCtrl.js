@@ -5,7 +5,7 @@ angular.module('loginApp', [])
         'use strict';
 
         $scope.home = function(){
-            $state.go('signup');
+            $state.go('home');
         };
 
         $scope.content = function(){

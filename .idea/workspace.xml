@@ -2,52 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/content/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/content/content.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/content/contentCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/signup/signup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/signup/signupCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/api/angular-ui-router.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/angular-ui-router.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/angular-ui-router.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/resolve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/stateDirectives.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/stateFilters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/templateFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/urlMatcherFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/urlRouter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/viewDirective.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/src/viewScroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular-csp.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular.min.js.gzip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\route\router.js" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\home\einstein_name.png" afterPath="$PROJECT_DIR$/web/login/einstein_name.png" />
-      <change type="MOVED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\home\einstein_quote.png" afterPath="$PROJECT_DIR$/web/login/einstein_quote.png" />
-      <change type="MOVED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\home\home.css" afterPath="$PROJECT_DIR$/web/login/login.css" />
-      <change type="MOVED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\home\home.html" afterPath="$PROJECT_DIR$/web/login/login.html" />
-      <change type="MOVED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\home\homeCtrl.js" afterPath="$PROJECT_DIR$/web/login/loginCtrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/home/home.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/home/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/home/homeCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/signup/signup.html" afterPath="$PROJECT_DIR$/web/signup/signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.js" afterPath="$PROJECT_DIR$/web/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/loginCtrl.js" afterPath="$PROJECT_DIR$/web/login/loginCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FireUpProject.iws" />
@@ -112,28 +72,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="signup.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/signup/signup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="63" selection-end="63" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="170">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="login.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="18" selection-start="444" selection-end="444" vertical-scroll-proportion="1.3151863" vertical-offset="0" max-vertical-offset="918">
+            <state line="27" column="18" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login/login.html">
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="54" selection-start="213" selection-end="213" vertical-scroll-proportion="-0.65384614" vertical-offset="34" max-vertical-offset="867">
+            <state line="1" column="13" selection-start="19" selection-end="19" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="136">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="527">
+              <folding>
+                <element signature="n#style#0;n#link#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#link#1;n#head#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="21" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/home/home.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
               <folding />
             </state>
           </provider>
@@ -148,28 +129,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/signup/signup.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="21" selection-start="96" selection-end="96" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="221">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="31" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="493">
+            <state line="17" column="28" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -234,19 +197,19 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/home/dataAccess/DaoUser.java" />
         <option value="$PROJECT_DIR$/web/home/home.css" />
-        <option value="$PROJECT_DIR$/web/home/home.html" />
         <option value="$PROJECT_DIR$/web/bower.json" />
         <option value="$PROJECT_DIR$/web/route/router.js" />
-        <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
         <option value="$PROJECT_DIR$/web/signup/signup.html" />
         <option value="$PROJECT_DIR$/web/signup/signupCtrl.js" />
         <option value="$PROJECT_DIR$/web/content/content.html" />
         <option value="$PROJECT_DIR$/web/content/contentCtrl.js" />
-        <option value="$PROJECT_DIR$/web/index.html" />
-        <option value="$PROJECT_DIR$/web/index.js" />
-        <option value="$PROJECT_DIR$/web/login/loginCtrl.js" />
         <option value="$PROJECT_DIR$/web/login/login.html" />
         <option value="$PROJECT_DIR$/web/login/login.css" />
+        <option value="$PROJECT_DIR$/web/home/home.html" />
+        <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
+        <option value="$PROJECT_DIR$/web/index.js" />
+        <option value="$PROJECT_DIR$/web/login/loginCtrl.js" />
+        <option value="$PROJECT_DIR$/web/index.html" />
       </list>
     </option>
   </component>
@@ -395,6 +358,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -865,7 +846,7 @@
       <workItem from="1425239070630" duration="608000" />
       <workItem from="1425430134069" duration="1006000" />
       <workItem from="1425851008933" duration="1198000" />
-      <workItem from="1426015743505" duration="6377000" />
+      <workItem from="1426015743505" duration="6909000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -907,11 +888,15 @@
       <created>1424863827217</created>
       <updated>1424863827217</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Refactor architecture&#10;&#10;re-do css of the login.html page&#10;">
+      <created>1426066910914</created>
+      <updated>1426066910914</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56394000" />
+    <option name="totallyTimeSpent" value="56926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -967,7 +952,8 @@
     <MESSAGE value="Souci router" />
     <MESSAGE value="Souci router&#10;&#10;Image fixed&#10;" />
     <MESSAGE value="Souci router FIXED&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Souci router FIXED&#10;" />
+    <MESSAGE value="Refactor architecture&#10;&#10;re-do css of the login.html page&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor architecture&#10;&#10;re-do css of the login.html page&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -977,21 +963,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="408" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/Rest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="561" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/home/dataAccess/DaoUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="3145" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="6" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="459" />
@@ -1233,26 +1204,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="459" selection-end="459" vertical-scroll-proportion="-4.576923" vertical-offset="136" max-vertical-offset="510">
-          <folding>
-            <element signature="n#style#0;n#link#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#link#1;n#head#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/signup/signupCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="20" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="31" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
@@ -1266,24 +1220,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/login/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="18" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="349">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="13" selection-start="19" selection-end="19" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="28" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/login/loginCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="235" selection-end="235" vertical-scroll-proportion="0.28366762" vertical-offset="37" max-vertical-offset="850">
+        <state line="8" column="10" selection-start="233" selection-end="233" vertical-scroll-proportion="0.28366762" vertical-offset="37" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="54" selection-start="213" selection-end="213" vertical-scroll-proportion="-0.65384614" vertical-offset="34" max-vertical-offset="867">
+        <state line="3" column="54" selection-start="213" selection-end="213" vertical-scroll-proportion="0.05263158" vertical-offset="34" max-vertical-offset="867">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login/login.css">
+    <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="18" selection-start="444" selection-end="444" vertical-scroll-proportion="1.3151863" vertical-offset="0" max-vertical-offset="918">
-          <folding />
+        <state line="8" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="527">
+          <folding>
+            <element signature="n#style#0;n#link#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#link#1;n#head#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
