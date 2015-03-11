@@ -5,11 +5,11 @@ angular.module('loginApp', [])
         'use strict';
 
         $scope.home = function(){
-            $state.go('home');
+            $state.go('menu.home');
         };
 
         $scope.content = function(){
-            $state.go('content');
+            $state.go('menu.content');
         };
 
     }]);
