@@ -13,7 +13,7 @@ import javax.ws.rs.core.MediaType;
 public class UserWebService {
 
     @GET
-    @Path("/create")
+    @Path("/signup")
     @Produces(MediaType.APPLICATION_JSON)
     public int createUser(@QueryParam("usernameSignup") String username,
                           @QueryParam("passwordSignup") String password){
@@ -25,13 +25,11 @@ public class UserWebService {
 
 
     @GET
-    @Path("/login")
+    @Path("/signin")
     @Produces(MediaType.APPLICATION_JSON)
-    public boolean authenticateUser(@QueryParam("usernameSignin") String username,
-                                    @QueryParam("passwordSignin") String password){
-        User user = new User();
-            user.setUsername(username);
-            user.setPassword(password);
-        return DaoUser.getInstance().authenticateUser(user);
+    public User authenticateUser(@QueryParam("usernameSignin") String username,
+                                 @QueryParam("passwordSignin") String password){
+
+        return DaoUser.getInstance().authenticateUser(username,password);
     }
 }

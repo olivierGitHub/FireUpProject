@@ -133,22 +133,19 @@ public class DaoUser implements DAO<User> {
         return listUser;
     }
 
-    public boolean authenticateUser(User user){
+    public User authenticateUser(String username, String password){
         EntityManager em = emf.createEntityManager();
         EntityTransaction t = em.getTransaction();
-        boolean logged = false;
+        User retrievedUser = null;
 
         try{
             t.begin();
             String sql = "select e from User e where e.username = :username and e.password = :password";
             TypedQuery<User> query = em.createQuery(sql, User.class);
-            query.setParameter("username", user.getUsername());
-            query.setParameter("password", user.getPassword());
+                query.setParameter("username", username);
+                query.setParameter("password", password);
+            retrievedUser = query.getSingleResult();
             t.commit();
-            if( query.getSingleResult() != null)
-                    logged = true;
-            else
-                    logged = false;
         }catch(Exception ex){
             System.out.println("SOUCI lors de l'acquisition de l'authentification d'un utilisateur");
             ex.printStackTrace();
@@ -156,10 +153,9 @@ public class DaoUser implements DAO<User> {
             if (t.isActive()){
                 t.rollback();
                 em.close();
-                logged = false;
             }
         }
-        return logged;
+        return retrievedUser;
     }
 
 
