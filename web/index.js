@@ -4,7 +4,7 @@
 
 
 /*global angular */
-angular.module('app', ['ui.router', 'loginApp', 'homeApp', 'signupApp', 'contentApp', 'menuApp'])
+angular.module('app', ['ui.router', 'loginApp', 'homeApp', 'profileApp', 'contentApp', 'menuApp'])
 
     .config(function ($stateProvider, $urlRouterProvider) {
         'use strict';
@@ -23,9 +23,9 @@ angular.module('app', ['ui.router', 'loginApp', 'homeApp', 'signupApp', 'content
                 url: '/home',
                 templateUrl: 'home/home.html'
             })
-            .state('menu.signup', {
-                url: '/signup',
-                templateUrl: 'signup/signup.html'
+            .state('menu.profile', {
+                url: '/profile',
+                templateUrl: 'profile/profile.html'
             })
             .state('menu.content', {
                 url: '/content',

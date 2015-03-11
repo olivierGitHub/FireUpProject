@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/menu/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/menu/menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/menu/menuCtrl.js" />
+      <change type="MOVED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\signup\signup.css" afterPath="$PROJECT_DIR$/web/profile/profile.css" />
+      <change type="MOVED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\signup\signup.html" afterPath="$PROJECT_DIR$/web/profile/profile.html" />
+      <change type="MOVED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\signup\signupCtrl.js" afterPath="$PROJECT_DIR$/web/profile/profileCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/content/content.html" afterPath="$PROJECT_DIR$/web/content/content.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/home.html" afterPath="$PROJECT_DIR$/web/home/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.js" afterPath="$PROJECT_DIR$/web/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/loginCtrl.js" afterPath="$PROJECT_DIR$/web/login/loginCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/login.html" afterPath="$PROJECT_DIR$/web/login/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/menu/menu.html" afterPath="$PROJECT_DIR$/web/menu/menu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FireUpProject.iws" />
@@ -72,64 +75,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login/login.css">
+      <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/profile/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="18" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+            <state line="4" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home/home.html">
+      <file leaf-file-name="profileCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/profile/profileCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="13" selection-start="19" selection-end="19" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="136">
+            <state line="7" column="24" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginCtrl.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="loginCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login/loginCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="28" selection-start="305" selection-end="305" vertical-scroll-proportion="0.4054054" vertical-offset="37" max-vertical-offset="850">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homeCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home/home.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/menu/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="12" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="153">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menuCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/menu/menuCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+            <state line="11" column="28" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
@@ -138,16 +105,25 @@
       <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="54" selection-start="213" selection-end="213" vertical-scroll-proportion="-0.65384614" vertical-offset="34" max-vertical-offset="867">
+            <state line="32" column="41" selection-start="1629" selection-end="1629" vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/menu/menu.css">
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+            <state line="2" column="6" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/content/content.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="9" selection-start="15" selection-end="15" vertical-scroll-proportion="0.05263158" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
@@ -156,7 +132,37 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="47" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="629">
+            <state line="27" column="37" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="629">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="24" selection-start="425" selection-end="425" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="527">
+              <folding>
+                <element signature="n#style#0;n#link#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#link#1;n#head#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/menu/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="24" selection-start="62" selection-end="62" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="187">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/profile/profile.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
               <folding />
             </state>
           </provider>
@@ -193,17 +199,19 @@
         <option value="$PROJECT_DIR$/web/route/router.js" />
         <option value="$PROJECT_DIR$/web/signup/signup.html" />
         <option value="$PROJECT_DIR$/web/signup/signupCtrl.js" />
-        <option value="$PROJECT_DIR$/web/content/content.html" />
         <option value="$PROJECT_DIR$/web/content/contentCtrl.js" />
-        <option value="$PROJECT_DIR$/web/login/login.html" />
         <option value="$PROJECT_DIR$/web/login/login.css" />
-        <option value="$PROJECT_DIR$/web/home/home.html" />
         <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
-        <option value="$PROJECT_DIR$/web/menu/menu.html" />
-        <option value="$PROJECT_DIR$/web/index.js" />
-        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/menu/menuCtrl.js" />
         <option value="$PROJECT_DIR$/web/login/loginCtrl.js" />
+        <option value="$PROJECT_DIR$/web/profile/profileCtrl.js" />
+        <option value="$PROJECT_DIR$/web/index.js" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/menu/menu.html" />
+        <option value="$PROJECT_DIR$/web/login/login.html" />
+        <option value="$PROJECT_DIR$/web/home/home.html" />
+        <option value="$PROJECT_DIR$/web/profile/profile.html" />
+        <option value="$PROJECT_DIR$/web/content/content.html" />
       </list>
     </option>
   </component>
@@ -315,7 +323,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="signup" />
+              <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -768,7 +776,7 @@
       <workItem from="1425239070630" duration="608000" />
       <workItem from="1425430134069" duration="1006000" />
       <workItem from="1425851008933" duration="1198000" />
-      <workItem from="1426015743505" duration="7616000" />
+      <workItem from="1426015743505" duration="8444000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -818,15 +826,19 @@
       <created>1426067387571</created>
       <updated>1426067387571</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Refactor architecture&#10;&#10;adding of the menu state&#10;">
+      <created>1426068112535</created>
+      <updated>1426068112535</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57633000" />
+    <option name="totallyTimeSpent" value="58461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -840,7 +852,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24773414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24773414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32423207" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -879,7 +891,8 @@
     <MESSAGE value="Souci router&#10;&#10;Image fixed&#10;" />
     <MESSAGE value="Souci router FIXED&#10;" />
     <MESSAGE value="Refactor architecture&#10;&#10;re-do css of the login.html page&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor architecture&#10;&#10;re-do css of the login.html page&#10;" />
+    <MESSAGE value="Refactor architecture&#10;&#10;adding of the menu state&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor architecture&#10;&#10;adding of the menu state&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1077,20 +1090,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/signup/signup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="349">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/signup/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="63" selection-end="63" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/content/content.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="349">
@@ -1108,50 +1107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/signup/signupCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="24" selection-end="24" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
-          <folding>
-            <marker date="1426064457905" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="18" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="349">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="19" selection-end="19" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="24" selection-start="560" selection-end="560" vertical-scroll-proportion="0.6418338" vertical-offset="14" max-vertical-offset="663">
@@ -1166,16 +1121,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/menu/menuCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="8" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="177" selection-end="177" vertical-scroll-proportion="0.32162163" vertical-offset="0" max-vertical-offset="370">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="349">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="18" selection-start="444" selection-end="444" vertical-scroll-proportion="1.2405405" vertical-offset="0" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/profile/profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="349">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/profile/profileCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="24" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="47" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="629">
+        <state line="27" column="37" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="44" selection-start="355" selection-end="355" vertical-scroll-proportion="-3.6538463" vertical-offset="58" max-vertical-offset="527">
+        <state line="11" column="24" selection-start="425" selection-end="425" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="527">
           <folding>
             <element signature="n#style#0;n#link#0;n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#link#1;n#head#0;n#html#0;n#!!top" expanded="true" />
@@ -1185,28 +1182,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/menu/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/menu/menuCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="54" selection-start="213" selection-end="213" vertical-scroll-proportion="-0.65384614" vertical-offset="34" max-vertical-offset="867">
+        <state line="2" column="24" selection-start="62" selection-end="62" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/loginCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="305" selection-end="305" vertical-scroll-proportion="0.4054054" vertical-offset="37" max-vertical-offset="850">
+        <state line="11" column="28" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="41" selection-start="1629" selection-end="1629" vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/profile/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/content/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="9" selection-start="15" selection-end="15" vertical-scroll-proportion="0.05263158" vertical-offset="0" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
