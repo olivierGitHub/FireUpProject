@@ -1,8 +1,9 @@
-body{
+#loginPage{
     background-image:linear-gradient(white 75%, orange);
+    width: 100%;
 }
 
-#home_authentification
+#login_authentification
 {
     background: orange;
     width: 95%;
@@ -12,7 +13,7 @@ body{
     position: fixed;*/
 }
 
-#home_quick_identification
+#login_quick_identification
 {
     width: 100%;
     border-radius: 15px;
@@ -21,20 +22,16 @@ body{
     position: fixed;*/
 }
 
-#home_full_identification
-{
-    margin: 3.5% 60%;
-}
 
 #authentification_params
 {
-    text-align: right;
+    margin-left: 50em;
 
 }
 
 #application_name
 {
-    text-align: center;
+    margin-left: 5em;
 
 }
 

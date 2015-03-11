@@ -1,21 +1,19 @@
-<div  ng-controller="homeController">
-        <div id="home_authentification">
-            <table width="100%">
-                <tr>
-                    <th id="application_name" width="60%"><h3 >Fire Up</h3></th>
-                    <th id="authentification_params" width="40%">
+<div id="loginPage" ng-controller="loginController">
+        <div id="login_authentification">
+            <div id="application_name" ><h3 >Fire Up</h3></div>
+                    <div id="authentification_params" >
                         <input type="text" ng-model="usernameLogIn" placeholder="username">
                         <input type="password" ng-model="passwordLogIn" placeholder="password">
-                        <input type="submit" ng-submit="logIn()">
-                    </th>
-                </tr>
-            </table>
+                        <form ng-submit="content()">
+                            <input type="submit" value="Content Page">
+                        </form>
+                    </div>
         </div>
 
-         <div id="home_quick_identification">
+         <div id="login_quick_identification">
             <table>
                 <tr>
-                    <th width="75%" id="einstein_quote"><img src="home/einstein_quote.png" ></th>
+                    <th width="75%" id="einstein_quote"><img src="login/einstein_quote.png" ></th>
                     <th id="quick_account_creation" width="25%" >
                         Quick account creation:
                         <table>
@@ -33,18 +31,14 @@
                             </tr>
                             <tr>
                                 <th></th>
-                                <th><input type="submit" ng-submit="signUp()"></th>
+                                <th><form ng-submit="home()">
+                                    <input type="submit" value="home page">
+                                </form></th>
                             </tr>
                         </table>
                     </th>
                 </tr>
             </table>
-        </div>
-
-        <div id="home_full_identification">
-            <form ng-submit="goToFullLogUpPage()">
-                <input id="full_identification_submit" type="submit" value="Full Account Creation"/>
-            </form>
         </div>
 
 </div>

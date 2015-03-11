@@ -1,18 +1,20 @@
 /*global angular*/
 
-angular.module('home', [])
-    .controller('homeController', ['$scope', '$state', function ($scope, $state) {
+angular.module('loginApp', [])
+    .controller('loginController', ['$scope', '$state', function ($scope, $state) {
         'use strict';
 
-        $scope.goToFullLogUpPage = function(){
+        $scope.home = function(){
             $state.go('signup');
         };
-        /* $scope.signUp = function () {
-         homeService.LogIn($scope.usernameSignUp, $scope.passwordSignUp);
-         };*/
+
+        $scope.content = function(){
+            $state.go('content');
+        };
+
     }]);
 
-   /* .service('homeService', function ($scope, $http) {
+   /* .service('loginService', function ($scope, $http) {
         'use strict';
         function requestLogInToServer(usernameLogIn, passwordLogIn) {
             $http({
