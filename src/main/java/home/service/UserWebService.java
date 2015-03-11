@@ -3,10 +3,7 @@ package home.service;
 import home.User;
 import home.dataAccess.DaoUser;
 
-import javax.ws.rs.Consumes;
-import javax.ws.rs.POST;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
 /**
@@ -15,20 +12,26 @@ import javax.ws.rs.core.MediaType;
 @Path("/user")
 public class UserWebService {
 
-    @POST
+    @GET
     @Path("/create")
-    @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public int createUser(User user){
+    public int createUser(@QueryParam("usernameSignup") String username,
+                          @QueryParam("passwordSignup") String password){
+        User user = new User();
+            user.setUsername(username);
+            user.setPassword(password);
         return DaoUser.getInstance().create(user);
     }
 
 
-    @POST
+    @GET
     @Path("/login")
-    @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public boolean authenticateUser(User user){
+    public boolean authenticateUser(@QueryParam("usernameSignin") String username,
+                                    @QueryParam("passwordSignin") String password){
+        User user = new User();
+            user.setUsername(username);
+            user.setPassword(password);
         return DaoUser.getInstance().authenticateUser(user);
     }
 }

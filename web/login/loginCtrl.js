@@ -1,8 +1,17 @@
 /*global angular*/
+/*global console*/
 
 angular.module('loginApp', [])
-    .controller('loginController', ['$scope', '$state', function ($scope, $state) {
+    .controller('loginController', ['$scope', '$state', 'loginService', function ($scope, $state, loginService) {
         'use strict';
+
+        $scope.signup = function(){
+            if ($scope.passwordSignup !== $scope.passwordSignup2){
+                console.log('passwords must be equals');
+            }else{
+                loginService.signup($scope.usernameSignup,$scope.passwordSignup);
+            }
+        };
 
         $scope.home = function(){
             $state.go('menu.home');
@@ -12,34 +21,30 @@ angular.module('loginApp', [])
             $state.go('menu.content');
         };
 
-    }]);
+    }])
 
-   /* .service('loginService', function ($scope, $http) {
+    .service('loginService', function($http, $rootScope){
         'use strict';
-        function requestLogInToServer(usernameLogIn, passwordLogIn) {
-            $http({
-                method: 'POST',
-                url: '/rest/user/login',
-                data: { usernameLogIn: usernameLogIn,
-                    passwordLogIn: passwordLogIn }
-            });
-        }
 
-        function requestSignUpToServer(usernameSignUp, passwordSignUp) {
+        function signup(usernameSignup, passwordSignup){
             $http({
-                method: 'POST',
-                url: '/rest/user/create',
-                data: { usernameSignUp: usernameSignUp,
-                    passwordSignUp: passwordSignUp }
+               method:'GET',
+                url:'http://localhost:8080/FireUpProject/rest/calcul/hello',
+                params:{usernameSignup:usernameSignup, passwordSignup:passwordSignup}
+            })
+            .success(function(data){
+               console.log("signin success");
+            })
+            .error(function(){
+               console.log("signin failed");
             });
         }
 
         return {
-            SignUp: function (usernameSignUp, passwordSignUp) {
-                requestSignUpToServer(usernameSignUp, passwordSignUp);
-            },
-            LogIn: function (usernameLogIn, passwordLogIn) {
-                requestLogInToServer(usernameLogIn, passwordLogIn);
-            }
+          signup : function(usernameSignup,passwordSignup){
+              signup(usernameSignup,passwordSignup);
+          }
         };
-    });*/
+
+    });
+

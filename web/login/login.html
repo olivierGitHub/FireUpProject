@@ -1,13 +1,14 @@
 <div id="loginPage" ng-controller="loginController">
+
         <div id="login_authentification">
             <div id="application_name" ><h3 >Fire Up</h3></div>
-                    <div id="authentification_params" >
-                        <input type="text" ng-model="usernameLogIn" placeholder="username">
-                        <input type="password" ng-model="passwordLogIn" placeholder="password">
-                        <form ng-submit="home()">
-                            <input type="submit" value="Content Page">
-                        </form>
-                    </div>
+            <div id="authentification_params" >
+                <input type="text" ng-model="usernameSignin" placeholder="username">
+                <input type="password" ng-model="passwordSignin" placeholder="password">
+                <form ng-submit="home()">
+                    <input type="submit" value="Content Page">
+                </form>
+            </div>
         </div>
 
          <div id="login_quick_identification">
@@ -19,19 +20,19 @@
                         <table>
                             <tr>
                                 <th>username</th>
-                                <th><input type="text" ng-model="usernameSignUp" ></th>
-                            </tr>
-                            <tr>
-                                <th>username</th>
-                                <th><input type="password" ng-model="passwordSignUp" ></th>
+                                <th><input type="text" ng-model="usernameSignup" ></th>
                             </tr>
                             <tr>
                                 <th>password</th>
-                                <th><input type="password" ng-model="passwordSignUp2"></th>
+                                <th><input type="password" ng-model="passwordSignup" ></th>
+                            </tr>
+                            <tr>
+                                <th>password</th>
+                                <th><input type="password" ng-model="passwordSignup2"></th>
                             </tr>
                             <tr>
                                 <th></th>
-                                <th><form ng-submit="home()">
+                                <th><form ng-submit="signup()">
                                     <input type="submit" value="home page">
                                 </form></th>
                             </tr>

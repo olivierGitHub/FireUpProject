@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\signup\signup.css" afterPath="$PROJECT_DIR$/web/profile/profile.css" />
-      <change type="MOVED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\signup\signup.html" afterPath="$PROJECT_DIR$/web/profile/profile.html" />
-      <change type="MOVED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\FireUpProject\web\signup\signupCtrl.js" afterPath="$PROJECT_DIR$/web/profile/profileCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/content/content.html" afterPath="$PROJECT_DIR$/web/content/content.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/home.html" afterPath="$PROJECT_DIR$/web/home/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/rest/Rest.java" afterPath="$PROJECT_DIR$/src/main/java/com/rest/Rest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/home/service/UserWebService.java" afterPath="$PROJECT_DIR$/src/main/java/home/service/UserWebService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.js" afterPath="$PROJECT_DIR$/web/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/login.html" afterPath="$PROJECT_DIR$/web/login/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/menu/menu.html" afterPath="$PROJECT_DIR$/web/menu/menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/loginCtrl.js" afterPath="$PROJECT_DIR$/web/login/loginCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FireUpProject.iws" />
@@ -84,20 +81,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profileCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/profile/profileCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="24" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loginCtrl.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="loginCtrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/login/loginCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="28" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="850">
-              <folding />
+            <state line="41" column="0" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.48997134" vertical-offset="526" max-vertical-offset="952">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,8 +95,20 @@
       <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="41" selection-start="1629" selection-end="1629" vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="867">
+            <state line="33" column="41" selection-start="1576" selection-end="1576" vertical-scroll-proportion="-8.192307" vertical-offset="348" max-vertical-offset="884">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="-7.8461537" vertical-offset="170" max-vertical-offset="527">
+              <folding>
+                <element signature="n#style#0;n#link#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#link#1;n#head#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,15 +117,17 @@
         <entry file="file://$PROJECT_DIR$/web/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="6" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
-              <folding />
+              <folding>
+                <marker date="1426068787657" expanded="true" signature="4:34" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="content.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/content/content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="9" selection-start="15" selection-end="15" vertical-scroll-proportion="0.05263158" vertical-offset="0" max-vertical-offset="323">
+            <state line="2" column="6" selection-start="33" selection-end="33" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
               <folding />
             </state>
           </provider>
@@ -133,18 +137,50 @@
         <entry file="file://$PROJECT_DIR$/web/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="27" column="37" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="629">
+              <folding>
+                <marker date="1426068513745" expanded="true" signature="222:967" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserWebService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/home/service/UserWebService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="31" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.html">
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/home/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="24" selection-start="425" selection-end="425" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="527">
+            <state line="20" column="28" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="782">
               <folding>
-                <element signature="n#style#0;n#link#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#link#1;n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#439#440#0" expanded="false" />
+                <element signature="e#469#470#0" expanded="false" />
+                <element signature="e#505#506#0" expanded="false" />
+                <element signature="e#537#538#0" expanded="false" />
+                <element signature="e#586#587#0" expanded="false" />
+                <element signature="e#628#629#0" expanded="false" />
+                <element signature="e#663#664#0" expanded="false" />
+                <element signature="e#694#695#0" expanded="false" />
+                <element signature="e#741#742#0" expanded="false" />
+                <element signature="e#781#782#0" expanded="false" />
+                <element signature="e#814#815#0" expanded="false" />
+                <element signature="e#845#846#0" expanded="false" />
+                <element signature="e#890#891#0" expanded="false" />
+                <element signature="e#930#931#0" expanded="false" />
+                <element signature="e#965#966#0" expanded="false" />
+                <element signature="e#996#997#0" expanded="false" />
+                <element signature="e#1043#1044#0" expanded="false" />
+                <element signature="e#1083#1084#0" expanded="false" />
+                <element signature="e#1118#1119#0" expanded="false" />
+                <element signature="e#1149#1150#0" expanded="false" />
+                <element signature="e#1196#1197#0" expanded="false" />
+                <element signature="e#1236#1237#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -154,15 +190,6 @@
         <entry file="file://$PROJECT_DIR$/web/menu/menu.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="24" selection-start="62" selection-end="62" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/profile/profile.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
               <folding />
             </state>
           </provider>
@@ -186,7 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/testDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Calcul.java" />
@@ -203,15 +229,19 @@
         <option value="$PROJECT_DIR$/web/login/login.css" />
         <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
         <option value="$PROJECT_DIR$/web/menu/menuCtrl.js" />
-        <option value="$PROJECT_DIR$/web/login/loginCtrl.js" />
         <option value="$PROJECT_DIR$/web/profile/profileCtrl.js" />
         <option value="$PROJECT_DIR$/web/index.js" />
-        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/menu/menu.html" />
-        <option value="$PROJECT_DIR$/web/login/login.html" />
         <option value="$PROJECT_DIR$/web/home/home.html" />
         <option value="$PROJECT_DIR$/web/profile/profile.html" />
         <option value="$PROJECT_DIR$/web/content/content.html" />
+        <option value="$PROJECT_DIR$/src/main/java/home/User.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rest/Rest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/home/service/UserWebService.java" />
+        <option value="$PROJECT_DIR$/web/login/login.html" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/login/loginCtrl.js" />
       </list>
     </option>
   </component>
@@ -323,7 +353,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,6 +386,102 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -776,7 +920,7 @@
       <workItem from="1425239070630" duration="608000" />
       <workItem from="1425430134069" duration="1006000" />
       <workItem from="1425851008933" duration="1198000" />
-      <workItem from="1426015743505" duration="8444000" />
+      <workItem from="1426015743505" duration="12595000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -830,11 +974,15 @@
       <created>1426068112535</created>
       <updated>1426068112535</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Refactor state menu&#10;">
+      <created>1426068950776</created>
+      <updated>1426068950776</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58461000" />
+    <option name="totallyTimeSpent" value="62612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -892,7 +1040,8 @@
     <MESSAGE value="Souci router FIXED&#10;" />
     <MESSAGE value="Refactor architecture&#10;&#10;re-do css of the login.html page&#10;" />
     <MESSAGE value="Refactor architecture&#10;&#10;adding of the menu state&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor architecture&#10;&#10;adding of the menu state&#10;" />
+    <MESSAGE value="Refactor state menu&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor state menu&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -902,11 +1051,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/testDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="49" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="680" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="21" selection-start="1607" selection-end="1607" vertical-scroll-proportion="0.0" vertical-offset="751" max-vertical-offset="1700">
@@ -1023,21 +1167,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/Rest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="49" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="629" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/home/service/UserWebService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -1045,11 +1177,6 @@
         <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="539">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/home/dataAccess/DaoUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="30" selection-start="3436" selection-end="3436" vertical-scroll-proportion="0.0" vertical-offset="1643" max-vertical-offset="3009" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/einstein_quote.png">
@@ -1065,13 +1192,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="14" selection-start="0" selection-end="1032" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Calcul.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="41" selection-start="196" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
           <folding />
         </state>
       </provider>
@@ -1104,13 +1224,6 @@
             <marker date="1426064662272" expanded="true" signature="-1:-1" placeholder="[...]" />
             <marker date="1426064662272" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="560" selection-end="560" vertical-scroll-proportion="0.6418338" vertical-offset="14" max-vertical-offset="663">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,16 +1279,8 @@
     <entry file="file://$PROJECT_DIR$/web/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="37" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="425" selection-end="425" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="527">
           <folding>
-            <element signature="n#style#0;n#link#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#link#1;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1426068513745" expanded="true" signature="222:967" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1187,24 +1292,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login/loginCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="41" selection-start="1629" selection-end="1629" vertical-scroll-proportion="-20.923077" vertical-offset="0" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="6" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
-          <folding />
+          <folding>
+            <marker date="1426068787657" expanded="true" signature="4:34" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1217,8 +1310,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/content/content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="15" selection-end="15" vertical-scroll-proportion="0.05263158" vertical-offset="0" max-vertical-offset="323">
+        <state line="2" column="6" selection-start="33" selection-end="33" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/home/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="28" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="782">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#469#470#0" expanded="false" />
+            <element signature="e#505#506#0" expanded="false" />
+            <element signature="e#537#538#0" expanded="false" />
+            <element signature="e#586#587#0" expanded="false" />
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#663#664#0" expanded="false" />
+            <element signature="e#694#695#0" expanded="false" />
+            <element signature="e#741#742#0" expanded="false" />
+            <element signature="e#781#782#0" expanded="false" />
+            <element signature="e#814#815#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#890#891#0" expanded="false" />
+            <element signature="e#930#931#0" expanded="false" />
+            <element signature="e#965#966#0" expanded="false" />
+            <element signature="e#996#997#0" expanded="false" />
+            <element signature="e#1043#1044#0" expanded="false" />
+            <element signature="e#1083#1084#0" expanded="false" />
+            <element signature="e#1118#1119#0" expanded="false" />
+            <element signature="e#1149#1150#0" expanded="false" />
+            <element signature="e#1196#1197#0" expanded="false" />
+            <element signature="e#1236#1237#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Calcul.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="41" selection-start="196" selection-end="291" vertical-scroll-proportion="0.5358166" vertical-offset="0" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/Rest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="45" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="561">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/home/dataAccess/DaoUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="12" selection-start="3749" selection-end="3749" vertical-scroll-proportion="0.0" vertical-offset="2124" max-vertical-offset="3009">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="41" selection-start="1576" selection-end="1576" vertical-scroll-proportion="-8.192307" vertical-offset="348" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="-7.8461537" vertical-offset="170" max-vertical-offset="527">
+          <folding>
+            <element signature="n#style#0;n#link#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#link#1;n#head#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/home/service/UserWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="31" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login/loginCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.48997134" vertical-offset="526" max-vertical-offset="952">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,7 @@
 package com.rest;
 
 import com.Calcul;
+import home.service.UserWebService;
 
 
 import javax.ws.rs.core.Application;
@@ -13,6 +14,7 @@ public class Rest extends Application {
     public Rest() {
 
         singletons.add(new Calcul());
+        singletons.add(new UserWebService());
 
     }
 
