@@ -4,7 +4,7 @@
 
 
 /*global angular */
-angular.module('app', ['ui.router', 'loginApp', 'homeApp', 'profileApp', 'contentApp', 'menuApp'])
+angular.module('app', ['ui.router', 'loginApp', 'homeApp', 'profileApp', 'contentApp','settingsApp', 'menuApp'])
 
     .config(function ($stateProvider, $urlRouterProvider) {
         'use strict';
@@ -30,5 +30,9 @@ angular.module('app', ['ui.router', 'loginApp', 'homeApp', 'profileApp', 'conten
             .state('menu.content', {
                 url: '/content',
                 templateUrl: 'content/content.html'
+            })
+            .state('menu.settings', {
+                url: '/settings',
+                templateUrl: 'settings/settings.html'
             });
     });
