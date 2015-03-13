@@ -10,7 +10,7 @@
     border-radius: 15px;
     margin: 3.5% 2.5%;/*
     text-align: right;
-    position: fixed;*/
+    */
 }
 
 #login_quick_identification
@@ -25,7 +25,9 @@
 
 #authentification_params
 {
-    margin-left: 50em;
+    position:relative;
+    margin-left: 70%;
+    margin-bottom: 10%;
 
 }
 

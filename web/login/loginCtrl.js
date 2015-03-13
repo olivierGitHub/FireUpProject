@@ -6,10 +6,10 @@ angular.module('loginApp', [])
         'use strict';
 
         $scope.signup = function(){
-            if (($scope.usernameSignup === null) ||
-                ($scope.passwordSignup === null) ||
+            if (($scope.usernameSignup === undefined) ||
+                ($scope.passwordSignup === undefined) ||
                 ($scope.passwordSignup !== $scope.passwordSignup2)){
-                    console.log('passwords must be equals');
+                    console.log('user/password not correct');
             }else{
                 loginService.signup($scope.usernameSignup,$scope.passwordSignup);
             }
@@ -28,17 +28,14 @@ angular.module('loginApp', [])
 
         function signup(usernameSignup, passwordSignup){
             $http({
-               method:'GET',
+               method:'POST',
                 url:'http://localhost:8080/FireUpProject/rest/user/signup',
                 params:{usernameSignup:usernameSignup, passwordSignup:passwordSignup}
             })
             .success(function(data){
                console.log("SIGNUP success");
-                    if (data.id_user >1){
-                        $state.go('menu.home');
-                    }
-
-                })
+               $state.go('menu.home');
+            })
             .error(function(){
                console.log("SIGNUP failed");
             });
@@ -46,13 +43,15 @@ angular.module('loginApp', [])
 
         function signin(usernameSignin, passwordSignin){
             $http({
-               method:'GET',
+               method:'POST',
                url: 'http://localhost:8080/FireUpProject/rest/user/signin',
                params:{usernameSignin:usernameSignin, passwordSignin:passwordSignin}
             })
                 .success(function(data){
                     console.log('SIGNIN success');
-                    $state.go('menu.home');
+                    if (data !== null){
+                        $state.go('menu.home');
+                    }
                 })
                 .error(function(){
                     console.log('SIGNIN failed');

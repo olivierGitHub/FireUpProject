@@ -12,7 +12,7 @@ import javax.ws.rs.core.MediaType;
 @Path("/user")
 public class UserWebService {
 
-    @GET
+    @POST
     @Path("/signup")
     @Produces(MediaType.APPLICATION_JSON)
     public int createUser(@QueryParam("usernameSignup") String username,
@@ -24,7 +24,7 @@ public class UserWebService {
     }
 
 
-    @GET
+    @POST
     @Path("/signin")
     @Produces(MediaType.APPLICATION_JSON)
     public User authenticateUser(@QueryParam("usernameSignin") String username,

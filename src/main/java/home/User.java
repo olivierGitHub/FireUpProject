@@ -3,12 +3,14 @@ package home;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Date;
 
 /**
  * Created by oliver on 17/12/14.
  */
 @Entity
+@XmlRootElement
 public class User {
 
     @Id
