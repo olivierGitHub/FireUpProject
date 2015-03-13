@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/login.css" afterPath="$PROJECT_DIR$/web/login/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/login.html" afterPath="$PROJECT_DIR$/web/login/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FireUpProject.iws" />
@@ -105,7 +106,7 @@
       <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="40" selection-start="136" selection-end="136" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="952">
+            <state line="3" column="54" selection-start="150" selection-end="150" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
@@ -114,7 +115,7 @@
       <file leaf-file-name="login.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/login/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="16" selection-start="102" selection-end="102" vertical-scroll-proportion="0.13783784" vertical-offset="0" max-vertical-offset="1003">
+            <state line="37" column="25" selection-start="567" selection-end="567" vertical-scroll-proportion="0.7" vertical-offset="370" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
@@ -846,7 +847,7 @@
       <workItem from="1426015743505" duration="19188000" />
       <workItem from="1426115636734" duration="4110000" />
       <workItem from="1426197274048" duration="1245000" />
-      <workItem from="1426209841838" duration="7247000" />
+      <workItem from="1426209841838" duration="7481000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -928,11 +929,15 @@
       <created>1426217440197</created>
       <updated>1426217440197</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="CSS homepage bullshit but lookable DONE&#10;">
+      <created>1426217488118</created>
+      <updated>1426217488118</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81807000" />
+    <option name="totallyTimeSpent" value="82041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1306,13 +1311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login/loginCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="43" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/home/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="12" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="867">
@@ -1320,16 +1318,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/login/loginCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="43" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/login/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="40" selection-start="136" selection-end="136" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="952">
+        <state line="3" column="54" selection-start="150" selection-end="150" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="952">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="102" selection-end="102" vertical-scroll-proportion="0.13783784" vertical-offset="0" max-vertical-offset="1003">
+        <state line="37" column="25" selection-start="567" selection-end="567" vertical-scroll-proportion="0.7" vertical-offset="370" max-vertical-offset="986">
           <folding />
         </state>
       </provider>
