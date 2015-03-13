@@ -9,16 +9,19 @@ angular.module('loginApp', [])
             if (($scope.usernameSignup === undefined) ||
                 ($scope.passwordSignup === undefined) ||
                 ($scope.passwordSignup !== $scope.passwordSignup2)){
-                    console.log('user/password not correct');
+                    console.log('user/password for SIGNUP not correct');
             }else{
                 loginService.signup($scope.usernameSignup,$scope.passwordSignup);
             }
         };
 
         $scope.signin = function(){
-            loginService.signin($scope.usernameSignin,$scope.passwordSignin);
-
-
+            if (($scope.usernameSignin === undefined) ||
+                ($scope.passwordSignin === undefined)){
+                console.log('user/password for SIGNIN not correct');
+            }else{
+                loginService.signin($scope.usernameSignin,$scope.passwordSignin);
+            }
         };
 
     }])
@@ -49,7 +52,9 @@ angular.module('loginApp', [])
             })
                 .success(function(data){
                     console.log('SIGNIN success');
-                    if (data !== null){
+                    if (data.username === null || data.password === null){
+                        console.log("USER NOT FOUND");
+                    }else{
                         $state.go('menu.home');
                     }
                 })
