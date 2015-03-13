@@ -1,11 +1,11 @@
 <div id="loginPage" ng-controller="loginController">
 
         <div id="login_authentification">
-            <div id="application_name" ><h3 >Fire Up</h3></div>
+            <div id="application_name" >Fire Up</div>
             <div id="authentification_params" >
-                <input type="text" ng-model="usernameSignin" placeholder="username">
-                <input type="password" ng-model="passwordSignin" placeholder="password">
                 <form ng-submit="signin()">
+                    <input type="text" ng-model="usernameSignin" placeholder="username">
+                    <input type="password" ng-model="passwordSignin" placeholder="password">
                     <input type="submit" value="SIGN IN">
                 </form>
             </div>
@@ -29,6 +29,10 @@
                             <tr>
                                 <th>password</th>
                                 <th><input type="password" ng-model="passwordSignup2"></th>
+                            </tr>
+                            <tr>
+                                <th>email</th>
+                                <th><input type="email" ng-model="emailSignup"></th>
                             </tr>
                             <tr>
                                 <th></th>

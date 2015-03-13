@@ -1,10 +1,13 @@
 #loginPage{
     background-image:linear-gradient(white 75%, orange);
     width: 100%;
+    height: 38.3em;
 }
 
 #login_authentification
 {
+    display: flex;
+    padding: 1em;
     background: orange;
     width: 95%;
     border-radius: 15px;
@@ -15,8 +18,7 @@
 
 #login_quick_identification
 {
-    width: 100%;
-    border-radius: 15px;
+    /*width: 100%; */
     margin: 10% 15%;/*
     text-align: right;
     position: fixed;*/
@@ -25,15 +27,16 @@
 
 #authentification_params
 {
-    position:relative;
-    margin-left: 70%;
-    margin-bottom: 10%;
-
+    flex:2;
+    display:inline-block;
+    margin-left: 50%;
 }
 
 #application_name
 {
-    margin-left: 5em;
+    flex:1;
+    display:inline-block;
+    /*margin-left: 5em;*/
 
 }
 
