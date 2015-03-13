@@ -1,5 +1,6 @@
 /*global angular*/
 /*global console*/
+/*global alert*/
 
 angular.module('loginApp', [])
     .controller('loginController', ['$scope', '$state', 'loginService', function ($scope, $state, loginService) {
@@ -36,11 +37,11 @@ angular.module('loginApp', [])
                 params:{usernameSignup:usernameSignup, passwordSignup:passwordSignup}
             })
             .success(function(data){
-               console.log("SIGNUP success");
+               console.log("SIGNUP request success");
                $state.go('menu.home');
             })
             .error(function(){
-               console.log("SIGNUP failed");
+               console.log("SIGNUP request failed");
             });
         }
 
@@ -51,15 +52,15 @@ angular.module('loginApp', [])
                params:{usernameSignin:usernameSignin, passwordSignin:passwordSignin}
             })
                 .success(function(data){
-                    console.log('SIGNIN success');
-                    if (data.username === null || data.password === null){
+                    console.log('SIGNIN request success');
+                    if (data.username === undefined || data.password === undefined){
                         console.log("USER NOT FOUND");
                     }else{
                         $state.go('menu.home');
                     }
                 })
                 .error(function(){
-                    console.log('SIGNIN failed');
+                    console.log('SIGNIN request failed');
                 });
         }
 

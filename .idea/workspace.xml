@@ -96,7 +96,7 @@
       <file leaf-file-name="loginCtrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/login/loginCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="72" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.64594597" vertical-offset="679" max-vertical-offset="1394">
+            <state line="43" column="43" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.527027" vertical-offset="536" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -837,7 +837,7 @@
       <workItem from="1426015743505" duration="19188000" />
       <workItem from="1426115636734" duration="4110000" />
       <workItem from="1426197274048" duration="1245000" />
-      <workItem from="1426209841838" duration="2944000" />
+      <workItem from="1426209841838" duration="3715000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -907,11 +907,15 @@
       <created>1426212154341</created>
       <updated>1426212154341</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="SIGNIN first bug fixed&#10;">
+      <created>1426212815241</created>
+      <updated>1426212815241</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77504000" />
+    <option name="totallyTimeSpent" value="78275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -972,7 +976,8 @@
     <MESSAGE value="Refactor state menu&#10;" />
     <MESSAGE value="Dev web services in progress&#10;" />
     <MESSAGE value="SIGNUP bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="SIGNUP bug fixed" />
+    <MESSAGE value="SIGNIN first bug fixed&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="SIGNIN first bug fixed&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1305,7 +1310,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/loginCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="72" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.64594597" vertical-offset="679" max-vertical-offset="1394">
+        <state line="43" column="43" selection-start="1588" selection-end="1588" vertical-scroll-proportion="0.527027" vertical-offset="536" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>
