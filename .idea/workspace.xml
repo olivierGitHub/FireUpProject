@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/home/User.java" afterPath="$PROJECT_DIR$/src/main/java/home/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/login.css" afterPath="$PROJECT_DIR$/web/login/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/login.html" afterPath="$PROJECT_DIR$/web/login/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FireUpProject.iws" />
@@ -848,7 +846,7 @@
       <workItem from="1426015743505" duration="19188000" />
       <workItem from="1426115636734" duration="4110000" />
       <workItem from="1426197274048" duration="1245000" />
-      <workItem from="1426209841838" duration="7159000" />
+      <workItem from="1426209841838" duration="7247000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -926,11 +924,15 @@
       <created>1426213583195</created>
       <updated>1426213583195</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="CSS homepage bullshit but lookable DONE&#10;">
+      <created>1426217440197</created>
+      <updated>1426217440197</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81719000" />
+    <option name="totallyTimeSpent" value="81807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -993,7 +995,8 @@
     <MESSAGE value="SIGNUP bug fixed" />
     <MESSAGE value="SIGNIN first bug fixed&#10;" />
     <MESSAGE value="SIGNIN bug fixed&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="SIGNIN bug fixed&#10;" />
+    <MESSAGE value="CSS homepage bullshit but lookable DONE&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS homepage bullshit but lookable DONE&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
