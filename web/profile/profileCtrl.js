@@ -3,9 +3,9 @@
  */
 
 /* global angular */
-angular.module('profileApp', ['ui.router'])
+angular.module('profileApp', [])
 
-    .controller('profileController', ['$scope', 'customDatepicker', function($scope, customDatepicker){
+    .controller('profileController', ['$scope', function($scope){
         'use strict';
         $scope.birthDate = '2013-07-23';
         $scope.dateOptions = {};
