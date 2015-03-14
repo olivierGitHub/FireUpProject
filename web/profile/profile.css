@@ -1,0 +1,24 @@
+#profileTitle{
+    margin-left: 35%;
+    padding-top: 2%;
+}
+
+#profilePage{
+    padding:2% 0% 5% 40%;
+}
+
+#birthdayProfile{
+    width: 39.7%;
+}
+
+#occupationProfile{
+    width: 37.6%;
+}
+#hobbiesProfile{
+    width: 48.6%;
+}
+
+#submitProfile{
+    width: 10%;
+    margin-left:20%;
+}

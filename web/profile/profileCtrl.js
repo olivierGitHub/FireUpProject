@@ -10,6 +10,7 @@ angular.module('profileApp', [])
         $scope.birthDate = '2013-07-23';
         $scope.dateOptions = {};
     }])
+
     .directive('customDatepicker',function($compile,$timeout){
         'use strict';
         return {

@@ -1,14 +1,31 @@
 <div ng-app="profileApp" ng-controller="profileController">
-    <h2>profile</h2>
+    <h2 id="profileTitle">profile</h2>
     <div id="profilePage">
-        <form id="profileForm">
-            <input type="text" ng-model="firstnameProfile" placeholder="firstname" />
-            <input type="text" ng-model="lastnameProfile" placeholder="lastname" />
-            <input type="radio" ng-model="sexProfile" /> Female
-            <input type="radio" ng-model="sexProfile" /> Male
-            <input type="date" ng-model="birthDate" popup="d MMM yyyy" options="dateOptions"
-                   opened="opened" custom-datepicker />
-
+        <form id="profileForm" ng-submit="validateProfile()">
+            <div id="personalInformation">
+                <label class="informationProfile"><b>Personal information -----------------------------------------------------</b></label>
+                </br></br>
+                <input type="radio" ng-model="sexProfile" value="female"/><label> female </label>
+                <input type="radio" ng-model="sexProfile" value="male"/><label> male </label></br>
+                <input type="text" ng-model="firstnameProfile" placeholder="firstname" />
+                <input type="text" ng-model="lastnameProfile" placeholder="lastname" /></br>
+                <label>Birthday : </label>
+                <input id="birthdayProfile" type="date" ng-model="birthDate" popup="d MMM yyyy"
+                                options="dateOptions" opened="opened" custom-datepicker /></br>
+                <label>Occupation : </label>
+                    <select id="occupationProfile">
+                        <option value="student">student</option>
+                        <option value="employee">employee</option>
+                    </select></br>
+                <input id="hobbiesProfile" type="text" ng-model="hobbiesProfile" placeholder="hobbies" />
+            </div></br></br></br>
+            <div id="searchInformation">
+                <label class="informationProfile"><b>Search information -------------------------------------------------------</b></label>
+                </br></br>
+                <textarea rows="4" cols="50" placeholder="Give us keywords to help us find the most adapted content for you"></textarea></br>
+            </div>
+            </br></br></br>
+            <input id="submitProfile" type="submit" value="submit" />
         </form>
     </div>
 </div>
