@@ -34,5 +34,13 @@ angular.module('app', ['ui.router', 'loginApp', 'homeApp', 'profileApp', 'conten
             .state('menu.settings', {
                 url: '/settings',
                 templateUrl: 'settings/settings.html'
+            })
+            .state('menu.settings.security', {
+                url: '/settings',
+                templateUrl: 'settings/security/security.html'
+            })
+            .state('menu.settings.preferences', {
+                url: '/settings',
+                templateUrl: 'settings/preferences/preferences.html'
             });
     });

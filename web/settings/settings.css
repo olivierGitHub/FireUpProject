@@ -1,0 +1,18 @@
+#settingsMenu{
+    position:fixed;
+    margin-top: 7.5%;
+    width: 20%;
+    height: 10%;
+}
+
+#settingsTitle{
+    position:fixed;
+}
+
+#settingsPage{
+    height: 100%;
+}
+
+#settingsInformation{
+    padding:2% 0% 5% 20%;
+}

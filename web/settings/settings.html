@@ -1,3 +1,10 @@
 <div ng-app="settingsApp">
-    <h2>settings</h2>
+    <div id="settingsPage">
+        <h2 id="settingsTitle">settings</h2>
+        <ul id="settingsMenu">
+            <li><a ui-sref=".preferences">preferences</a></li>
+            <li><a ui-sref=".security">security</a></li>
+        </ul>
+        <div id="settingsInformation" ui-view></div>
+    </div>
 </div>

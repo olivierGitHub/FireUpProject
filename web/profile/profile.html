@@ -5,8 +5,10 @@
             <div id="personalInformation">
                 <label class="informationProfile"><b>Personal information -----------------------------------------------------</b></label>
                 </br></br>
-                <input type="radio" ng-model="sexProfile" value="female"/><label> female </label>
-                <input type="radio" ng-model="sexProfile" value="male"/><label> male </label></br>
+                <span id="sexProfile">
+                    <input type="radio" ng-model="sexProfile" value="female"/><label> female </label>
+                    <input type="radio" ng-model="sexProfile" value="male"/><label> male </label>
+                </span></br>
                 <input type="text" ng-model="firstnameProfile" placeholder="firstname" />
                 <input type="text" ng-model="lastnameProfile" placeholder="lastname" /></br>
                 <label>Birthday : </label>
@@ -17,8 +19,14 @@
                         <option value="student">student</option>
                         <option value="employee">employee</option>
                     </select></br>
-                <input id="hobbiesProfile" type="text" ng-model="hobbiesProfile" placeholder="hobbies" />
-            </div></br></br></br>
+                <label>Hobbies : </label>
+                <input id="hobbiesProfile" type="text" ng-model="hobbiesProfile" placeholder="hobbies" /></br>
+                <label>Country : </label>
+                <select id="countryProfile" >
+                    <option ng-repeat="country in countries" value={{country.name}}>{{country.name}}</option>
+                </select>
+            </div>
+            </br></br></br>
             <div id="searchInformation">
                 <label class="informationProfile"><b>Search information -------------------------------------------------------</b></label>
                 </br></br>

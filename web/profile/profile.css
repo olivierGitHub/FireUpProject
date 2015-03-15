@@ -7,6 +7,10 @@
     padding:2% 0% 5% 40%;
 }
 
+#sexProfile{
+    margin-left: 34%;
+}
+
 #birthdayProfile{
     width: 39.7%;
 }
@@ -14,8 +18,13 @@
 #occupationProfile{
     width: 37.6%;
 }
+
+#countryProfile{
+    width: 40.6%;
+}
+
 #hobbiesProfile{
-    width: 48.6%;
+    width: 39.8%;
 }
 
 #submitProfile{
