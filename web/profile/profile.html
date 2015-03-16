@@ -1,6 +1,8 @@
 <div ng-app="profileApp" ng-controller="profileController">
     <h2 id="profileTitle">profile</h2>
     <div id="profilePage">
+        <div id="informationProfile">
+            <div id="sectionProfile">
         <form id="profileForm" ng-submit="validateProfile()">
             <div id="personalInformation">
                 <label class="informationProfile"><b>Personal information -----------------------------------------------------</b></label>
@@ -32,9 +34,11 @@
                 </br></br>
                 <textarea rows="4" cols="50" placeholder="Give us keywords to help us find the most adapted content for you"></textarea></br>
             </div>
-            </br></br></br>
+            </br>
             <input id="submitProfile" type="submit" value="submit" />
         </form>
+            </div>
+        </div>
     </div>
 </div>
 

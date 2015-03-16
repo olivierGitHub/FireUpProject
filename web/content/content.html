@@ -1,21 +1,24 @@
 <div ng-app="contentApp" ng-controller="contentController">
     <h2 id="contentTitle">content</h2></br>
     <div id="contentPage">
-        <form class="contentForm" ng-submit="validateVideo()">
-            <div id="videoInformation">
-                <label class="informationContent"><b>Add a video -----------------------------------------------------</b></label>
-                </br></br>
-                <input class="contentInput" type="text" ng-model="titleVideo" placeholder="title" /></br>
-                <input class="contentInput" type="text" ng-model="descriptionVideo" placeholder="a quick description helps to promote" /></br>
-                <input class="contentInput" type="text" ng-model="linkVideo" placeholder="link of video" /></br>
-                <input class="contentInput" type="text" ng-model="listTagsVideo" placeholder="list of tags separate by a space" />
-                </br></br>
-                <input class="submitContent" type="submit" value="submit" />
+        <div class="Information">
+            <div class="Section">
+                <form class="contentForm" ng-submit="validateVideo()">
+                    <label class="informationContent"><b>Add a video -----------------------------------------------------</b></label>
+                    </br></br>
+                    <input class="contentInput" type="text" ng-model="titleVideo" placeholder="title" /></br>
+                    <input class="contentInput" type="text" ng-model="descriptionVideo" placeholder="a quick description helps to promote" /></br>
+                    <input class="contentInput" type="text" ng-model="linkVideo" placeholder="link of video" /></br>
+                    <input class="contentInput" type="text" ng-model="listTagsVideo" placeholder="list of tags separate by a space" />
+                    </br></br>
+                    <input class="submitContent" type="submit" value="submit" />
+                </form>
             </div>
-        </form>
+        </div>
         </br></br></br>
-        <form class="contentForm" ng-submit="validateWebsite()">
-            <div id="websiteInformation">
+        <div class="Information">
+            <div class="Section">
+            <form class="contentForm" ng-submit="validateWebsite()">
                 <label class="informationContent"><b>Add a website ---------------------------------------------------</b></label>
                 </br></br>
                 <input class="contentInput" type="text" ng-model="titleWebsite" placeholder="title" /></br>
@@ -24,11 +27,12 @@
                 <input class="contentInput" type="text" ng-model="listTagsWebsite" placeholder="list of tags separate by a space" />
                 </br></br>
                 <input class="submitContent" type="submit" value="submit" />
-            </div>
-        </form>
+            </form>
+        </div></div>
         </br></br></br>
-        <form class="contentForm" ng-submit="validateSocialNetwork()">
-            <div id="socialNetworkInformation">
+        <div class="Information">
+            <div class="Section">
+            <form class="contentForm" ng-submit="validateSocialNetwork()">
                 <label class="informationContent"><b>Add a social network page ----------------------------------</b></label>
                 </br></br>
                 <input class="contentInput" type="text" ng-model="titleSocialNetwork" placeholder="title" /></br>
@@ -37,7 +41,7 @@
                 <input class="contentInput" type="text" ng-model="listTagsSocialNetwork" placeholder="list of tags separate by a space" />
                 </br></br>
                 <input class="submitContent" type="submit" value="submit" />
-            </div>
-        </form>
+            </form>
+        </div></div>
     </div>
 </div>
