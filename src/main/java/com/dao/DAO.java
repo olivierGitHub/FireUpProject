@@ -9,7 +9,7 @@ public interface DAO<T> {
 
     int create(T obj);
     T read(int i);
-    void update(T obj);
+    void update(int i);
     void delete(T obj);
 
 

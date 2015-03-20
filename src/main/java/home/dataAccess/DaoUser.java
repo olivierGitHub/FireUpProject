@@ -72,12 +72,13 @@ public class DaoUser implements DAO<User> {
     }
 
     @Override
-    public void update(User user) {
+    public void update(int id) {
         EntityManager em = emf.createEntityManager();
         EntityTransaction t = em.getTransaction();
 
         try{
             t.begin();
+            User user = em.find(User.class,id);
             em.merge(user);
             t.commit();
         }catch(Exception ex){
