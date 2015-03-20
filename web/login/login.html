@@ -4,47 +4,37 @@
             <div id="application_name" ><b>Fire Up</b></div>
             <div id="authentification_params" >
                 <form ng-submit="signin()">
-                    <input type="text" ng-model="usernameSignin" placeholder="username">
-                    <input type="password" ng-model="passwordSignin" placeholder="password">
-                    <input type="submit" value="SIGN IN">
+                    <input class="inputSigninLogin" type="text" ng-model="usernameSignin" placeholder="username">
+                    <input class="inputSigninLogin" type="password" ng-model="passwordSignin" placeholder="password">
+                    <input id="submitSigninLogin" type="submit" value="Sign In">
                 </form>
             </div>
         </div>
 
          <div id="login_quick_identification">
-            <table>
+            <label id="welcomeLogin"><b>Welcome to this awesome website</b></label></br>
+            <label id="accountCreationLogin"><b>Quick account creation</b></label>
+            <table id="tableLogin" width="25%">
                 <tr>
-                    <th width="75%" id="einstein_quote">Welcome to this awesome website</th>
-                    <th id="quick_account_creation" width="25%" >
-                        Quick account creation:
-                        <table>
-                            <tr>
-                                <th>username</th>
-                                <th><input type="text" ng-model="usernameSignup" ></th>
-                            </tr>
-                            <tr>
-                                <th>password</th>
-                                <th><input type="password" ng-model="passwordSignup" ></th>
-                            </tr>
-                            <tr>
-                                <th>password</th>
-                                <th><input type="password" ng-model="passwordSignup2"></th>
-                            </tr>
-                            <tr>
-                                <th>email</th>
-                                <th><input type="email" ng-model="emailSignup"></th>
-                            </tr>
-                            <tr>
-                                <th></th>
-                                <th><form ng-submit="signup()">
-                                    <input type="submit" value="SIGN UP">
-                                </form></th>
-                            </tr>
-                        </table>
-                    </th>
+                    <td>username</td>
+                    <td><input class="inputStyleLogin inputSizeLogin" type="text" ng-model="usernameSignup" placeholder="username"></td>
+                </tr>
+                <tr>
+                    <td>password</td>
+                    <td><input class="inputStyleLogin inputSizePasswordLogin" type="password" ng-model="passwordSignup" placeholder="password">
+                        <input class="inputStyleLogin inputSizePasswordLogin" type="password" ng-model="passwordSignup2" placeholder="repeat password"></td>
+                </tr>
+                <tr>
+                    <td>email</td>
+                    <td><input class="inputStyleLogin inputSizeLogin" type="email" ng-model="emailSignup" placeholder="e-mail (we won't spam you)"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><form ng-submit="signup()">
+                        <input id="submitSignupLogin" type="submit" value="Sign Up">
+                    </form></td>
                 </tr>
             </table>
         </div>
-
 </div>
 

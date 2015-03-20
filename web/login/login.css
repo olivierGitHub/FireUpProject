@@ -1,7 +1,7 @@
 #loginPage{
-    background-image:linear-gradient(#F2F1ED 90%, orange);
+    background-image:linear-gradient(#FFFDFA 90%, orange);
     width: 100%;
-    height: 100%;/*38.70em;*/
+    height: 100%;
     top:0;
     left:0;
     position: absolute;
@@ -11,28 +11,34 @@
 {
     display: flex;
     padding: 1em;
-    background: orange;
+    background: rgb(255,168,76); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,168,76,1) 0%, rgba(255,123,13,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,168,76,1)), color-stop(100%,rgba(255,123,13,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 ); /* IE6-9 */
     width: 90%;
     border-radius: 15px;
-    margin: 3.5% 2.5%;/*
-    text-align: right;
-    */
+    margin: 3.5% 2.5%;
 }
 
-#login_quick_identification
-{
-    /*width: 100%; */
-    margin: 10% 15%;/*
-    text-align: right;
-    position: fixed;*/
+.inputSigninLogin{
+    width: 35%;
+    border-radius: 1px;
 }
 
+#submitSigninLogin{
+    border-radius: 5px;
+    background: #FFFDFA;
+}
 
 #authentification_params
 {
     flex:2;
     display:inline-block;
-    margin-left: 40%;
+    margin-left: 60%;
 }
 
 #application_name
@@ -41,13 +47,64 @@
     display:inline-block;
 }
 
-#quick_account_creation
-{
-    text-align: left;
+#welcomeLogin{
+    position: absolute;
+    margin-left:15%;
+    margin-top: 15%;
 }
 
-#einstein_quote
+#accountCreationLogin
 {
-    text-align: left;
+    position: absolute;
+    margin-left:50%;
+    margin-top: 7%;
+}
+
+#tableLogin{
+    width: 50%;
+    position: relative;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+#tableLogin td{
+    height: 3em;
+}
+
+.inputStyleLogin
+{
+    border-radius: 7px;
+    border: solid 1px rgba(252,205,77,1);
+    background-color: white;
+    box-shadow: inset 2px 1px 5px rgba(248,181,0,1);
+    padding: 5px 10px;
+    color: #005;
+}
+
+.inputStyleLogin:focus
+{
+    box-shadow: inset 0 0 0 rgba(248,181,0,1), 0 0 0 rgba(248,181,0,1);
+}
+
+.inputSizeLogin{
+    width: 46.5%;
+}
+
+.inputSizePasswordLogin{
+    width: 21%;
+}
+
+#submitSignupLogin{
+    width: 20%;
+    margin-left:30%;
+    border-radius:5px;
+    background: rgb(252,234,187); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,234,187,1)), color-stop(50%,rgba(252,205,77,1)), color-stop(51%,rgba(248,181,0,1)), color-stop(100%,rgba(251,223,147,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 ); /* IE6-9 */
 }
 
