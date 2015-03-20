@@ -3,10 +3,7 @@ package video.dataAccess;
 import com.dao.DAO;
 import video.Video;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
+import javax.persistence.*;
 import java.util.List;
 
 /**
@@ -88,12 +85,43 @@ public class DaoVideo implements DAO<Video> {
     }
 
     @Override
-    public void delete(Video obj) {
+    public void delete(Video video) {
+        EntityManager em = emf.createEntityManager();
+        EntityTransaction t = em.getTransaction();
 
+        try{
+            t.begin();
+            em.remove(video);
+            t.commit();
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            if (t.isActive()){
+                t.rollback();
+                em.close();
+            }
+        }
     }
 
     @Override
     public List<Video> readSelected(String sql) {
-        return null;
+        EntityManager em = emf.createEntityManager();
+        EntityTransaction t = em.getTransaction();
+        List<Video> listVideos = null;
+
+        try{
+            t.begin();
+            TypedQuery query = em.createQuery(sql, Video.class);
+            listVideos = query.getResultList();
+            t.commit();
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            if (t.isActive()){
+                t.rollback();
+                em.close();
+            }
+        }
+        return listVideos;
     }
 }

@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dao/DAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/dao/DAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/home/dataAccess/DaoUser.java" afterPath="$PROJECT_DIR$/src/main/java/home/dataAccess/DaoUser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java" afterPath="$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/SocialNetwork.java" afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/SocialNetwork.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/video/Video.java" afterPath="$PROJECT_DIR$/src/main/java/video/Video.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/website/Website.java" afterPath="$PROJECT_DIR$/src/main/java/website/Website.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FireUpProject.iws" />
@@ -92,7 +87,7 @@
       <file leaf-file-name="DaoVideo.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="0" selection-start="2324" selection-end="2324" vertical-scroll-proportion="0.9392857" vertical-offset="1123" max-vertical-offset="1751">
+            <state line="61" column="9" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.030357143" vertical-offset="986" max-vertical-offset="2227">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -938,7 +933,7 @@
       <workItem from="1426756411832" duration="70000" />
       <workItem from="1426756625790" duration="936000" />
       <workItem from="1426771559605" duration="17205000" />
-      <workItem from="1426877261878" duration="8799000" />
+      <workItem from="1426877261878" duration="9793000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -1096,15 +1091,19 @@
       <created>1426881339903</created>
       <updated>1426881339903</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="DAO + WebService for content page&#10;&#10;Work in progress&#10;">
+      <created>1426893098286</created>
+      <updated>1426893098286</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150037000" />
+    <option name="totallyTimeSpent" value="151031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1476,7 +1475,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="2324" selection-end="2324" vertical-scroll-proportion="0.9392857" vertical-offset="1123" max-vertical-offset="1751">
+        <state line="61" column="9" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.030357143" vertical-offset="986" max-vertical-offset="2227">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
