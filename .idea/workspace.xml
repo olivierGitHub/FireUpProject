@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="DAO + WebService for content page&#10;&#10;need test&#10;+&#10;need to add Read Update Delete and Find All web services&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/rest/Rest.java" afterPath="$PROJECT_DIR$/src/main/java/com/rest/Rest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/SocialNetwork.java" afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/SocialNetwork.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/video/Video.java" afterPath="$PROJECT_DIR$/src/main/java/video/Video.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/website/Website.java" afterPath="$PROJECT_DIR$/src/main/java/website/Website.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/testDAO.java" afterPath="$PROJECT_DIR$/src/main/java/testDAO.java" />
+    <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/content/contentCtrl.js" afterPath="$PROJECT_DIR$/web/content/contentCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FireUpProject.iws" />
@@ -88,10 +84,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="10" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.60465115" vertical-offset="319" max-vertical-offset="663">
+            <state line="31" column="10" selection-start="1326" selection-end="1326" vertical-scroll-proportion="-8.0" vertical-offset="319" max-vertical-offset="663">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contentCtrl.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/content/contentCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="32" selection-start="3415" selection-end="3415" vertical-scroll-proportion="0.44257703" vertical-offset="1049" max-vertical-offset="1598">
               <folding />
             </state>
           </provider>
@@ -247,6 +252,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -698,7 +735,7 @@
       <workItem from="1426756625790" duration="936000" />
       <workItem from="1426771559605" duration="17205000" />
       <workItem from="1426877261878" duration="12856000" />
-      <workItem from="1426897231737" duration="2101000" />
+      <workItem from="1426897231737" duration="2685000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -872,15 +909,19 @@
       <created>1426897118529</created>
       <updated>1426897118529</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="DAO + WebService for content page&#10;&#10;DONE:&#10;WORKING when requested from the html content page&#10;&#10;TO DO:&#10;need to add Read Update Delete and Find All web services&#10;">
+      <created>1426899400686</created>
+      <updated>1426899400686</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156195000" />
+    <option name="totallyTimeSpent" value="156779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -904,7 +945,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24773414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24773414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32423207" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -925,7 +966,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Ajout de la partie DAO&#10;&#10;CRUD&#10;    CR est OK&#10;    UD not OK&#10;&#10;" />
     <MESSAGE value="Ajout de la partie DAO (partie 2)&#10;&#10;CRUD&#10;    CR est OK&#10;    UD not OK&#10;" />
     <MESSAGE value="Correction souci WebServices&#10;&#10;Il fallait rajouter les librairies dans les artifacts&#10;project structures -&gt; artifacts -&gt; available elements -&gt; clic droit -&gt; Put Into Output Root&#10;" />
     <MESSAGE value="Souci router" />
@@ -950,7 +990,8 @@
     <MESSAGE value="CSS: login page&#10;&#10;Work in progress&#10;" />
     <MESSAGE value="DAO + WebService for content page&#10;&#10;Work in progress&#10;" />
     <MESSAGE value="DAO + WebService for content page&#10;&#10;need test&#10;+&#10;need to add Read Update Delete and Find All web services&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="DAO + WebService for content page&#10;&#10;need test&#10;+&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <MESSAGE value="DAO + WebService for content page&#10;&#10;DONE:&#10;WORKING when requested from the html content page&#10;&#10;TO DO:&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAO + WebService for content page&#10;&#10;DONE:&#10;WORKING when requested from the html content page&#10;&#10;TO DO:&#10;need to add Read Update Delete and Find All web services&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1262,13 +1303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/contentCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="7" selection-start="3492" selection-end="3492" vertical-scroll-proportion="0.89880955" vertical-offset="973" max-vertical-offset="1377">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/socialnetwork/SocialNetwork.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="7" selection-start="285" selection-end="285" vertical-scroll-proportion="0.2857143" vertical-offset="102" max-vertical-offset="663">
@@ -1287,7 +1321,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="10" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.60465115" vertical-offset="319" max-vertical-offset="663">
+        <state line="31" column="10" selection-start="1326" selection-end="1326" vertical-scroll-proportion="-8.0" vertical-offset="319" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/content/contentCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="32" selection-start="3415" selection-end="3415" vertical-scroll-proportion="0.44257703" vertical-offset="1049" max-vertical-offset="1598">
           <folding />
         </state>
       </provider>

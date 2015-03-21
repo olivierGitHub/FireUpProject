@@ -11,12 +11,15 @@ angular.module('contentApp',[])
         'use strict';
         $scope.validateVideo = function(){
             contentService.createVideo($scope.titleVideo,$scope.descriptionVideo,$scope.linkVideo,$scope.listTagsVideo);
+            contentService.eraseInputValues($scope.titleVideo,$scope.descriptionVideo,$scope.linkVideo,$scope.listTagsVideo);
         };
         $scope.validateWebsite = function(){
             contentService.createWebsite($scope.titleWebsite,$scope.descriptionWebsite,$scope.linkWebsite,$scope.listTagsWebsite);
+            contentService.eraseInputValues($scope.titleWebsite,$scope.descriptionWebsite,$scope.linkWebsite,$scope.listTagsWebsite);
         };
         $scope.validateSocialNetwork = function(){
             contentService.createSocialNetwork($scope.titleSocialNetwork,$scope.descriptionSocialNetwork,$scope.linkSocialNetwork,$scope.listTagsSocialNetwork);
+            contentService.eraseInputValues($scope.titleSocialNetwork,$scope.descriptionSocialNetwork,$scope.linkSocialNetwork,$scope.listTagsSocialNetwork);
         };
     }])
 
@@ -64,6 +67,13 @@ angular.module('contentApp',[])
                 });
         }
 
+        function eraseValues(title,description,link,listTags){
+            title = undefined;
+            description = undefined;
+            link = undefined;
+            listTags = undefined;
+        }
+
         return{
             createVideo: function(titleVideo,descriptionVideo,linkVideo,listTagsVideo){
                 createVideo(titleVideo,descriptionVideo,linkVideo,listTagsVideo);
@@ -73,6 +83,9 @@ angular.module('contentApp',[])
             },
             createSocialNetwork: function(titleSocialNetwork,descriptionSocialNetwork,linkSocialNetwork,listTagsSocialNetwork){
                 createSocialNetwork(titleSocialNetwork,descriptionSocialNetwork,linkSocialNetwork,listTagsSocialNetwork);
+            },
+            eraseInputValues: function(title,description,link,listTags){
+                eraseValues(title,description,link,listTags);
             }
         };
     });
