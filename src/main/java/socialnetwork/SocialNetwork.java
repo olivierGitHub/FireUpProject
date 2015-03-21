@@ -3,6 +3,7 @@ package socialnetwork;
 import com.sun.xml.internal.txw2.annotation.XmlElement;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
@@ -14,6 +15,7 @@ import javax.persistence.Id;
 public class SocialNetwork {
 
     @Id
+    @GeneratedValue
     private int idSocialNetwork;
     private String titleSocialNetwork;
     private String descriptionSocialNetwork;

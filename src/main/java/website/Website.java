@@ -1,13 +1,21 @@
 package website;
 
+import com.sun.xml.internal.txw2.annotation.XmlElement;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
  * Created by oliver on 20/03/15.
  */
+
+@Entity
+@XmlElement
 public class Website {
 
     @Id
+    @GeneratedValue
     private int idWebsite;
     private String titleWebsite;
     private String descriptionWebsite;

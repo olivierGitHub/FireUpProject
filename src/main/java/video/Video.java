@@ -3,10 +3,7 @@ package video;
 import com.sun.xml.internal.txw2.annotation.XmlElement;
 
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * Created by oliver on 20/03/15.
@@ -17,6 +14,7 @@ import javax.persistence.Table;
 public class Video {
 
     @Id
+    @GeneratedValue
     private int idVideo;
     private String titleVideo;
     private String descriptionVideo;

@@ -2,6 +2,10 @@ package com.rest;
 
 import com.Calcul;
 import home.service.UserWebService;
+import socialnetwork.SocialNetwork;
+import socialnetwork.service.SocialNetworkWebService;
+import video.service.VideoWebService;
+import website.service.WebsiteWebService;
 
 
 import javax.ws.rs.core.Application;
@@ -15,7 +19,9 @@ public class Rest extends Application {
 
         singletons.add(new Calcul());
         singletons.add(new UserWebService());
-
+        singletons.add(new VideoWebService());
+        singletons.add(new WebsiteWebService());
+        singletons.add(new SocialNetworkWebService());
     }
 
     @Override
