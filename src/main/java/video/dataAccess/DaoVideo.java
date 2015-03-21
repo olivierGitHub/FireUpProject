@@ -12,7 +12,7 @@ import java.util.List;
 public class DaoVideo implements DAO<Video> {
 
     private static DaoVideo instance = new DaoVideo();
-    private static DaoVideo getInstance(){
+    public static DaoVideo getInstance(){
         return instance;
     }
     private EntityManagerFactory emf;
