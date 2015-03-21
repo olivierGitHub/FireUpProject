@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/content/contentCtrl.js" afterPath="$PROJECT_DIR$/web/content/contentCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FireUpProject.iws" />
@@ -735,7 +734,7 @@
       <workItem from="1426756625790" duration="936000" />
       <workItem from="1426771559605" duration="17205000" />
       <workItem from="1426877261878" duration="12856000" />
-      <workItem from="1426897231737" duration="2685000" />
+      <workItem from="1426897231737" duration="2740000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -913,11 +912,15 @@
       <created>1426899400686</created>
       <updated>1426899400686</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="DAO + WebService for content page&#10;&#10;DONE:&#10;WORKING when requested from the html content page&#10;&#10;&#10;TO DO:&#10;Erase values from input fields once inserted in database&#10;need to add Read Update Delete and Find All web services&#10;">
+      <created>1426899961362</created>
+      <updated>1426899961362</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156779000" />
+    <option name="totallyTimeSpent" value="156834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -966,7 +969,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Ajout de la partie DAO (partie 2)&#10;&#10;CRUD&#10;    CR est OK&#10;    UD not OK&#10;" />
     <MESSAGE value="Correction souci WebServices&#10;&#10;Il fallait rajouter les librairies dans les artifacts&#10;project structures -&gt; artifacts -&gt; available elements -&gt; clic droit -&gt; Put Into Output Root&#10;" />
     <MESSAGE value="Souci router" />
     <MESSAGE value="Souci router&#10;&#10;Image fixed&#10;" />
@@ -991,7 +993,8 @@
     <MESSAGE value="DAO + WebService for content page&#10;&#10;Work in progress&#10;" />
     <MESSAGE value="DAO + WebService for content page&#10;&#10;need test&#10;+&#10;need to add Read Update Delete and Find All web services&#10;" />
     <MESSAGE value="DAO + WebService for content page&#10;&#10;DONE:&#10;WORKING when requested from the html content page&#10;&#10;TO DO:&#10;need to add Read Update Delete and Find All web services&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="DAO + WebService for content page&#10;&#10;DONE:&#10;WORKING when requested from the html content page&#10;&#10;TO DO:&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <MESSAGE value="DAO + WebService for content page&#10;&#10;DONE:&#10;WORKING when requested from the html content page&#10;&#10;&#10;TO DO:&#10;Erase values from input fields once inserted in database&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAO + WebService for content page&#10;&#10;DONE:&#10;WORKING when requested from the html content page&#10;&#10;&#10;TO DO:&#10;Erase values from input fields once inserted in database&#10;need to add Read Update Delete and Find All web services&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
