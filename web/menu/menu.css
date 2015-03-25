@@ -14,6 +14,7 @@
     background: -ms-linear-gradient(top,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* IE10+ */
     background: linear-gradient(to bottom,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 ); /* IE6-9 */
+    z-index:1;
 }
 
 #homeContent{
@@ -26,9 +27,20 @@
 
 #searchBarInput{
     border-radius: 5px;
-    width: 50%;
+    width: 40%;
     height:1.5em;
     margin-left: 20%;
+    /*display: inline-block;*/
+}
+
+#submitSearch{
+    margin-left: 1%;
+    display: inline-block;
+}
+
+#submitSearchInput{
+    border-radius: 5px;
+    background: #FFFDFA;
 }
 
 #settings{

@@ -5,6 +5,7 @@
         "angular": "*",
         "angular-ui-router": "*",
         "bootstrap": "*",
-        "normalize.css": "*"
+        "normalize.css": "*",
+        "angular-material": "*"
     }
 }

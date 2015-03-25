@@ -1,3 +1,17 @@
-<div ng-app="homeApp">
-    <h2>home page</h2>
+<div id="homePage" ng-app="homeApp">
+    <div id="menuHome">
+        <ul>
+            <li>websites</li>
+            <li>videos</li>
+            <li>social networks</li>
+        </ul>
+    </div>
+    <div id="filterHome">
+        <span id="filterParams">
+            <input type="radio" ng-model="filterParamHome" value="month"/><label>last month</label>
+            <input type="radio" ng-model="filterParamHome" value="new"/><label>new results</label>
+        </span>
+    </div>
+    <div id="resultsHome" ui-view>
+    </div>
 </div>

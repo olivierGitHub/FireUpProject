@@ -1,0 +1,42 @@
+#homePage{
+    height: 38em;
+}
+
+#menuHome{
+    position:fixed;
+    width:12%;
+    height: 15em;
+    top:15em;
+    left:1em;
+    border: solid;
+    border-color: black;
+}
+
+#filterParams{
+    margin-left:55em;
+}
+
+#filterHome{
+    position:fixed;
+    width:90%;
+    height: 1.5em;
+    top:6em;
+    left:5em;
+    border-color: #000000;
+    border: solid;
+    background-color: white;
+    z-index:3;
+}
+
+#resultsHome{
+    position:relative;
+    width:80%;
+    height: 31em;
+    top:6em;
+    left:15em;
+    border-color: black;
+    border: solid;
+    z-index:2;
+    overflow: scroll;
+
+}

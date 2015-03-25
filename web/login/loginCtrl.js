@@ -38,7 +38,7 @@ angular.module('loginApp', [])
             })
             .success(function(data){
                console.log("SIGNUP request success");
-               $state.go('menu.home');
+               $state.go('menu.home.display');
             })
             .error(function(){
                console.log("SIGNUP request failed");
@@ -56,7 +56,7 @@ angular.module('loginApp', [])
                     if (data.username === undefined || data.password === undefined){
                         console.log("USER NOT FOUND");
                     }else{
-                        $state.go('menu.home');
+                        $state.go('menu.home.display');
                     }
                 })
                 .error(function(){

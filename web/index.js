@@ -23,6 +23,10 @@ angular.module('app', ['ui.router', 'loginApp', 'homeApp', 'profileApp', 'conten
                 url: '/home',
                 templateUrl: 'home/home.html'
             })
+            .state('menu.home.display', {
+                url: '/home',
+                templateUrl: 'home/displayResults.html'
+            })
             .state('menu.profile', {
                 url: '/profile',
                 templateUrl: 'profile/profile.html'
