@@ -19,6 +19,7 @@ public class Video {
     private String titleVideo;
     private String descriptionVideo;
     private String linkVideo;
+    private String shortLinkVideo;
     private String listTagsVideo;
 
     public int getIdVideo() {
@@ -37,6 +38,13 @@ public class Video {
     }
     public void setDescriptionVideo(String descriptionVideo) {
         this.descriptionVideo = descriptionVideo;
+    }
+
+    public String getShortLinkVideo() {
+        return shortLinkVideo;
+    }
+    public void setShortLinkVideo(String shortLinkVideo) {
+        this.shortLinkVideo = shortLinkVideo;
     }
 
     public String getLinkVideo() {
