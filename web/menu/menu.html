@@ -3,8 +3,8 @@
         <a ui-sref=".home">home</a>
         <a ui-sref=".profile">profile</a>
         <a ui-sref=".content">content</a>
-        <input id="searchBarInput" type="text" placeholder="Type your research here" />
-        <form id="submitSearch" ng-submit="search()">
+        <input id="searchBarInput" type="text" ng-model="searchParams" placeholder="Type your research here" />
+        <form id="submitSearch" ng-submit="searchResults()">
             <input id="submitSearchInput" type="submit" value="Search">
         </form>
         <a id="settings" ui-sref=".settings.preferences">settings</a>

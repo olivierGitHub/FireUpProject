@@ -8,7 +8,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
-import java.awt.*;
+import java.util.List;
 
 /**
  * Created by oliver on 20/03/15.
@@ -30,6 +30,14 @@ public class VideoWebService {
             video.setLinkVideo(link);
             video.setListTagsVideo(listTags);
         return DaoVideo.getInstance().create(video);
+    }
+
+    @POST
+    @Path("/display")
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<Video> displayVideos(){
+        String sql = "select v from video v";
+        return DaoVideo.getInstance().readSelected(sql);
     }
 
 }
