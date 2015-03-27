@@ -20,12 +20,12 @@ angular.module('menuApp',[])
         function readSelected(searchParams){
             $http({
                 method: 'POST',
-                url:'',
+                url:'http://localhost:8080/FireUpProject/rest/video/display',
                 params:{searchParams:searchParams}
             })
                 .success(function(data){
                     console.log("search success");
-                    $rootScope.listResults = data;
+                    //$rootScope.listResults = data;
             })
                 .error(function(){
                     console.log("search failed");
