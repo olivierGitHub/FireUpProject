@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/displayResults.html" afterPath="$PROJECT_DIR$/web/home/displayResults.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/menu/menuCtrl.js" afterPath="$PROJECT_DIR$/web/menu/menuCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java" afterPath="$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FireUpProject.iws" />
@@ -990,7 +989,7 @@
       <workItem from="1427243040724" duration="16793000" />
       <workItem from="1427291287284" duration="2257000" />
       <workItem from="1427384777674" duration="133000" />
-      <workItem from="1427447614762" duration="1758000" />
+      <workItem from="1427447614762" duration="1868000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -1188,11 +1187,15 @@
       <created>1427274749843</created>
       <updated>1427274749843</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Home page display&#10;&#10;To do:&#10;add short link to table video&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;">
+      <created>1427449389218</created>
+      <updated>1427449389218</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181520000" />
+    <option name="totallyTimeSpent" value="181630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
