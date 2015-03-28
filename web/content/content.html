@@ -3,50 +3,50 @@
     <div id="contentPage">
         <div class="Information">
             <div class="Section">
-                <form class="contentForm" ng-submit="validateVideo()">
+                <form class="contentForm" ng-submit="validateVideo()" ng-keyup="checkFormVideo()">
                     <label class="informationContent"><b>Add a video -----------------------------------------------------</b></label>
                     </br></br>
                     <table class="tableContent">
-                        <tr><td><input ng-class="errorClass" ng-keyup="checkLengthTitleVideo()" type="text" ng-model="titleVideo" placeholder="title" /></td></tr>
-                        <tr><td><input class="contentInput inputStyleContent" type="text" ng-model="descriptionVideo" placeholder="a quick description helps to promote" /></td></tr>
-                        <tr><td><input class="contentInput inputStyleContent" type="text" ng-model="linkVideo" placeholder="link of video" /></td></tr>
-                        <tr><td><input class="contentInput inputStyleContent" type="text" ng-model="listTagsVideo" placeholder="list of tags separate by a space" /></td></tr>
+                        <tr><td><input ng-class="classTitleVideo" ng-keyup="checkLengthTitleVideo()" type="text" ng-model="titleVideo" placeholder="title" /></td></tr>
+                        <tr><td><input ng-class="classDescriptionVideo" ng-keyup="checkLengthDescriptionVideo()" type="text" ng-model="descriptionVideo" placeholder="a quick description helps to promote" /></td></tr>
+                        <tr><td><input ng-class="classLinkVideo" ng-keyup="checkLengthLinkVideo()" type="text" ng-model="linkVideo" placeholder="link of video" /></td></tr>
+                        <tr><td><input ng-class="classListTagsVideo" ng-keyup="checkLengthListTagsVideo()" type="text" ng-model="listTagsVideo" placeholder="list of tags separate by a space" /></td></tr>
                     </table>
                     </br></br>
-                    <input class="submitContent" type="submit" value="submit" />
+                    <input ng-disabled="!isFormValidVideo" ng-class="classSubmitVideo" type="submit" value="submit" />
                 </form>
             </div>
         </div>
         </br></br></br>
         <div class="Information">
             <div class="Section">
-            <form class="contentForm" ng-submit="validateWebsite()">
+            <form class="contentForm" ng-submit="validateWebsite()" ng-keyup="checkFormWebsite()">
                 <label class="informationContent"><b>Add a website ---------------------------------------------------</b></label>
                 </br></br>
                 <table class="tableContent">
-                    <tr><td><input class="contentInput inputStyleContent" type="text" ng-model="titleWebsite" placeholder="title" /></td></tr>
-                    <tr><td><input class="contentInput inputStyleContent" type="text" ng-model="descriptionWebsite" placeholder="a quick description helps to promote" /></td></tr>
-                    <tr><td><input class="contentInput inputStyleContent" type="text" ng-model="linkWebsite" placeholder="link of website" /></td></tr>
-                    <tr><td><input class="contentInput inputStyleContent" type="text" ng-model="listTagsWebsite" placeholder="list of tags separate by a space" /></td></tr>
+                    <tr><td><input ng-class="classTitleWebsite" ng-keyup="checkLengthTitleWebsite()" type="text" ng-model="titleWebsite" placeholder="title" /></td></tr>
+                    <tr><td><input ng-class="classDescriptionWebsite" ng-keyup="checkLengthDescriptionWebsite()" type="text" ng-model="descriptionWebsite" placeholder="a quick description helps to promote" /></td></tr>
+                    <tr><td><input ng-class="classLinkWebsite" ng-keyup="checkLengthLinkWebsite()" type="text" ng-model="linkWebsite" placeholder="link of website" /></td></tr>
+                    <tr><td><input ng-class="classListTagsWebsite" ng-keyup="checkLengthListTagsWebsite()" type="text" ng-model="listTagsWebsite" placeholder="list of tags separate by a space" /></td></tr>
                 </table>
                 </br></br>
-                <input class="submitContent" type="submit" value="submit" />
+                <input ng-disabled="!isFormValidWebsite" ng-class="classSubmitWebsite" type="submit" value="submit" />
             </form>
         </div></div>
         </br></br></br>
         <div class="Information">
             <div class="Section">
-            <form class="contentForm" ng-submit="validateSocialNetwork()">
+            <form class="contentForm" ng-submit="validateSocialNetwork()" ng-keyup="checkFormSocialNetwork()">
                 <label class="informationContent"><b>Add a social network page ----------------------------------</b></label>
                 </br></br>
                 <table class="tableContent">
-                    <tr><td><input class="contentInput inputStyleContent" type="text" ng-model="titleSocialNetwork" placeholder="title" /></td></tr>
-                    <tr><td><input class="contentInput inputStyleContent" type="text" ng-model="descriptionSocialNetwork" placeholder="a quick description helps to promote" /></td></tr>
-                    <tr><td><input class="contentInput inputStyleContent" type="text" ng-model="linkSocialNetwork" placeholder="link of social network page" /></td></tr>
-                    <tr><td><input class="contentInput inputStyleContent" type="text" ng-model="listTagsSocialNetwork" placeholder="list of tags separate by a space" /></td></tr>
+                    <tr><td><input ng-class="classTitleSocialNetwork" ng-keyup="checkLengthTitleSocialNetwork()" type="text" ng-model="titleSocialNetwork" placeholder="title" /></td></tr>
+                    <tr><td><input ng-class="classDescriptionSocialNetwork" ng-keyup="checkLengthDescriptionSocialNetwork()" type="text" ng-model="descriptionSocialNetwork" placeholder="a quick description helps to promote" /></td></tr>
+                    <tr><td><input ng-class="classLinkSocialNetwork" ng-keyup="checkLengthLinkSocialNetwork()" type="text" ng-model="linkSocialNetwork" placeholder="link of social network page" /></td></tr>
+                    <tr><td><input ng-class="classListTagsSocialNetwork" ng-keyup="checkLengthListTagsSocialNetwork()" type="text" ng-model="listTagsSocialNetwork" placeholder="list of tags separate by a space" /></td></tr>
                 </table>
                 </br></br>
-                <input class="submitContent" type="submit" value="submit" />
+                <input ng-disabled="!isFormValidSocialNetwork" ng-class="classSubmitSocialNetwork" type="submit" value="submit" />
             </form>
         </div></div>
     </div>

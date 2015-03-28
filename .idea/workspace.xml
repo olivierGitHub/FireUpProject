@@ -5,8 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/content/content.css" afterPath="$PROJECT_DIR$/web/content/content.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/content/content.html" afterPath="$PROJECT_DIR$/web/content/content.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/content/contentCtrl.js" afterPath="$PROJECT_DIR$/web/content/contentCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/menu/menuCtrl.js" afterPath="$PROJECT_DIR$/web/menu/menuCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FireUpProject.iws" />
@@ -100,7 +98,7 @@
       <file leaf-file-name="content.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/content/content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="46" selection-start="694" selection-end="707" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="986">
+            <state line="40" column="26" selection-start="3245" selection-end="3245" vertical-scroll-proportion="-11.5" vertical-offset="381" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
@@ -109,7 +107,7 @@
       <file leaf-file-name="content.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/content/content.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="26" selection-start="2054" selection-end="2054" vertical-scroll-proportion="0.0" vertical-offset="768" max-vertical-offset="1360">
+            <state line="36" column="0" selection-start="2682" selection-end="2682" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1615">
               <folding />
             </state>
           </provider>
@@ -118,7 +116,7 @@
       <file leaf-file-name="contentCtrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/content/contentCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="44" selection-start="413" selection-end="413" vertical-scroll-proportion="0.4371069" vertical-offset="99" max-vertical-offset="2006">
+            <state line="183" column="49" selection-start="8292" selection-end="8292" vertical-scroll-proportion="0.8930818" vertical-offset="2793" max-vertical-offset="4386">
               <folding />
             </state>
           </provider>
@@ -247,10 +245,10 @@
         <option value="$PROJECT_DIR$/web/home/displayResults.html" />
         <option value="$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java" />
         <option value="$PROJECT_DIR$/web/menu/menuCtrl.js" />
-        <option value="$PROJECT_DIR$/web/content/content.html" />
-        <option value="$PROJECT_DIR$/web/content/content.css" />
-        <option value="$PROJECT_DIR$/web/content/contentCtrl.js" />
         <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/content/content.css" />
+        <option value="$PROJECT_DIR$/web/content/content.html" />
+        <option value="$PROJECT_DIR$/web/content/contentCtrl.js" />
       </list>
     </option>
   </component>
@@ -998,7 +996,7 @@
       <workItem from="1427291287284" duration="2257000" />
       <workItem from="1427384777674" duration="133000" />
       <workItem from="1427447614762" duration="7177000" />
-      <workItem from="1427495547573" duration="5946000" />
+      <workItem from="1427495547573" duration="14346000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -1204,11 +1202,15 @@
       <created>1427449493907</created>
       <updated>1427449493907</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Control on input field&#10;&#10;To do:&#10;work in progress using ng-class and ng-keyup&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;">
+      <created>1427502373158</created>
+      <updated>1427502373158</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192885000" />
+    <option name="totallyTimeSpent" value="201285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
@@ -1221,7 +1223,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50341296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39788732" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1257,7 +1259,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Souci router FIXED&#10;" />
     <MESSAGE value="Refactor architecture&#10;&#10;re-do css of the login.html page&#10;" />
     <MESSAGE value="Refactor architecture&#10;&#10;adding of the menu state&#10;" />
     <MESSAGE value="Refactor state menu&#10;" />
@@ -1282,7 +1283,8 @@
     <MESSAGE value="DAO + WebService for content page&#10;&#10;DONE:&#10;WORKING when requested from the html content page&#10;&#10;TO DO:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
     <MESSAGE value="Home page display&#10;&#10;DONE:&#10;Work in progress&#10;&#10;TO DO:&#10;DAO + WebService for content page&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
     <MESSAGE value="Home page display&#10;&#10;To do:&#10;add short link to table video&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home page display&#10;&#10;To do:&#10;add short link to table video&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <MESSAGE value="Control on input field&#10;&#10;To do:&#10;work in progress using ng-class and ng-keyup&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Control on input field&#10;&#10;To do:&#10;work in progress using ng-class and ng-keyup&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1569,20 +1571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/content.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="26" selection-start="2054" selection-end="2054" vertical-scroll-proportion="0.0" vertical-offset="768" max-vertical-offset="1360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="46" selection-start="694" selection-end="707" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="4" selection-start="1344" selection-end="1344" vertical-scroll-proportion="-8.846154" vertical-offset="246" max-vertical-offset="714">
@@ -1594,9 +1582,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/content/content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="2682" selection-end="2682" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/content/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="26" selection-start="3245" selection-end="3245" vertical-scroll-proportion="-11.5" vertical-offset="381" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/content/contentCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="44" selection-start="413" selection-end="413" vertical-scroll-proportion="0.4371069" vertical-offset="99" max-vertical-offset="2006">
+        <state line="183" column="49" selection-start="8292" selection-end="8292" vertical-scroll-proportion="0.8930818" vertical-offset="2793" max-vertical-offset="4386">
           <folding />
         </state>
       </provider>
