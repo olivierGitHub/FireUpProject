@@ -7,7 +7,7 @@
                     <label class="informationContent"><b>Add a video -----------------------------------------------------</b></label>
                     </br></br>
                     <table class="tableContent">
-                        <tr><td><input class="contentInput inputStyleContent" type="text" ng-model="titleVideo" placeholder="title" /></td></tr>
+                        <tr><td><input ng-class="errorClass" ng-keyup="checkLengthTitleVideo()" type="text" ng-model="titleVideo" placeholder="title" /></td></tr>
                         <tr><td><input class="contentInput inputStyleContent" type="text" ng-model="descriptionVideo" placeholder="a quick description helps to promote" /></td></tr>
                         <tr><td><input class="contentInput inputStyleContent" type="text" ng-model="linkVideo" placeholder="link of video" /></td></tr>
                         <tr><td><input class="contentInput inputStyleContent" type="text" ng-model="listTagsVideo" placeholder="list of tags separate by a space" /></td></tr>

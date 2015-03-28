@@ -4,15 +4,37 @@
 
 /*global angular*/
 /*global console*/
+/*global alert*/
 
 angular.module('contentApp',[])
 
     .controller('contentController', ['$scope', 'contentService', function($scope, contentService){
         'use strict';
-        $scope.validateVideo = function(){
-            contentService.createVideo($scope.titleVideo,$scope.descriptionVideo,$scope.linkVideo,$scope.listTagsVideo);
-            contentService.eraseInputValues($scope.titleVideo,$scope.descriptionVideo,$scope.linkVideo,$scope.listTagsVideo);
+
+        $scope.errorClass = "contentInput inputStyleContent";
+
+        $scope.checkLengthTitleVideo = function(){
+            if ($scope.titleVideo.length < 30){
+                $scope.errorClass = "contentInput inputStyleContent";
+            }else{
+                $scope.errorClass = "contentInput inputStyleContentError";
+            }
         };
+
+        $scope.validateVideo = function(){
+            if ($scope.titleVideo.length < 50 && $scope.titleVideo !== undefined &&
+                $scope.descriptionVideo.length < 50 && $scope.descriptionVideo !== undefined &&
+                $scope.linkVideo.length < 50 && $scope.linkVideo !== undefined &&
+                $scope.listTagsVideo.length < 50 && $scope.listTagsVideo !== undefined){
+                    contentService.createVideo($scope.titleVideo,$scope.descriptionVideo,$scope.linkVideo,$scope.listTagsVideo);
+                    contentService.eraseInputValues($scope.titleVideo,$scope.descriptionVideo,$scope.linkVideo,$scope.listTagsVideo);
+            }else{
+                    console.log("check data you've just entered");
+            }
+        };
+
+
+
         $scope.validateWebsite = function(){
             contentService.createWebsite($scope.titleWebsite,$scope.descriptionWebsite,$scope.linkWebsite,$scope.listTagsWebsite);
             contentService.eraseInputValues($scope.titleWebsite,$scope.descriptionWebsite,$scope.linkWebsite,$scope.listTagsWebsite);
@@ -21,6 +43,8 @@ angular.module('contentApp',[])
             contentService.createSocialNetwork($scope.titleSocialNetwork,$scope.descriptionSocialNetwork,$scope.linkSocialNetwork,$scope.listTagsSocialNetwork);
             contentService.eraseInputValues($scope.titleSocialNetwork,$scope.descriptionSocialNetwork,$scope.linkSocialNetwork,$scope.listTagsSocialNetwork);
         };
+
+
     }])
 
     .service('contentService',function($http){
