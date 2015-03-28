@@ -8,8 +8,20 @@
 
 angular.module('contentApp',[])
 
-    .controller('contentController', ['$scope', 'contentService', function($scope, contentService){
+    .constant("maxLength",{
+        "title": 50,
+        "description":200,
+        "link":1024,
+        "listTags":200
+    })
+
+    .controller('contentController', ['$scope', 'contentService', 'maxLength', function($scope, contentService, maxLength){
         'use strict';
+
+        $scope.maxLengthTitle = maxLength.title;
+        $scope.maxLengthDescription = maxLength.description;
+        $scope.maxLengthLink = maxLength.link;
+        $scope.maxLengthListTags = maxLength.listTags;
 
         $scope.classTitleVideo = "contentInput inputStyleContent";
         $scope.classDescriptionVideo = "contentInput inputStyleContent";
@@ -18,11 +30,22 @@ angular.module('contentApp',[])
         $scope.classSubmitVideo = "submitContentError";
         $scope.isFormValidVideo = false;
 
+        ///////////////// Fix Me
+        $scope.checkLength = function(length, maxLength) {
+            if(length <= maxLength) {
+                window.alert("ok");//traitement si trop court
+            } else {
+                window.alert("Not ok"); //traitement si trop long
+            }
+        };
+        //////////////////////////
+
+
         $scope.checkFormVideo = function(){
-            if ($scope.titleVideo.length < 30 && $scope.titleVideo !== undefined &&
-                $scope.descriptionVideo.length < 20 && $scope.descriptionVideo !== undefined &&
-                $scope.linkVideo.length < 50 && $scope.linkVideo !== undefined &&
-                $scope.listTagsVideo.length < 100 && $scope.listTagsVideo !== undefined){
+            if ($scope.titleVideo.length < $scope.maxLengthTitle && $scope.titleVideo !== undefined &&
+                $scope.descriptionVideo.length < $scope.maxLengthDescription && $scope.descriptionVideo !== undefined &&
+                $scope.linkVideo.length < $scope.maxLengthLink && $scope.linkVideo !== undefined &&
+                $scope.listTagsVideo.length < $scope.maxLengthListTags && $scope.listTagsVideo !== undefined){
                     $scope.classSubmitVideo = "submitContent";
                     $scope.isFormValidVideo = true;
             }else{
@@ -32,7 +55,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthTitleVideo = function(){
-            if ($scope.titleVideo.length < 30){
+            if ($scope.titleVideo.length < $scope.maxLengthTitle){
                 $scope.classTitleVideo = "contentInput inputStyleContent";
             }else{
                 $scope.classTitleVideo = "contentInput inputStyleContentError";
@@ -40,7 +63,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthDescriptionVideo = function(){
-            if ($scope.descriptionVideo.length < 20){
+            if ($scope.descriptionVideo.length < $scope.maxLengthDescription){
                 $scope.classDescriptionVideo = "contentInput inputStyleContent";
             }else{
                 $scope.classDescriptionVideo = "contentInput inputStyleContentError";
@@ -48,7 +71,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthLinkVideo = function(){
-            if ($scope.linkVideo.length < 50){
+            if ($scope.linkVideo.length < $scope.maxLengthLink){
                 $scope.classLinkVideo = "contentInput inputStyleContent";
             }else{
                 $scope.classLinkVideo = "contentInput inputStyleContentError";
@@ -56,7 +79,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthListTagsVideo = function(){
-            if ($scope.listTagsVideo.length < 100){
+            if ($scope.listTagsVideo.length < $scope.maxLengthListTags){
                 $scope.classListTagsVideo = "contentInput inputStyleContent";
             }else{
                 $scope.classListTagsVideo = "contentInput inputStyleContentError";
@@ -77,10 +100,10 @@ angular.module('contentApp',[])
         $scope.isFormValidWebsite = false;
 
         $scope.checkFormWebsite = function(){
-            if ($scope.titleWebsite.length < 30 && $scope.titleWebsite !== undefined &&
-                $scope.descriptionWebsite.length < 20 && $scope.descriptionWebsite !== undefined &&
-                $scope.linkWebsite.length < 50 && $scope.linkWebsite !== undefined &&
-                $scope.listTagsWebsite.length < 100 && $scope.listTagsWebsite !== undefined){
+            if ($scope.titleWebsite.length < $scope.maxLengthTitle && $scope.titleWebsite !== undefined &&
+                $scope.descriptionWebsite.length < $scope.maxLengthDescription && $scope.descriptionWebsite !== undefined &&
+                $scope.linkWebsite.length < $scope.maxLengthLink && $scope.linkWebsite !== undefined &&
+                $scope.listTagsWebsite.length < $scope.maxLengthListTags && $scope.listTagsWebsite !== undefined){
                 $scope.classSubmitWebsite = "submitContent";
                 $scope.isFormValidWebsite = true;
             }else{
@@ -90,7 +113,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthTitleWebsite = function(){
-            if ($scope.titleWebsite.length < 30){
+            if ($scope.titleWebsite.length < $scope.maxLengthTitle){
                 $scope.classTitleWebsite = "contentInput inputStyleContent";
             }else{
                 $scope.classTitleWebsite = "contentInput inputStyleContentError";
@@ -98,7 +121,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthDescriptionWebsite = function(){
-            if ($scope.descriptionWebsite.length < 20){
+            if ($scope.descriptionWebsite.length < $scope.maxLengthDescription){
                 $scope.classDescriptionWebsite = "contentInput inputStyleContent";
             }else{
                 $scope.classDescriptionWebsite = "contentInput inputStyleContentError";
@@ -106,7 +129,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthLinkWebsite = function(){
-            if ($scope.linkWebsite.length < 50){
+            if ($scope.linkWebsite.length < $scope.maxLengthLink){
                 $scope.classLinkWebsite = "contentInput inputStyleContent";
             }else{
                 $scope.classLinkWebsite = "contentInput inputStyleContentError";
@@ -114,7 +137,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthListTagsWebsite = function(){
-            if ($scope.listTagsWebsite.length < 100){
+            if ($scope.listTagsWebsite.length < $scope.maxLengthListTags){
                 $scope.classListTagsWebsite = "contentInput inputStyleContent";
             }else{
                 $scope.classListTagsWebsite = "contentInput inputStyleContentError";
@@ -135,10 +158,10 @@ angular.module('contentApp',[])
         $scope.isFormValidSocialNetwork = false;
 
         $scope.checkFormSocialNetwork = function(){
-            if ($scope.titleSocialNetwork.length < 30 && $scope.titleSocialNetwork !== undefined &&
-                $scope.descriptionSocialNetwork.length < 20 && $scope.descriptionSocialNetwork !== undefined &&
-                $scope.linkSocialNetwork.length < 50 && $scope.linkSocialNetwork !== undefined &&
-                $scope.listTagsSocialNetwork.length < 100 && $scope.listTagsSocialNetwork !== undefined){
+            if ($scope.titleSocialNetwork.length < $scope.maxLengthTitle && $scope.titleSocialNetwork !== undefined &&
+                $scope.descriptionSocialNetwork.length < $scope.maxLengthDescription && $scope.descriptionSocialNetwork !== undefined &&
+                $scope.linkSocialNetwork.length < $scope.maxLengthLink && $scope.linkSocialNetwork !== undefined &&
+                $scope.listTagsSocialNetwork.length < $scope.maxLengthListTags && $scope.listTagsSocialNetwork !== undefined){
                 $scope.classSubmitSocialNetwork = "submitContent";
                 $scope.isFormValidSocialNetwork = true;
             }else{
@@ -148,7 +171,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthTitleSocialNetwork = function(){
-            if ($scope.titleSocialNetwork.length < 30){
+            if ($scope.titleSocialNetwork.length < $scope.maxLengthTitle){
                 $scope.classTitleSocialNetwork = "contentInput inputStyleContent";
             }else{
                 $scope.classTitleSocialNetwork = "contentInput inputStyleContentError";
@@ -156,7 +179,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthDescriptionSocialNetwork = function(){
-            if ($scope.descriptionSocialNetwork.length < 20){
+            if ($scope.descriptionSocialNetwork.length < $scope.maxLengthDescription){
                 $scope.classDescriptionSocialNetwork = "contentInput inputStyleContent";
             }else{
                 $scope.classDescriptionSocialNetwork = "contentInput inputStyleContentError";
@@ -164,7 +187,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthLinkSocialNetwork = function(){
-            if ($scope.linkSocialNetwork.length < 50){
+            if ($scope.linkSocialNetwork.length < $scope.maxLengthLink){
                 $scope.classLinkSocialNetwork = "contentInput inputStyleContent";
             }else{
                 $scope.classLinkSocialNetwork = "contentInput inputStyleContentError";
@@ -172,7 +195,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthListTagsSocialNetwork = function(){
-            if ($scope.listTagsSocialNetwork.length < 100){
+            if ($scope.listTagsSocialNetwork.length < $scope.maxLengthListTags){
                 $scope.classListTagsSocialNetwork = "contentInput inputStyleContent";
             }else{
                 $scope.classListTagsSocialNetwork = "contentInput inputStyleContentError";
@@ -183,7 +206,6 @@ angular.module('contentApp',[])
             contentService.createSocialNetwork($scope.titleSocialNetwork,$scope.descriptionSocialNetwork,$scope.linkSocialNetwork,$scope.listTagsSocialNetwork);
             contentService.eraseInputValues($scope.titleSocialNetwork,$scope.descriptionSocialNetwork,$scope.linkSocialNetwork,$scope.listTagsSocialNetwork);
         };
-
 
     }])
 

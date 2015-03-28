@@ -3,14 +3,18 @@
     <div id="contentPage">
         <div class="Information">
             <div class="Section">
-                <form class="contentForm" ng-submit="validateVideo()" ng-keyup="checkFormVideo()">
+                <form name="formVideo" class="contentForm" ng-submit="validateVideo()" ng-keyup="checkFormVideo()">
                     <label class="informationContent"><b>Add a video -----------------------------------------------------</b></label>
                     </br></br>
                     <table class="tableContent">
-                        <tr><td><input ng-class="classTitleVideo" ng-keyup="checkLengthTitleVideo()" type="text" ng-model="titleVideo" placeholder="title" /></td></tr>
-                        <tr><td><input ng-class="classDescriptionVideo" ng-keyup="checkLengthDescriptionVideo()" type="text" ng-model="descriptionVideo" placeholder="a quick description helps to promote" /></td></tr>
-                        <tr><td><input ng-class="classLinkVideo" ng-keyup="checkLengthLinkVideo()" type="text" ng-model="linkVideo" placeholder="link of video" /></td></tr>
-                        <tr><td><input ng-class="classListTagsVideo" ng-keyup="checkLengthListTagsVideo()" type="text" ng-model="listTagsVideo" placeholder="list of tags separate by a space" /></td></tr>
+                        <tr><td><input name="titleVideo" ng-class="classTitleVideo" ng-keyup="checkLengthTitleVideo()" ng-maxlength="{{maxLengthTitle}}" type="text" ng-model="titleVideo" placeholder="title" />
+                        <span ng-show="formVideo.titleVideo.$error.maxlength">max length {{maxLengthTitle}}</span></td></tr>
+                        <tr><td><input name="descriptionVideo" ng-class="classDescriptionVideo" ng-keyup="checkLengthDescriptionVideo()" ng-maxlength="{{maxLengthDescription}}" type="text" ng-model="descriptionVideo" placeholder="a quick description helps to promote" />
+                        <span ng-show="formVideo.descriptionVideo.$error.maxlength">max length {{maxLengthDescription}}</span></td></tr>
+                        <tr><td><input name="linkVideo" ng-class="classLinkVideo" ng-keyup="checkLengthLinkVideo()" ng-maxlength="{{maxLengthLink}}" type="text" ng-model="linkVideo" placeholder="link of video" />
+                        <span ng-show="formVideo.linkVideo.$error.maxlength">max length {{maxLengthLink}}</span></td></tr>
+                        <tr><td><input name="listTagsVideo" ng-class="classListTagsVideo" ng-keyup="checkLengthListTagsVideo()" ng-maxlength="{{maxLengthListTags}}" type="text" ng-model="listTagsVideo" placeholder="list of tags separate by a space" />
+                        <span ng-show="formVideo.listTagsVideo.$error.maxlength">max length {{maxLengthListTags}}</span></td></tr>
                     </table>
                     </br></br>
                     <input ng-disabled="!isFormValidVideo" ng-class="classSubmitVideo" type="submit" value="submit" />

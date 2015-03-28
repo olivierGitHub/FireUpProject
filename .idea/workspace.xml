@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/content/content.css" afterPath="$PROJECT_DIR$/web/content/content.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/content/content.html" afterPath="$PROJECT_DIR$/web/content/content.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/content/contentCtrl.js" afterPath="$PROJECT_DIR$/web/content/contentCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -98,7 +97,7 @@
       <file leaf-file-name="content.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/content/content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="26" selection-start="3245" selection-end="3245" vertical-scroll-proportion="-11.5" vertical-offset="381" max-vertical-offset="986">
+            <state line="8" column="48" selection-start="529" selection-end="529" vertical-scroll-proportion="-1.1923077" vertical-offset="105" max-vertical-offset="1054">
               <folding />
             </state>
           </provider>
@@ -116,7 +115,7 @@
       <file leaf-file-name="contentCtrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/content/contentCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="49" selection-start="8292" selection-end="8292" vertical-scroll-proportion="0.8930818" vertical-offset="2793" max-vertical-offset="4386">
+            <state line="30" column="40" selection-start="992" selection-end="992" vertical-scroll-proportion="0.25157234" vertical-offset="396" max-vertical-offset="4760">
               <folding />
             </state>
           </provider>
@@ -125,7 +124,7 @@
       <file leaf-file-name="menuCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/menu/menuCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="9" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="731">
+            <state line="32" column="9" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -134,7 +133,7 @@
       <file leaf-file-name="loginCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login/loginCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="35" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+            <state line="8" column="35" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -143,12 +142,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="4" selection-start="1344" selection-end="1344" vertical-scroll-proportion="-8.846154" vertical-offset="246" max-vertical-offset="714">
-              <folding>
-                <element signature="n#style#0;n#link#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#link#1;n#head#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#link#7;n#head#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="28" column="4" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.0" vertical-offset="246" max-vertical-offset="714">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -165,7 +160,7 @@
       <file leaf-file-name="homeCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+            <state line="9" column="21" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -174,7 +169,7 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="374">
+            <state line="6" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -314,8 +309,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -402,148 +395,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="video" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="video" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="video" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -996,7 +851,9 @@
       <workItem from="1427291287284" duration="2257000" />
       <workItem from="1427384777674" duration="133000" />
       <workItem from="1427447614762" duration="7177000" />
-      <workItem from="1427495547573" duration="14346000" />
+      <workItem from="1427495547573" duration="15040000" />
+      <workItem from="1427552514393" duration="2211000" />
+      <workItem from="1427554768638" duration="3635000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -1206,11 +1063,15 @@
       <created>1427502373158</created>
       <updated>1427502373158</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Control on input field of Content page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;">
+      <created>1427513523330</created>
+      <updated>1427513523330</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201285000" />
+    <option name="totallyTimeSpent" value="207825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
@@ -1231,7 +1092,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1259,8 +1120,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Refactor architecture&#10;&#10;re-do css of the login.html page&#10;" />
-    <MESSAGE value="Refactor architecture&#10;&#10;adding of the menu state&#10;" />
     <MESSAGE value="Refactor state menu&#10;" />
     <MESSAGE value="Dev web services in progress&#10;" />
     <MESSAGE value="SIGNUP bug fixed" />
@@ -1284,7 +1143,9 @@
     <MESSAGE value="Home page display&#10;&#10;DONE:&#10;Work in progress&#10;&#10;TO DO:&#10;DAO + WebService for content page&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
     <MESSAGE value="Home page display&#10;&#10;To do:&#10;add short link to table video&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
     <MESSAGE value="Control on input field&#10;&#10;To do:&#10;work in progress using ng-class and ng-keyup&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Control on input field&#10;&#10;To do:&#10;work in progress using ng-class and ng-keyup&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <MESSAGE value="Control on input field of Content page&#10;&#10;DONE using ng-class and ng-keyup&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <MESSAGE value="Control on input field of Content page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Control on input field of Content page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1412,9 +1273,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="43" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="612">
-          <folding />
-        </state>
+        <state line="18" column="43" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="612" />
       </provider>
     </entry>
     <entry file="uml://MODULES/mdl-FireUpProject">
@@ -1496,30 +1355,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/home/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="799">
-          <folding />
-        </state>
+        <state line="10" column="18" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="799" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/video/Video.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="5" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="347" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="44" column="5" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="347" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/home/dataAccess/DaoUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="0" selection-start="3946" selection-end="3946" vertical-scroll-proportion="0.0" vertical-offset="2474" max-vertical-offset="2958">
-          <folding />
-        </state>
+        <state line="144" column="0" selection-start="3946" selection-end="3946" vertical-scroll-proportion="0.0" vertical-offset="2474" max-vertical-offset="2958" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="1718" max-vertical-offset="2159">
-          <folding />
-        </state>
+        <state line="11" column="13" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="1718" max-vertical-offset="2159" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java">
@@ -1552,7 +1403,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="374">
+        <state line="6" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
@@ -1573,12 +1424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="4" selection-start="1344" selection-end="1344" vertical-scroll-proportion="-8.846154" vertical-offset="246" max-vertical-offset="714">
-          <folding>
-            <element signature="n#style#0;n#link#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#link#1;n#head#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#link#7;n#head#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="28" column="4" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.0" vertical-offset="246" max-vertical-offset="714">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1591,14 +1438,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/content/content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="26" selection-start="3245" selection-end="3245" vertical-scroll-proportion="-11.5" vertical-offset="381" max-vertical-offset="986">
+        <state line="8" column="48" selection-start="529" selection-end="529" vertical-scroll-proportion="-1.1923077" vertical-offset="105" max-vertical-offset="1054">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/content/contentCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="49" selection-start="8292" selection-end="8292" vertical-scroll-proportion="0.8930818" vertical-offset="2793" max-vertical-offset="4386">
+        <state line="30" column="40" selection-start="992" selection-end="992" vertical-scroll-proportion="0.25157234" vertical-offset="396" max-vertical-offset="4760">
           <folding />
         </state>
       </provider>
