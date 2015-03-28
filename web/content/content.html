@@ -24,14 +24,18 @@
         </br></br></br>
         <div class="Information">
             <div class="Section">
-            <form class="contentForm" ng-submit="validateWebsite()" ng-keyup="checkFormWebsite()">
+            <form name="formWebsite" class="contentForm" ng-submit="validateWebsite()" ng-keyup="checkFormWebsite()">
                 <label class="informationContent"><b>Add a website ---------------------------------------------------</b></label>
                 </br></br>
                 <table class="tableContent">
-                    <tr><td><input ng-class="classTitleWebsite" ng-keyup="checkLengthTitleWebsite()" type="text" ng-model="titleWebsite" placeholder="title" /></td></tr>
-                    <tr><td><input ng-class="classDescriptionWebsite" ng-keyup="checkLengthDescriptionWebsite()" type="text" ng-model="descriptionWebsite" placeholder="a quick description helps to promote" /></td></tr>
-                    <tr><td><input ng-class="classLinkWebsite" ng-keyup="checkLengthLinkWebsite()" type="text" ng-model="linkWebsite" placeholder="link of website" /></td></tr>
-                    <tr><td><input ng-class="classListTagsWebsite" ng-keyup="checkLengthListTagsWebsite()" type="text" ng-model="listTagsWebsite" placeholder="list of tags separate by a space" /></td></tr>
+                    <tr><td><input name="titleWebsite" ng-class="classTitleWebsite" ng-keyup="checkLengthTitleWebsite()" ng-maxlength="{{maxLengthTitle}}" type="text" ng-model="titleWebsite" placeholder="title" />
+                    <span ng-show="formWebsite.titleWebsite.$error.maxlength">max length {{maxLengthTitle}}</span></td></tr>
+                    <tr><td><input name="descriptionWebsite" ng-class="classDescriptionWebsite" ng-keyup="checkLengthDescriptionWebsite()" ng-maxlength="{{maxLengthDescription}}" type="text" ng-model="descriptionWebsite" placeholder="a quick description helps to promote" />
+                    <span ng-show="formWebsite.descriptionWebsite.$error.maxlength">max length {{maxLengthDescription}}</span></td></tr>
+                    <tr><td><input name="linkWebsite" ng-class="classLinkWebsite" ng-keyup="checkLengthLinkWebsite()" ng-maxlength="{{maxLengthLink}}" type="text" ng-model="linkWebsite" placeholder="link of website" />
+                    <span ng-show="formWebsite.linkWebsite.$error.maxlength">max length {{maxLengthLink}}</span></td></tr>
+                    <tr><td><input name="listTagsWebsite" ng-class="classListTagsWebsite" ng-keyup="checkLengthListTagsWebsite()" ng-maxlength="{{maxLengthListTags}}" type="text" ng-model="listTagsWebsite" placeholder="list of tags separate by a space" />
+                    <span ng-show="formWebsite.listTagsWebsite.$error.maxlength">max length {{maxLengthListTags}}</span></td></tr>
                 </table>
                 </br></br>
                 <input ng-disabled="!isFormValidWebsite" ng-class="classSubmitWebsite" type="submit" value="submit" />
@@ -40,14 +44,18 @@
         </br></br></br>
         <div class="Information">
             <div class="Section">
-            <form class="contentForm" ng-submit="validateSocialNetwork()" ng-keyup="checkFormSocialNetwork()">
+            <form name="formSocialNetwork" class="contentForm" ng-submit="validateSocialNetwork()" ng-keyup="checkFormSocialNetwork()">
                 <label class="informationContent"><b>Add a social network page ----------------------------------</b></label>
                 </br></br>
                 <table class="tableContent">
-                    <tr><td><input ng-class="classTitleSocialNetwork" ng-keyup="checkLengthTitleSocialNetwork()" type="text" ng-model="titleSocialNetwork" placeholder="title" /></td></tr>
-                    <tr><td><input ng-class="classDescriptionSocialNetwork" ng-keyup="checkLengthDescriptionSocialNetwork()" type="text" ng-model="descriptionSocialNetwork" placeholder="a quick description helps to promote" /></td></tr>
-                    <tr><td><input ng-class="classLinkSocialNetwork" ng-keyup="checkLengthLinkSocialNetwork()" type="text" ng-model="linkSocialNetwork" placeholder="link of social network page" /></td></tr>
-                    <tr><td><input ng-class="classListTagsSocialNetwork" ng-keyup="checkLengthListTagsSocialNetwork()" type="text" ng-model="listTagsSocialNetwork" placeholder="list of tags separate by a space" /></td></tr>
+                    <tr><td><input name="titleSocialNetwork" ng-class="classTitleSocialNetwork" ng-keyup="checkLengthTitleSocialNetwork()" ng-maxlength="{{maxLengthTitle}}" type="text" ng-model="titleSocialNetwork" placeholder="title" />
+                    <span ng-show="formSocialNetwork.titleSocialNetwork.$error.maxlength">max length {{maxLengthTitle}}</span></td></tr>
+                    <tr><td><input name="descriptionSocialNetwork" ng-class="classDescriptionSocialNetwork" ng-keyup="checkLengthDescriptionSocialNetwork()" ng-maxlength="{{maxLengthDescription}}" type="text" ng-model="descriptionSocialNetwork" placeholder="a quick description helps to promote" />
+                    <span ng-show="formSocialNetwork.descriptionSocialNetwork.$error.maxlength">max length {{maxLengthDescription}}</span></td></tr>
+                    <tr><td><input name="linkSocialNetwork" ng-class="classLinkSocialNetwork" ng-keyup="checkLengthLinkSocialNetwork()" ng-maxlength="{{maxLengthLink}}" type="text" ng-model="linkSocialNetwork" placeholder="link of social network page" />
+                    <span ng-show="formSocialNetwork.linkSocialNetwork.$error.maxlength">max length {{maxLengthLink}}</span></td></tr>
+                    <tr><td><input name="listTagsSocialNetwork" ng-class="classListTagsSocialNetwork" ng-keyup="checkLengthListTagsSocialNetwork()" ng-maxlength="{{maxLengthListTags}}" type="text" ng-model="listTagsSocialNetwork" placeholder="list of tags separate by a space" />
+                    <span ng-show="formSocialNetwork.listTagsSocialNetwork.$error.maxlength">max length {{maxLengthListTags}}</span></td></tr>
                 </table>
                 </br></br>
                 <input ng-disabled="!isFormValidSocialNetwork" ng-class="classSubmitSocialNetwork" type="submit" value="submit" />

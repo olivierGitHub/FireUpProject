@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/content/content.html" afterPath="$PROJECT_DIR$/web/content/content.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/content/contentCtrl.js" afterPath="$PROJECT_DIR$/web/content/contentCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FireUpProject.iws" />
@@ -94,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="content.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/content/content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="48" selection-start="529" selection-end="529" vertical-scroll-proportion="-1.1923077" vertical-offset="105" max-vertical-offset="1054">
+            <state line="44" column="33" selection-start="4391" selection-end="4391" vertical-scroll-proportion="0.06849315" vertical-offset="728" max-vertical-offset="1190">
               <folding />
             </state>
           </provider>
@@ -112,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contentCtrl.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contentCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/content/contentCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="40" selection-start="992" selection-end="992" vertical-scroll-proportion="0.25157234" vertical-offset="396" max-vertical-offset="4760">
+            <state line="30" column="40" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="4760">
               <folding />
             </state>
           </provider>
@@ -242,8 +241,8 @@
         <option value="$PROJECT_DIR$/web/menu/menuCtrl.js" />
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/content/content.css" />
-        <option value="$PROJECT_DIR$/web/content/content.html" />
         <option value="$PROJECT_DIR$/web/content/contentCtrl.js" />
+        <option value="$PROJECT_DIR$/web/content/content.html" />
       </list>
     </option>
   </component>
@@ -653,6 +652,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -670,12 +675,6 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="FireUpProject" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.0-RC5" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
@@ -853,7 +852,8 @@
       <workItem from="1427447614762" duration="7177000" />
       <workItem from="1427495547573" duration="15040000" />
       <workItem from="1427552514393" duration="2211000" />
-      <workItem from="1427554768638" duration="3635000" />
+      <workItem from="1427554768638" duration="4177000" />
+      <workItem from="1427565784963" duration="2248000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -1067,11 +1067,15 @@
       <created>1427513523330</created>
       <updated>1427513523330</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Control on input field of Content page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;JUST ADDED: error message to the user next to input field&#10;DOESN'T WORK: the ccs style is not render properly( it is render only when we type character by character but not when we keep a key pressed for a long period)&#10;&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;">
+      <created>1427558563553</created>
+      <updated>1427558563553</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207825000" />
+    <option name="totallyTimeSpent" value="210615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
@@ -1120,7 +1124,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Refactor state menu&#10;" />
     <MESSAGE value="Dev web services in progress&#10;" />
     <MESSAGE value="SIGNUP bug fixed" />
     <MESSAGE value="SIGNIN first bug fixed&#10;" />
@@ -1145,7 +1148,8 @@
     <MESSAGE value="Control on input field&#10;&#10;To do:&#10;work in progress using ng-class and ng-keyup&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
     <MESSAGE value="Control on input field of Content page&#10;&#10;DONE using ng-class and ng-keyup&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
     <MESSAGE value="Control on input field of Content page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Control on input field of Content page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <MESSAGE value="Control on input field of Content page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;JUST ADDED: error message to the user next to input field&#10;DOESN'T WORK: the ccs style is not render properly( it is render only when we type character by character but not when we keep a key pressed for a long period)&#10;&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Control on input field of Content page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;JUST ADDED: error message to the user next to input field&#10;DOESN'T WORK: the ccs style is not render properly( it is render only when we type character by character but not when we keep a key pressed for a long period)&#10;&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1436,16 +1440,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/content.html">
+    <entry file="file://$PROJECT_DIR$/web/content/contentCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="48" selection-start="529" selection-end="529" vertical-scroll-proportion="-1.1923077" vertical-offset="105" max-vertical-offset="1054">
+        <state line="30" column="40" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="686" max-vertical-offset="4760">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/content/contentCtrl.js">
+    <entry file="file://$PROJECT_DIR$/web/content/content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="40" selection-start="992" selection-end="992" vertical-scroll-proportion="0.25157234" vertical-offset="396" max-vertical-offset="4760">
+        <state line="44" column="33" selection-start="4391" selection-end="4391" vertical-scroll-proportion="0.06849315" vertical-offset="728" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
