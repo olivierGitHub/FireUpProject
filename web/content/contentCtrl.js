@@ -55,7 +55,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthTitleVideo = function(){
-            if ($scope.titleVideo.length < $scope.maxLengthTitle){
+            if ($scope.titleVideo.length < $scope.maxLengthTitle+1){
                 $scope.classTitleVideo = "contentInput inputStyleContent";
             }else{
                 $scope.classTitleVideo = "contentInput inputStyleContentError";
@@ -63,7 +63,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthDescriptionVideo = function(){
-            if ($scope.descriptionVideo.length < $scope.maxLengthDescription){
+            if ($scope.descriptionVideo.length < $scope.maxLengthDescription+1){
                 $scope.classDescriptionVideo = "contentInput inputStyleContent";
             }else{
                 $scope.classDescriptionVideo = "contentInput inputStyleContentError";
@@ -71,7 +71,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthLinkVideo = function(){
-            if ($scope.linkVideo.length < $scope.maxLengthLink){
+            if ($scope.linkVideo.length < $scope.maxLengthLink+1){
                 $scope.classLinkVideo = "contentInput inputStyleContent";
             }else{
                 $scope.classLinkVideo = "contentInput inputStyleContentError";
@@ -79,7 +79,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthListTagsVideo = function(){
-            if ($scope.listTagsVideo.length < $scope.maxLengthListTags){
+            if ($scope.listTagsVideo.length < $scope.maxLengthListTags+1){
                 $scope.classListTagsVideo = "contentInput inputStyleContent";
             }else{
                 $scope.classListTagsVideo = "contentInput inputStyleContentError";
@@ -113,7 +113,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthTitleWebsite = function(){
-            if ($scope.titleWebsite.length < $scope.maxLengthTitle){
+            if ($scope.titleWebsite.length < $scope.maxLengthTitle+1){
                 $scope.classTitleWebsite = "contentInput inputStyleContent";
             }else{
                 $scope.classTitleWebsite = "contentInput inputStyleContentError";
@@ -121,7 +121,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthDescriptionWebsite = function(){
-            if ($scope.descriptionWebsite.length < $scope.maxLengthDescription){
+            if ($scope.descriptionWebsite.length < $scope.maxLengthDescription+1){
                 $scope.classDescriptionWebsite = "contentInput inputStyleContent";
             }else{
                 $scope.classDescriptionWebsite = "contentInput inputStyleContentError";
@@ -129,7 +129,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthLinkWebsite = function(){
-            if ($scope.linkWebsite.length < $scope.maxLengthLink){
+            if ($scope.linkWebsite.length < $scope.maxLengthLink+1){
                 $scope.classLinkWebsite = "contentInput inputStyleContent";
             }else{
                 $scope.classLinkWebsite = "contentInput inputStyleContentError";
@@ -137,7 +137,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthListTagsWebsite = function(){
-            if ($scope.listTagsWebsite.length < $scope.maxLengthListTags){
+            if ($scope.listTagsWebsite.length < $scope.maxLengthListTags+1){
                 $scope.classListTagsWebsite = "contentInput inputStyleContent";
             }else{
                 $scope.classListTagsWebsite = "contentInput inputStyleContentError";
@@ -171,7 +171,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthTitleSocialNetwork = function(){
-            if ($scope.titleSocialNetwork.length < $scope.maxLengthTitle){
+            if ($scope.titleSocialNetwork.length < $scope.maxLengthTitle+1){
                 $scope.classTitleSocialNetwork = "contentInput inputStyleContent";
             }else{
                 $scope.classTitleSocialNetwork = "contentInput inputStyleContentError";
@@ -179,7 +179,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthDescriptionSocialNetwork = function(){
-            if ($scope.descriptionSocialNetwork.length < $scope.maxLengthDescription){
+            if ($scope.descriptionSocialNetwork.length < $scope.maxLengthDescription+1){
                 $scope.classDescriptionSocialNetwork = "contentInput inputStyleContent";
             }else{
                 $scope.classDescriptionSocialNetwork = "contentInput inputStyleContentError";
@@ -187,7 +187,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthLinkSocialNetwork = function(){
-            if ($scope.linkSocialNetwork.length < $scope.maxLengthLink){
+            if ($scope.linkSocialNetwork.length < $scope.maxLengthLink+1){
                 $scope.classLinkSocialNetwork = "contentInput inputStyleContent";
             }else{
                 $scope.classLinkSocialNetwork = "contentInput inputStyleContentError";
@@ -195,7 +195,7 @@ angular.module('contentApp',[])
         };
 
         $scope.checkLengthListTagsSocialNetwork = function(){
-            if ($scope.listTagsSocialNetwork.length < $scope.maxLengthListTags){
+            if ($scope.listTagsSocialNetwork.length < $scope.maxLengthListTags+1){
                 $scope.classListTagsSocialNetwork = "contentInput inputStyleContent";
             }else{
                 $scope.classListTagsSocialNetwork = "contentInput inputStyleContentError";

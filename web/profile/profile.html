@@ -3,7 +3,7 @@
     <div id="profilePage">
         <div id="informationProfile">
             <div id="sectionProfile">
-        <form id="profileForm" ng-submit="validateProfile()">
+        <form name="profileForm" ng-keyup="checkFormProfile()" id="profileForm" ng-submit="validateProfile()">
             <div id="personalInformation">
                 <label class="informationProfile"><b>Add your Personal information -----------------------------------------------------</b></label>
                 </br></br>
@@ -14,21 +14,23 @@
                 <table id="tableProfile">
                     <tr>
                         <td width="25%"><label>Firstname </label></td>
-                        <td><input class="style2 inputSize" type="text" ng-model="firstnameProfile" placeholder="firstname" /></td>
+                        <td><input name="firstnameProfile" ng-class="classFirstname" ng-keyup="checkLengthFirstname()" ng-maxlength="{{maxLengthFirstname}}" type="text" ng-model="firstnameProfile" placeholder="firstname" />
+                        <span ng-show="profileForm.firstnameProfile.$error.maxlength">max length {{maxLengthFirstname}}</span></td>
                     </tr>
                     <tr>
                         <td><label>Lastname </label></td>
-                        <td><input class="style2 inputSize" type="text" ng-model="lastnameProfile" placeholder="lastname" /></td>
+                        <td><input name="lastnameProfile" ng-class="classLastname" ng-keyup="checkLengthLastname()" ng-maxlength="{{maxLengthLastname}}" type="text" ng-model="lastnameProfile" placeholder="lastname" />
+                            <span ng-show="profileForm.lastnameProfile.$error.maxlength">max length {{maxLengthLastname}}</span></td>
                     </tr>
                     <tr>
                     <td><label>Birthday </label></td>
-                    <td><input class="style2 inputSize" type="date" ng-model="birthDate" popup="d MMM yyyy"
+                    <td><input ng-class="classBirthday"  type="date" ng-model="birthDate" popup="d MMM yyyy"
                                     options="dateOptions" opened="opened" custom-datepicker /></td>
                     </tr>
                     <tr>
                         <td><label>Occupation </label></td>
                         <td>
-                            <select class="style2 selectSize">
+                            <select ng-class="classOccupation">
                                 <option value="student">student</option>
                                 <option value="employee">employee</option>
                             </select>
@@ -36,12 +38,13 @@
                     </tr>
                     <tr>
                         <td><label>Hobbies </label></td>
-                        <td><input class="style2 inputSize" type="text" ng-model="hobbiesProfile" placeholder="hobbies" /></td>
+                        <td><input name="hobbiesProfile" ng-class="classHobbies" ng-keyup="checkLengthHobbies()" ng-maxlength="maxLengthHobbies" type="text" ng-model="hobbiesProfile" placeholder="hobbies" />
+                            <span ng-show="profileForm.hobbiesProfile.$error.maxlength">max length {{maxLengthHobbies}}</span></td>
                     </tr>
                     <tr>
                         <td><label>Country </label></td>
                         <td>
-                            <select class="style2 selectSize">
+                            <select ng-class="classCountry">
                                 <option ng-repeat="country in countries" value={{country.name}}>{{country.name}}</option>
                             </select>
                         </td>
@@ -52,10 +55,11 @@
             <div id="searchInformation">
                 <label class="informationProfile"><b>Add your Search information -------------------------------------------------------</b></label>
                 </br></br>
-                <textarea class="style2" rows="4" cols="50" placeholder="Give us keywords to help us find the most adapted content for you"></textarea></br>
+                <textarea name="searchInformationProfile" ng-class="classSearchInformation" ng-keyup="checkLengthSearchInformation()" ng-maxlength="{{maxLengthSearchInformation}}" rows="4" cols="50" ng-model="searchInformationProfile" placeholder="Give us keywords to help us find the most adapted content for you"></textarea>
+                <span ng-show="profileForm.searchInformationProfile.$error.maxlength">max length {{maxLengthSearchInformation}}</span></br>
             </div>
             </br>
-            <input id="submitProfile" type="submit" value="submit" />
+            <input ng-class="classSubmitProfile" ng-disabled="!isFormValidProfile" type="submit" value="submit" />
         </form>
             </div>
         </div>

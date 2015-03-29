@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/content/content.html" afterPath="$PROJECT_DIR$/web/content/content.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/content/contentCtrl.js" afterPath="$PROJECT_DIR$/web/content/contentCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/profile/profile.css" afterPath="$PROJECT_DIR$/web/profile/profile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/profile/profile.html" afterPath="$PROJECT_DIR$/web/profile/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/profile/profileCtrl.js" afterPath="$PROJECT_DIR$/web/profile/profileCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FireUpProject.iws" />
@@ -84,19 +87,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="menu.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/menu/menu.html">
+      <file leaf-file-name="content.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/content/content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="6" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="357">
+            <state line="60" column="48" selection-start="6484" selection-end="6496" vertical-scroll-proportion="-9.307693" vertical-offset="778" max-vertical-offset="1190">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/content/content.html">
+      <file leaf-file-name="profileCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/profile/profileCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="33" selection-start="4391" selection-end="4391" vertical-scroll-proportion="0.06849315" vertical-offset="728" max-vertical-offset="1190">
+            <state line="30" column="15" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1649">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/menu/menu.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="0" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="918">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/profile/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="0" selection-start="4328" selection-end="4328" vertical-scroll-proportion="3.4452055" vertical-offset="150" max-vertical-offset="1258">
               <folding />
             </state>
           </provider>
@@ -105,7 +126,16 @@
       <file leaf-file-name="content.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/content/content.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="2682" selection-end="2682" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1615">
+            <state line="27" column="22" selection-start="1378" selection-end="1458" vertical-scroll-proportion="0.0" vertical-offset="1078" max-vertical-offset="1615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/profile/profile.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="0" selection-start="2370" selection-end="2370" vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="1632">
               <folding />
             </state>
           </provider>
@@ -114,7 +144,7 @@
       <file leaf-file-name="contentCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/content/contentCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="40" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="4760">
+            <state line="159" column="51" selection-start="7014" selection-end="7014" vertical-scroll-proportion="0.0" vertical-offset="2652" max-vertical-offset="4760">
               <folding />
             </state>
           </provider>
@@ -141,34 +171,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="4" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.0" vertical-offset="246" max-vertical-offset="714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="displayResults.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home/displayResults.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homeCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="272">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="374">
+            <state line="32" column="27" selection-start="1498" selection-end="1498" vertical-scroll-proportion="-5.3076925" vertical-offset="406" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -201,7 +204,6 @@
         <option value="$PROJECT_DIR$/web/settings/settings.js" />
         <option value="$PROJECT_DIR$/web/profile/datepicker.js" />
         <option value="$PROJECT_DIR$/web/profile/countries.json" />
-        <option value="$PROJECT_DIR$/web/profile/profileCtrl.js" />
         <option value="$PROJECT_DIR$/web/settings/language/language.js" />
         <option value="$PROJECT_DIR$/web/settings/security/security.js" />
         <option value="$PROJECT_DIR$/web/settings/preferences/preferences.js" />
@@ -210,7 +212,6 @@
         <option value="$PROJECT_DIR$/web/settings/preferences/preferences.html" />
         <option value="$PROJECT_DIR$/web/settings/settings.html" />
         <option value="$PROJECT_DIR$/web/index.css" />
-        <option value="$PROJECT_DIR$/web/profile/profile.css" />
         <option value="$PROJECT_DIR$/web/settings/settings.css" />
         <option value="$PROJECT_DIR$/web/login/login.html" />
         <option value="$PROJECT_DIR$/web/login/login.css" />
@@ -234,15 +235,17 @@
         <option value="$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java" />
         <option value="$PROJECT_DIR$/web/login/loginCtrl.js" />
         <option value="$PROJECT_DIR$/web/menu/menu.html" />
-        <option value="$PROJECT_DIR$/web/profile/profile.html" />
         <option value="$PROJECT_DIR$/src/main/java/video/Video.java" />
         <option value="$PROJECT_DIR$/web/home/displayResults.html" />
         <option value="$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java" />
         <option value="$PROJECT_DIR$/web/menu/menuCtrl.js" />
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/content/content.css" />
-        <option value="$PROJECT_DIR$/web/content/contentCtrl.js" />
         <option value="$PROJECT_DIR$/web/content/content.html" />
+        <option value="$PROJECT_DIR$/web/profile/profile.css" />
+        <option value="$PROJECT_DIR$/web/content/contentCtrl.js" />
+        <option value="$PROJECT_DIR$/web/profile/profileCtrl.js" />
+        <option value="$PROJECT_DIR$/web/profile/profile.html" />
       </list>
     </option>
   </component>
@@ -354,43 +357,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
+              <option name="myItemId" value="profile" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -853,7 +820,7 @@
       <workItem from="1427495547573" duration="15040000" />
       <workItem from="1427552514393" duration="2211000" />
       <workItem from="1427554768638" duration="4177000" />
-      <workItem from="1427565784963" duration="2248000" />
+      <workItem from="1427565784963" duration="13028000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -1071,11 +1038,15 @@
       <created>1427558563553</created>
       <updated>1427558563553</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Control on input field of Content page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;JUST ADDED: error message to the user next to input field&#10;DOESN'T WORK: the ccs style is not render properly( it is render only when we type character by character but not when we keep a key pressed for a long period)&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;">
+      <created>1427577195997</created>
+      <updated>1427577195997</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210615000" />
+    <option name="totallyTimeSpent" value="221395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
@@ -1083,32 +1054,32 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24773414" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50341296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39788732" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25038284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33450705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50341296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39788732" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1124,7 +1095,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Dev web services in progress&#10;" />
     <MESSAGE value="SIGNUP bug fixed" />
     <MESSAGE value="SIGNIN first bug fixed&#10;" />
     <MESSAGE value="SIGNIN bug fixed&#10;" />
@@ -1149,7 +1119,8 @@
     <MESSAGE value="Control on input field of Content page&#10;&#10;DONE using ng-class and ng-keyup&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
     <MESSAGE value="Control on input field of Content page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
     <MESSAGE value="Control on input field of Content page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;JUST ADDED: error message to the user next to input field&#10;DOESN'T WORK: the ccs style is not render properly( it is render only when we type character by character but not when we keep a key pressed for a long period)&#10;&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Control on input field of Content page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;JUST ADDED: error message to the user next to input field&#10;DOESN'T WORK: the ccs style is not render properly( it is render only when we type character by character but not when we keep a key pressed for a long period)&#10;&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <MESSAGE value="Control on input field of Content page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;JUST ADDED: error message to the user next to input field&#10;DOESN'T WORK: the ccs style is not render properly( it is render only when we type character by character but not when we keep a key pressed for a long period)&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Control on input field of Content page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;JUST ADDED: error message to the user next to input field&#10;DOESN'T WORK: the ccs style is not render properly( it is render only when we type character by character but not when we keep a key pressed for a long period)&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1184,11 +1155,6 @@
     <entry file="file://$PROJECT_DIR$/web/profile/countries.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="21" selection-start="235" selection-end="235" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="4250" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/profile/profileCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="58" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.0" vertical-offset="759" max-vertical-offset="5083" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/settings/security/security.js">
@@ -1332,24 +1298,9 @@
         <state line="1" column="20" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="136" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/profile/profile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="2139" selection-end="2139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/login/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="24" selection-start="1254" selection-end="1298" vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="1972" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/menu/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="918" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/profile/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="918" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1190" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/login.html">
@@ -1426,30 +1377,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="4" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.0" vertical-offset="246" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/content/content.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="2682" selection-end="2682" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1615">
+        <state line="27" column="22" selection-start="1378" selection-end="1458" vertical-scroll-proportion="0.0" vertical-offset="1078" max-vertical-offset="1615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/content/contentCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="40" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="686" max-vertical-offset="4760">
+        <state line="159" column="51" selection-start="7014" selection-end="7014" vertical-scroll-proportion="0.0" vertical-offset="2652" max-vertical-offset="4760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/profile/profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="2370" selection-end="2370" vertical-scroll-proportion="0.0" vertical-offset="899" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="27" selection-start="1498" selection-end="1498" vertical-scroll-proportion="-5.3076925" vertical-offset="406" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/content/content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="33" selection-start="4391" selection-end="4391" vertical-scroll-proportion="0.06849315" vertical-offset="728" max-vertical-offset="1190">
+        <state line="60" column="48" selection-start="6484" selection-end="6496" vertical-scroll-proportion="-9.307693" vertical-offset="778" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/menu/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/profile/profileCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="15" selection-start="723" selection-end="723" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/profile/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="4328" selection-end="4328" vertical-scroll-proportion="3.4452055" vertical-offset="150" max-vertical-offset="1258">
           <folding />
         </state>
       </provider>
