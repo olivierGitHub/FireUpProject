@@ -28,17 +28,24 @@ public class VideoWebService {
             video.setTitleVideo(title);
             video.setDescriptionVideo(description);
             video.setLinkVideo(link);
-            //video.setShortLinkVideo(link.substring(link.indexOf("="))); //fix me: add control youtube-daylimotion
+            //video.setShortLinkVideo(link.substring(link.indexOf("=")+1)); //fix me: add control youtube-daylimotion
             video.setListTagsVideo(listTags);
         return DaoVideo.getInstance().create(video);
     }
 
-    /*@POST
+    @POST
     @Path("/display")
     @Produces(MediaType.APPLICATION_JSON)
     public List<Video> displayVideos(@QueryParam("searchParams") String searchParams){
-        String sql = "select v from video v";
-        return DaoVideo.getInstance().readSelected(sql);
-    }*/
+        return DaoVideo.getInstance().readAll();
+    }
+
+    @POST
+    @Path("/read")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Video read(){
+        String sql = "select v from Video v";
+        return DaoVideo.getInstance().read(6);
+    }
 
 }
