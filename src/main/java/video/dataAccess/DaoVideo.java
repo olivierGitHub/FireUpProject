@@ -111,7 +111,7 @@ public class DaoVideo implements DAO<Video> {
 
         try{
             t.begin();
-            TypedQuery query = em.createQuery(sql, Video.class);
+            Query query = em.createNativeQuery(sql);
             listVideos = query.getResultList();
             t.commit();
         }catch(Exception e){

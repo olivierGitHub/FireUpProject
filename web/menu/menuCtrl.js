@@ -4,15 +4,23 @@
 
 /*global angular*/
 /*global console*/
+/*global alert*/
 
 angular.module('menuApp',[])
-    .controller('menuController',['$scope','menuService', function($scope, menuService){
+    .controller('menuController',['$scope', '$rootScope','$state', 'menuService', function($scope, $rootScope, $state, menuService){
         'use strict';
-        $scope.listResults = [];
+        $rootScope.listResults = [];
 
         $scope.searchResults = function(){
             menuService.searchSelected($scope.searchParams);
+            $state.go('menu.home.display');
+            console.log("hello");
         };
+
+        $scope.essai = function(){
+            alert("ESSAI");
+        };
+
     }])
 
     .service('menuService', function($http, $rootScope){
@@ -25,7 +33,8 @@ angular.module('menuApp',[])
             })
                 .success(function(data){
                     console.log("search success");
-                    //$rootScope.listResults = data;
+                    console.log(data);
+                    $rootScope.listResults = data;
             })
                 .error(function(){
                     console.log("search failed");

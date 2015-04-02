@@ -40,3 +40,25 @@
     overflow: scroll;
 
 }
+
+.resultsInfoHome{
+    position:relative;
+    top: -1.5em;
+}
+
+/*.titleInfoHome{
+    position:relative;
+    top: -1.5em;
+}
+
+.linkInfoHome{
+    position:relative;
+    left: -8em;
+}
+
+.descriptionInfoHome{
+    position:relative;
+    left: -11em;
+    top: 1.5em;
+}*/
+

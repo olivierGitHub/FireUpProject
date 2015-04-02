@@ -5,13 +5,14 @@ import com.sun.xml.internal.txw2.annotation.XmlElement;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * Created by oliver on 20/03/15.
  */
 
 @Entity
-@XmlElement
+@XmlRootElement
 public class SocialNetwork {
 
     @Id

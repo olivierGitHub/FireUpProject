@@ -6,6 +6,8 @@
 
 angular.module('homeApp',[])
 
-    .controller('homeController', ['$scope', function($scope){
+    .controller('homeController', ['$scope', '$rootScope', function($scope, $rootScope){
         'use strict';
+
+
     }]);
