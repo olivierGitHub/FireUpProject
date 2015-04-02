@@ -8,6 +8,6 @@ angular.module('homeApp',[])
 
     .controller('homeController', ['$scope', '$rootScope', function($scope, $rootScope){
         'use strict';
-
+        $scope.list = $rootScope.listResults;
 
     }]);

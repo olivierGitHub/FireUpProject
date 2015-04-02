@@ -9,7 +9,7 @@
 angular.module('menuApp',[])
     .controller('menuController',['$scope', '$rootScope','$state', 'menuService', function($scope, $rootScope, $state, menuService){
         'use strict';
-        $rootScope.listResults = [];
+        $rootScope.listResultsVideo = [];
 
         $scope.searchResults = function(){
             menuService.searchSelected($scope.searchParams);
@@ -33,8 +33,8 @@ angular.module('menuApp',[])
             })
                 .success(function(data){
                     console.log("search success");
-                    console.log(data);
-                    $rootScope.listResults = data;
+                    console.log(data.titleVideo);
+                    $rootScope.listResultsVideo = data;
             })
                 .error(function(){
                     console.log("search failed");

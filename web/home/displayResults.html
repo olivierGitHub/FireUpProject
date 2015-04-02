@@ -1,6 +1,8 @@
-<div>
+<div ng-controller="menuController">
     <!--<h6>Display results</h6>-->
-    <h3 ng-repeat="result in listResults">Hello {{result.titleVideo}}</h3>
+    <div ng-repeat="res in listResultsVideo">
+    <h3 >Hello {{res.titleVideo}}</h3>
+    </div>
     <!--<h3>{{listResults}}</h3>
     <!--<table>
         <tr>

@@ -105,13 +105,19 @@ public class DaoVideo implements DAO<Video> {
 
     @Override
     public List<Video> readSelected(String sql) {
+        return null;
+    }
+
+
+    public List<Video> readAll() {
         EntityManager em = emf.createEntityManager();
         EntityTransaction t = em.getTransaction();
         List<Video> listVideos = null;
 
         try{
             t.begin();
-            Query query = em.createNativeQuery(sql);
+            String sql = "select v from Video v";
+            TypedQuery query = em.createQuery(sql, Video.class);
             listVideos = query.getResultList();
             t.commit();
         }catch(Exception e){

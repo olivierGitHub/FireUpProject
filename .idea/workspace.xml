@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java" afterPath="$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/socialnetwork/SocialNetwork.java" afterPath="$PROJECT_DIR$/src/main/java/socialnetwork/SocialNetwork.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/video/Video.java" afterPath="$PROJECT_DIR$/src/main/java/video/Video.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/website/Website.java" afterPath="$PROJECT_DIR$/src/main/java/website/Website.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/displayResults.html" afterPath="$PROJECT_DIR$/web/home/displayResults.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/home.css" afterPath="$PROJECT_DIR$/web/home/home.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/homeCtrl.js" afterPath="$PROJECT_DIR$/web/home/homeCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/menu/menu.html" afterPath="$PROJECT_DIR$/web/menu/menu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/menu/menuCtrl.js" afterPath="$PROJECT_DIR$/web/menu/menuCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -79,7 +74,7 @@
       <file leaf-file-name="menuCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/menu/menuCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="36" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="884">
+            <state line="33" column="40" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="884">
               <folding />
             </state>
           </provider>
@@ -88,7 +83,7 @@
       <file leaf-file-name="displayResults.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/home/displayResults.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="16" selection-start="195" selection-end="195" vertical-scroll-proportion="-1.9615384" vertical-offset="51" max-vertical-offset="1224">
+            <state line="7" column="12" selection-start="230" selection-end="230" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1258">
               <folding />
             </state>
           </provider>
@@ -115,25 +110,16 @@
       <file leaf-file-name="homeCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+            <state line="10" column="45" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Video.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Video.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/video/Video.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="7" selection-start="202" selection-end="202" vertical-scroll-proportion="0.41087613" vertical-offset="0" max-vertical-offset="765">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home/home.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="659" max-vertical-offset="1190">
+            <state line="12" column="7" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -151,16 +137,25 @@
       <file leaf-file-name="VideoWebService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="51" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="697">
+            <state line="41" column="0" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DaoVideo.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DaoVideo.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="12" selection-start="2700" selection-end="2700" vertical-scroll-proportion="0.0" vertical-offset="1638" max-vertical-offset="2159">
+            <state line="123" column="32" selection-start="3036" selection-end="3036" vertical-scroll-proportion="0.6555891" vertical-offset="1772" max-vertical-offset="2261">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DAO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/DAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="408">
               <folding />
             </state>
           </provider>
@@ -226,15 +221,15 @@
         <option value="$PROJECT_DIR$/web/profile/profileCtrl.js" />
         <option value="$PROJECT_DIR$/web/profile/profile.html" />
         <option value="$PROJECT_DIR$/web/menu/menu.html" />
-        <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
         <option value="$PROJECT_DIR$/web/home/home.css" />
-        <option value="$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java" />
-        <option value="$PROJECT_DIR$/web/menu/menuCtrl.js" />
         <option value="$PROJECT_DIR$/src/main/java/video/Video.java" />
-        <option value="$PROJECT_DIR$/web/home/displayResults.html" />
         <option value="$PROJECT_DIR$/src/main/java/socialnetwork/SocialNetwork.java" />
         <option value="$PROJECT_DIR$/src/main/java/website/Website.java" />
+        <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
+        <option value="$PROJECT_DIR$/web/menu/menuCtrl.js" />
+        <option value="$PROJECT_DIR$/web/home/displayResults.html" />
+        <option value="$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java" />
       </list>
     </option>
   </component>
@@ -445,7 +440,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
+              <option name="myItemId" value="video" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="video" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="video" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataAccess" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -909,7 +964,7 @@
       <workItem from="1427552514393" duration="2211000" />
       <workItem from="1427554768638" duration="4177000" />
       <workItem from="1427565784963" duration="17286000" />
-      <workItem from="1427925142556" duration="15188000" />
+      <workItem from="1427925142556" duration="17119000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -1143,15 +1198,19 @@
       <created>1427593498012</created>
       <updated>1427593498012</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Result display&#10;&#10;WORK in progress&#10;&#10;&#10;BUGS: Control on input field of Profile page&#10;the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;">
+      <created>1427944684144</created>
+      <updated>1427944684144</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240841000" />
+    <option name="totallyTimeSpent" value="242772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1175,7 +1234,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25038284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25038284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33450705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1196,7 +1255,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="SIGNIN first bug fixed&#10;" />
     <MESSAGE value="SIGNIN bug fixed&#10;" />
     <MESSAGE value="CSS homepage bullshit but lookable DONE&#10;" />
     <MESSAGE value="CSS fixed nav bar DONE&#10;" />
@@ -1221,7 +1279,8 @@
     <MESSAGE value="Control on input field of Content page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;JUST ADDED: error message to the user next to input field&#10;DOESN'T WORK: the ccs style is not render properly( it is render only when we type character by character but not when we keep a key pressed for a long period)&#10;&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
     <MESSAGE value="Control on input field of Content page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;JUST ADDED: error message to the user next to input field&#10;DOESN'T WORK: the ccs style is not render properly( it is render only when we type character by character but not when we keep a key pressed for a long period)&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
     <MESSAGE value="Control on input field of Profile page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;JUST ADDED: error message to the user next to input field&#10;BUGS: the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Control on input field of Profile page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;JUST ADDED: error message to the user next to input field&#10;BUGS: the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <MESSAGE value="Result display&#10;&#10;WORK in progress&#10;&#10;&#10;BUGS: Control on input field of Profile page&#10;the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Result display&#10;&#10;WORK in progress&#10;&#10;&#10;BUGS: Control on input field of Profile page&#10;the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1288,11 +1347,6 @@
     <entry file="file://$PROJECT_DIR$/web/settings/preferences/preferences.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="370" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/home/service/UserWebService.java">
@@ -1494,44 +1548,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="12" selection-start="2700" selection-end="2700" vertical-scroll-proportion="0.0" vertical-offset="1638" max-vertical-offset="2159">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="51" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/menu/menuCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="36" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/displayResults.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="16" selection-start="195" selection-end="195" vertical-scroll-proportion="-1.9615384" vertical-offset="51" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
@@ -1552,7 +1571,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/video/Video.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="202" selection-end="202" vertical-scroll-proportion="0.41087613" vertical-offset="0" max-vertical-offset="765">
+        <state line="12" column="7" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="45" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/menu/menuCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="40" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/displayResults.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="12" selection-start="230" selection-end="230" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="32" selection-start="3036" selection-end="3036" vertical-scroll-proportion="0.6555891" vertical-offset="1772" max-vertical-offset="2261">
           <folding />
         </state>
       </provider>
