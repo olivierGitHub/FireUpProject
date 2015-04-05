@@ -5,6 +5,7 @@ import video.Video;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.StringTokenizer;
 
 /**
  * Created by oliver on 20/03/15.
@@ -103,9 +104,36 @@ public class DaoVideo implements DAO<Video> {
         }
     }
 
+    private String createSQL(String sql){
+        String createdSQL = "select * from video where listTagsVideo like '%dummyArequestBtoCsetDfirstEiteratioFnotGsupposedHtoIbeJfound%'";
+        StringTokenizer st = new StringTokenizer(sql);
+        while (st.hasMoreElements()) {
+            createdSQL = createdSQL + " or listTagsVideo like '%" + st.nextElement() + "%'";
+        }
+        return createdSQL;
+    }
+
     @Override
-    public List<Video> readSelected(String sql) {
-        return null;
+    public List<Video> readSelected(String param) {
+        EntityManager em = emf.createEntityManager();
+        EntityTransaction t = em.getTransaction();
+        List<Video> listVideos = null;
+
+        try{
+            t.begin();
+            String sql = createSQL(param);
+            Query query = em.createNativeQuery(sql, Video.class);
+            listVideos = query.getResultList();
+            t.commit();
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            if (t.isActive()){
+                t.rollback();
+                em.close();
+            }
+        }
+        return listVideos;
     }
 
 

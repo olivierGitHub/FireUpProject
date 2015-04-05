@@ -23,7 +23,7 @@ angular.module('menuApp',[])
                 $rootScope.$broadcast('searchVideos',$scope.searchParams);
                 console.log("broadcast results OK State  SOCIAL NETWORKS found");
             }else {
-                $rootScope.$broadcast('searchVideos',$scope.searchParams);
+                $rootScope.$broadcast('search',$scope.searchParams);
                 $state.go("menu.home.display");
                 console.log("state not found");
             }

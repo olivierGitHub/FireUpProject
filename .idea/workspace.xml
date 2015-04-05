@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/home/displayResultsSocialNetworks.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/home/displayResultsWebsites.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/displayResults.html" afterPath="$PROJECT_DIR$/web/home/displayResults.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/home.html" afterPath="$PROJECT_DIR$/web/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.js" afterPath="$PROJECT_DIR$/web/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java" afterPath="$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/homeCtrl.js" afterPath="$PROJECT_DIR$/web/home/homeCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/menu/menuCtrl.js" afterPath="$PROJECT_DIR$/web/menu/menuCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -73,10 +70,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="menuCtrl.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="menuCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/menu/menuCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="19" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.7447447" vertical-offset="126" max-vertical-offset="782">
+            <state line="27" column="47" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
@@ -86,17 +83,6 @@
         <entry file="file://$PROJECT_DIR$/web/home/displayResults.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="9" selection-start="360" selection-end="360" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="374">
-              <folding>
-                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="displayResultsWebsites.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home/displayResultsWebsites.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="305" selection-end="305" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="357">
               <folding>
                 <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -124,10 +110,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/settings/settings.html">
+      <file leaf-file-name="VideoWebService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="335" selection-end="335" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
+            <state line="47" column="0" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0" vertical-offset="569" max-vertical-offset="952">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MethodInjectorImpl.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/resteasy-jaxrs/2.2.1.GA/resteasy-jaxrs-2.2.1.GA.jar!/org/jboss/resteasy/core/MethodInjectorImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="28" selection-start="1100" selection-end="1100" vertical-scroll-proportion="-6.6" vertical-offset="175" max-vertical-offset="459">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceMethod.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/resteasy-jaxrs/2.2.1.GA/resteasy-jaxrs-2.2.1.GA.jar!/org/jboss/resteasy/core/ResourceMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="53" selection-start="3045" selection-end="3045" vertical-scroll-proportion="-3.76" vertical-offset="688" max-vertical-offset="1173">
               <folding />
             </state>
           </provider>
@@ -136,7 +140,7 @@
       <file leaf-file-name="homeCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="782">
+            <state line="12" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="1156">
               <folding />
             </state>
           </provider>
@@ -151,19 +155,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DaoVideo.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DaoVideo.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="0" selection-start="2570" selection-end="2570" vertical-scroll-proportion="0.0" vertical-offset="1636" max-vertical-offset="2261">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/menu/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="34" selection-start="75" selection-end="98" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="357">
+            <state line="127" column="28" selection-start="3383" selection-end="3383" vertical-scroll-proportion="0.49375" vertical-offset="1882" max-vertical-offset="2720">
               <folding />
             </state>
           </provider>
@@ -226,18 +221,18 @@
         <option value="$PROJECT_DIR$/src/main/java/video/Video.java" />
         <option value="$PROJECT_DIR$/src/main/java/socialnetwork/SocialNetwork.java" />
         <option value="$PROJECT_DIR$/src/main/java/website/Website.java" />
-        <option value="$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java" />
         <option value="$PROJECT_DIR$/web/home/home.css" />
         <option value="$PROJECT_DIR$/web/login/loginCtrl.js" />
-        <option value="$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java" />
-        <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
         <option value="$PROJECT_DIR$/web/menu/menu.html" />
         <option value="$PROJECT_DIR$/web/home/displayResults.html" />
         <option value="$PROJECT_DIR$/web/home/displayResultsWebsites.html" />
         <option value="$PROJECT_DIR$/web/index.js" />
         <option value="$PROJECT_DIR$/web/home/displayResultsSocialNetworks.html" />
         <option value="$PROJECT_DIR$/web/home/home.html" />
+        <option value="$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java" />
         <option value="$PROJECT_DIR$/web/menu/menuCtrl.js" />
+        <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
+        <option value="$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java" />
       </list>
     </option>
   </component>
@@ -332,7 +327,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,11 +341,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FireUpProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -820,7 +833,7 @@
       <workItem from="1428048419949" duration="25000" />
       <workItem from="1428152765700" duration="5164000" />
       <workItem from="1428173196997" duration="2225000" />
-      <workItem from="1428188928378" duration="13423000" />
+      <workItem from="1428188928378" duration="18542000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -1074,11 +1087,15 @@
       <created>1428199621889</created>
       <updated>1428199621889</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Result display&#10;&#10;WORK in progress&#10;State handling in menuController&#10; Ajout de $broadcast dans menuController et $on dans homeController (search is handled in homeController for now on)&#10; TypedQuery != Query in DAO&#10;in &lt;iframe&gt; the field src is xss protected, so $sce.trustAsRessourceUrl is needed (filter)&#10;&#10;BUGS: Control on input field of Profile page&#10;the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;">
+      <created>1428210506162</created>
+      <updated>1428210506162</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265585000" />
+    <option name="totallyTimeSpent" value="270704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
@@ -1093,7 +1110,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39788732" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39649123" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -1106,7 +1123,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25038284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25038284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1127,7 +1144,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="navigation bar DONE&#10;" />
     <MESSAGE value="navigation bar DONE&#10;+&#10;new page &quot;Settings&quot; to add where user will set their page (language etc...)&#10;" />
     <MESSAGE value="Profile form&#10;&#10;Work in progress&#10;" />
     <MESSAGE value="Content form / Profile form &#10;&#10;HTML+CSS OK&#10;&#10;Work in progress&#10;" />
@@ -1152,7 +1168,8 @@
     <MESSAGE value="Result display&#10;&#10;WORK in progress TypedQuery != Query in DAO&#10;&#10;BUGS: Control on input field of Profile page&#10;the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
     <MESSAGE value="Result display&#10;&#10;WORK in progress TypedQuery != Query in DAO&#10;in &lt;iframe&gt; the field src is xss protected, so $sce.trustAsRessourceUrl is needed (filter)&#10;&#10;BUGS: Control on input field of Profile page&#10;the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
     <MESSAGE value="Result display&#10;&#10;WORK in progress&#10; Ajout de $broadcast dans menuController et $on dans homeController (search is handled in homeController for now on)&#10; TypedQuery != Query in DAO&#10;in &lt;iframe&gt; the field src is xss protected, so $sce.trustAsRessourceUrl is needed (filter)&#10;&#10;BUGS: Control on input field of Profile page&#10;the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Result display&#10;&#10;WORK in progress&#10; Ajout de $broadcast dans menuController et $on dans homeController (search is handled in homeController for now on)&#10; TypedQuery != Query in DAO&#10;in &lt;iframe&gt; the field src is xss protected, so $sce.trustAsRessourceUrl is needed (filter)&#10;&#10;BUGS: Control on input field of Profile page&#10;the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <MESSAGE value="Result display&#10;&#10;WORK in progress&#10;State handling in menuController&#10; Ajout de $broadcast dans menuController et $on dans homeController (search is handled in homeController for now on)&#10; TypedQuery != Query in DAO&#10;in &lt;iframe&gt; the field src is xss protected, so $sce.trustAsRessourceUrl is needed (filter)&#10;&#10;BUGS: Control on input field of Profile page&#10;the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Result display&#10;&#10;WORK in progress&#10;State handling in menuController&#10; Ajout de $broadcast dans menuController et $on dans homeController (search is handled in homeController for now on)&#10; TypedQuery != Query in DAO&#10;in &lt;iframe&gt; the field src is xss protected, so $sce.trustAsRessourceUrl is needed (filter)&#10;&#10;BUGS: Control on input field of Profile page&#10;the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1164,16 +1181,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/bower_components/jquery/dist/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="156587" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bower_components/jquery/dist/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/profile/countries.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="21" selection-start="235" selection-end="235" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="4250" />
@@ -1395,20 +1402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="51" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="0" selection-start="2570" selection-end="2570" vertical-scroll-proportion="0.0" vertical-offset="1636" max-vertical-offset="2261">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/settings/settings.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="6" selection-start="335" selection-end="335" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
@@ -1464,16 +1457,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
+    <entry file="file://$PROJECT_DIR$/web/menu/menuCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="782">
+        <state line="27" column="47" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/menu/menuCtrl.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="19" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.7447447" vertical-offset="126" max-vertical-offset="782">
+        <state line="47" column="0" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.0" vertical-offset="569" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/resteasy-jaxrs/2.2.1.GA/resteasy-jaxrs-2.2.1.GA.jar!/org/jboss/resteasy/core/MethodInjectorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="28" selection-start="1100" selection-end="1100" vertical-scroll-proportion="-6.6" vertical-offset="175" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/resteasy-jaxrs/2.2.1.GA/resteasy-jaxrs-2.2.1.GA.jar!/org/jboss/resteasy/core/ResourceMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="53" selection-start="3045" selection-end="3045" vertical-scroll-proportion="-3.76" vertical-offset="688" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="28" selection-start="3383" selection-end="3383" vertical-scroll-proportion="0.49375" vertical-offset="1882" max-vertical-offset="2720">
           <folding />
         </state>
       </provider>
