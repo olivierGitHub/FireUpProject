@@ -7,14 +7,13 @@
 /*global alert*/
 
 angular.module('menuApp',[])
-    .controller('menuController',['$scope', '$rootScope','$state', 'menuService', function($scope, $rootScope, $state, menuService){
+    .controller('menuController',['$scope', '$rootScope','$state', function($scope, $rootScope, $state){
         'use strict';
         $rootScope.listResultsVideo = [];
 
         $scope.searchResults = function(){
-            menuService.searchSelected($scope.searchParams);
-            $state.go('menu.home.display');
-            console.log("hello");
+            $rootScope.$broadcast('search',$scope.searchParams);
+            console.log("broadcast results OK");
         };
 
         $scope.essai = function(){
@@ -28,29 +27,4 @@ angular.module('menuApp',[])
         return function(val) {
             return $sce.trustAsResourceUrl(val);
         };
-    }])
-
-    .service('menuService', function($http, $rootScope){
-        'use strict';
-        function readSelected(searchParams){
-            $http({
-                method: 'POST',
-                url:"http://localhost:8080/FireUpProject/rest/video/display",
-                params:{searchParams:searchParams}
-            })
-                .success(function(data){
-                    console.log("search success");
-                    console.log(data.titleVideo);
-                    $rootScope.listResultsVideo = data;
-            })
-                .error(function(){
-                    console.log("search failed");
-                });
-        }
-
-        return{
-           searchSelected:function(searchParams){
-               readSelected(searchParams);
-           }
-        };
-    });
+    }]);

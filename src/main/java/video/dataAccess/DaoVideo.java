@@ -116,8 +116,8 @@ public class DaoVideo implements DAO<Video> {
 
         try{
             t.begin();
-            String sql = "select v from Video v";
-            TypedQuery query = em.createQuery(sql, Video.class);
+            String sql = "select v from Video v order by idVideo DESC";
+            TypedQuery query = em.createQuery(sql, Video.class).setMaxResults(5);
             listVideos = query.getResultList();
             t.commit();
         }catch(Exception e){

@@ -64,12 +64,30 @@ angular.module('loginApp', [])
                 });
         }
 
+        function read(){
+            $http({
+                method: 'POST',
+                url:"http://localhost:8080/FireUpProject/rest/video/display",
+                params:{}
+            })
+                .success(function(data){
+                    console.log("search success");
+                    $rootScope.listResultsHome = data;
+                })
+                .error(function(){
+                    console.log("search failed");
+                });
+        }
+
         return {
           signup : function(usernameSignup,passwordSignup){
               signup(usernameSignup,passwordSignup);
           },
           signin : function(usernameSignin, passwordSignin) {
               signin(usernameSignin,passwordSignin);
+          },
+          readAll: function(){
+              read();
           }
         };
 

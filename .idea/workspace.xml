@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1589eaad-d695-4e7d-b12f-7f622096e564" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java" afterPath="$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java" afterPath="$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/displayResults.html" afterPath="$PROJECT_DIR$/web/home/displayResults.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/home.css" afterPath="$PROJECT_DIR$/web/home/home.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/homeCtrl.js" afterPath="$PROJECT_DIR$/web/home/homeCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login/loginCtrl.js" afterPath="$PROJECT_DIR$/web/login/loginCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/menu/menu.html" afterPath="$PROJECT_DIR$/web/menu/menu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/menu/menuCtrl.js" afterPath="$PROJECT_DIR$/web/menu/menuCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -72,10 +73,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="menuCtrl.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="menuCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/menu/menuCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="21" selection-start="685" selection-end="685" vertical-scroll-proportion="-0.275" vertical-offset="496" max-vertical-offset="1003">
+            <state line="12" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -84,7 +85,7 @@
       <file leaf-file-name="displayResults.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/home/displayResults.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="82" selection-start="925" selection-end="925" vertical-scroll-proportion="-8.692307" vertical-offset="46" max-vertical-offset="510">
+            <state line="3" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="510">
               <folding>
                 <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -104,8 +105,11 @@
       <file leaf-file-name="loginCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login/loginCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="35" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
-              <folding />
+            <state line="87" column="12" selection-start="3152" selection-end="3152" vertical-scroll-proportion="0.0" vertical-offset="1060" max-vertical-offset="1717">
+              <folding>
+                <marker date="1428195355987" expanded="true" signature="1060:3235" placeholder="{...}" />
+                <marker date="1428195355987" expanded="true" signature="3182:3217" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,16 +126,25 @@
       <file leaf-file-name="homeCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="7" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="12" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Video.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/video/Video.java">
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="7" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1207">
+            <state line="6" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaoVideo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="0" selection-start="2570" selection-end="2570" vertical-scroll-proportion="0.0" vertical-offset="1636" max-vertical-offset="2261">
               <folding />
             </state>
           </provider>
@@ -140,25 +153,16 @@
       <file leaf-file-name="VideoWebService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="51" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="952">
+            <state line="28" column="51" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="31" selection-start="197" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="menu.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/menu/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="35" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="357">
+            <state line="10" column="10" selection-start="533" selection-end="533" vertical-scroll-proportion="0.5537459" vertical-offset="0" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
@@ -215,7 +219,6 @@
         <option value="$PROJECT_DIR$/web/index.js" />
         <option value="$PROJECT_DIR$/web/home/home.html" />
         <option value="$PROJECT_DIR$/web/menu/menu.css" />
-        <option value="$PROJECT_DIR$/web/login/loginCtrl.js" />
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/content/content.css" />
         <option value="$PROJECT_DIR$/web/content/content.html" />
@@ -223,16 +226,17 @@
         <option value="$PROJECT_DIR$/web/content/contentCtrl.js" />
         <option value="$PROJECT_DIR$/web/profile/profileCtrl.js" />
         <option value="$PROJECT_DIR$/web/profile/profile.html" />
-        <option value="$PROJECT_DIR$/web/menu/menu.html" />
         <option value="$PROJECT_DIR$/src/main/java/video/Video.java" />
         <option value="$PROJECT_DIR$/src/main/java/socialnetwork/SocialNetwork.java" />
         <option value="$PROJECT_DIR$/src/main/java/website/Website.java" />
-        <option value="$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java" />
         <option value="$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java" />
-        <option value="$PROJECT_DIR$/web/menu/menuCtrl.js" />
-        <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
-        <option value="$PROJECT_DIR$/web/home/displayResults.html" />
         <option value="$PROJECT_DIR$/web/home/home.css" />
+        <option value="$PROJECT_DIR$/web/login/loginCtrl.js" />
+        <option value="$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java" />
+        <option value="$PROJECT_DIR$/web/home/displayResults.html" />
+        <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
+        <option value="$PROJECT_DIR$/web/menu/menuCtrl.js" />
+        <option value="$PROJECT_DIR$/web/menu/menu.html" />
       </list>
     </option>
   </component>
@@ -346,38 +350,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FireUpProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -847,7 +819,7 @@
       <workItem from="1428048419949" duration="25000" />
       <workItem from="1428152765700" duration="5164000" />
       <workItem from="1428173196997" duration="2225000" />
-      <workItem from="1428188928378" duration="4585000" />
+      <workItem from="1428188928378" duration="9274000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1423056932366</created>
@@ -1093,11 +1065,15 @@
       <created>1427947593560</created>
       <updated>1427947593560</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Result display&#10;&#10;WORK in progress TypedQuery != Query in DAO&#10;in &lt;iframe&gt; the field src is xss protected, so $sce.trustAsRessourceUrl is needed (filter)&#10;&#10;BUGS: Control on input field of Profile page&#10;the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;">
+      <created>1428194922630</created>
+      <updated>1428194922630</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256747000" />
+    <option name="totallyTimeSpent" value="261436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
@@ -1108,7 +1084,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24773414" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50341296" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5017544" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1118,7 +1094,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32807016" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1146,7 +1122,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="CSS homepage bullshit but lookable DONE&#10;" />
     <MESSAGE value="CSS fixed nav bar DONE&#10;" />
     <MESSAGE value="navigation bar DONE&#10;" />
     <MESSAGE value="navigation bar DONE&#10;+&#10;new page &quot;Settings&quot; to add where user will set their page (language etc...)&#10;" />
@@ -1171,7 +1146,8 @@
     <MESSAGE value="Control on input field of Profile page&#10;&#10;DONE using ng-class (modify css class and ng-keyup for the event listener)&#10;&#10;JUST ADDED: error message to the user next to input field&#10;BUGS: the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
     <MESSAGE value="Result display&#10;&#10;WORK in progress&#10;&#10;&#10;BUGS: Control on input field of Profile page&#10;the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
     <MESSAGE value="Result display&#10;&#10;WORK in progress TypedQuery != Query in DAO&#10;&#10;BUGS: Control on input field of Profile page&#10;the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Result display&#10;&#10;WORK in progress TypedQuery != Query in DAO&#10;&#10;BUGS: Control on input field of Profile page&#10;the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <MESSAGE value="Result display&#10;&#10;WORK in progress TypedQuery != Query in DAO&#10;in &lt;iframe&gt; the field src is xss protected, so $sce.trustAsRessourceUrl is needed (filter)&#10;&#10;BUGS: Control on input field of Profile page&#10;the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Result display&#10;&#10;WORK in progress TypedQuery != Query in DAO&#10;in &lt;iframe&gt; the field src is xss protected, so $sce.trustAsRessourceUrl is needed (filter)&#10;&#10;BUGS: Control on input field of Profile page&#10;the css error style is not render AT ALL when using error message&#10;&#10;To Do - DAO + WebService for content page:&#10;Erase values from input fields once inserted in database (coded but don't work)&#10;need to add Read Update Delete and Find All web services&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1377,14 +1353,11 @@
         <state line="87" column="0" selection-start="3406" selection-end="3406" vertical-scroll-proportion="0.11949685" vertical-offset="1407" max-vertical-offset="4760" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="374" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/socialnetwork/SocialNetwork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663" />
+        <state line="16" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/website/Website.java">
@@ -1401,23 +1374,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="23" selection-start="2837" selection-end="2974" vertical-scroll-proportion="0.0" vertical-offset="1696" max-vertical-offset="2261">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="31" selection-start="197" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/menu/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
@@ -1426,29 +1385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="7" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="765">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="51" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/displayResults.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="82" selection-start="925" selection-end="925" vertical-scroll-proportion="-8.692307" vertical-offset="46" max-vertical-offset="510">
-          <folding>
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1468,14 +1404,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login/loginCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+        <state line="87" column="12" selection-start="3152" selection-end="3152" vertical-scroll-proportion="0.0" vertical-offset="1060" max-vertical-offset="1717">
+          <folding>
+            <marker date="1428195355987" expanded="true" signature="1060:3235" placeholder="{...}" />
+            <marker date="1428195355987" expanded="true" signature="3182:3217" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/video/service/VideoWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="51" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="816">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/video/dataAccess/DaoVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="0" selection-start="2570" selection-end="2570" vertical-scroll-proportion="0.0" vertical-offset="1636" max-vertical-offset="2261">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/displayResults.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="510">
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/menu/menuCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="21" selection-start="685" selection-end="685" vertical-scroll-proportion="-0.275" vertical-offset="496" max-vertical-offset="1003">
+        <state line="12" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="182" selection-end="182" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/menu/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="10" selection-start="533" selection-end="533" vertical-scroll-proportion="0.5537459" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
