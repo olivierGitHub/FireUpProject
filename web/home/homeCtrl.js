@@ -10,4 +10,5 @@ angular.module('homeApp',[])
         'use strict';
         $scope.list = $rootScope.listResults;
 
+
     }]);

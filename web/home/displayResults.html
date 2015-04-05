@@ -1,69 +1,25 @@
 <div ng-controller="menuController">
     <!--<h6>Display results</h6>-->
-    <div ng-repeat="res in listResultsVideo">
-    <h3 >Hello {{res.titleVideo}}</h3>
-    </div>
-    <!--<h3>{{listResults}}</h3>
-    <!--<table>
-        <tr>
+    <!--<div ng-repeat="res in listResultsVideo">
+
+        <iframe width="200" height="113" ng-src="{{res.shortLinkVideo | trustAsResourceUrl}}" frameborder="0" ></iframe>
+        <label class="titleInfoHome">{{res.titleVideo}}</label>
+        <a class="linkInfoHome" href="{{res.linkVideo}}">{{res.linkVideo}}</a>
+        <span class="descriptionInfoHome" >{{res.descriptionVideo}}</span>
+    </div>-->
+    <table class="tableResultsVideo">
+        <tr ng-repeat="res in listResultsVideo">
             <td>
-                <iframe width="200" height="113" src="https://www.youtube.com/embed/L16v5HTeHzY" frameborder="0"></iframe>
+                <iframe width="200" height="113" src="{{res.shortLinkVideo | trustAsResourceUrl}}" frameborder="0"></iframe>
             </td>
-            <td class="resultsInfoHome">
-                <label class="titleInfoHome">GOKOU vs BEJITA</label>
-                <a class="linkInfoHome" href="https://www.youtube.com/embed/L16v5HTeHzY">vegeta</a>
-                <span class="descriptionInfoHome" >first fight</span>
+            <td class="resultsInfoHome" style="padding-top: 50px">
+                <table  class="tableResultsVideo1">
+                    <tr><td><label class="titleInfoHome"><b>{{res.titleVideo}}</b></label></td></tr>
+                    <tr><td></td></tr>
+                    <tr><td><a class="linkInfoHome" href="{{res.linkVideo}}">{{res.linkVideo}}</a></td></tr>
+                    <tr><td><span class="descriptionInfoHome" >{{res.descriptionVideo}}</span></td></tr>
+                </table>
             </td>
         </tr>
-        <tr>
-            <td>
-                <iframe width="200" height="113" src="https://www.youtube.com/embed/_jrb0xac2XQ" frameborder="0"></iframe>
-            </td>
-            <td class="resultsInfoHome">
-                <label class="titleInfoHome">GOKOU vs BEJITA 2</label>
-                <a class="linkInfoHome" href="https://www.youtube.com/watch?v=_jrb0xac2XQ">gokou</a>
-                <span class="descriptionInfoHome" >second fight</span>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <iframe width="200" height="113" src="https://www.youtube.com/embed/L16v5HTeHzY" frameborder="0"></iframe>
-            </td>
-            <td class="resultsInfoHome">
-                <label class="titleInfoHome">GOKOU vs BEJITA</label>
-                <a class="linkInfoHome" href="https://www.youtube.com/embed/L16v5HTeHzY">vegeta</a>
-                <span class="descriptionInfoHome" >first fight</span>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <iframe width="200" height="113" src="https://www.youtube.com/embed/_jrb0xac2XQ" frameborder="0"></iframe>
-            </td>
-            <td class="resultsInfoHome">
-                <label class="titleInfoHome">GOKOU vs BEJITA 2</label>
-                <a class="linkInfoHome" href="https://www.youtube.com/watch?v=_jrb0xac2XQ">gokou</a>
-                <span class="descriptionInfoHome" >second fight</span>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <iframe width="200" height="113" src="https://www.youtube.com/embed/L16v5HTeHzY" frameborder="0"></iframe>
-            </td>
-            <td class="resultsInfoHome">
-                <label class="titleInfoHome">GOKOU vs BEJITA</label>
-                <a class="linkInfoHome" href="https://www.youtube.com/embed/L16v5HTeHzY">vegeta</a>
-                <span class="descriptionInfoHome" >first fight</span>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <iframe width="200" height="113" src="https://www.youtube.com/embed/_jrb0xac2XQ" frameborder="0"></iframe>
-            </td>
-            <td class="resultsInfoHome">
-                <label class="titleInfoHome">GOKOU vs BEJITA 2</label>
-                <a class="linkInfoHome" href="https://www.youtube.com/watch?v=_jrb0xac2XQ">gokou</a>
-                <span class="descriptionInfoHome" >second fight</span>
-            </td>
-        </tr>
-    </table>-->
+    </table>
 </div>

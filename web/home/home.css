@@ -8,8 +8,8 @@
     height: 15em;
     top:15em;
     left:1em;
-    border: solid;
-    border-color: black;
+    /*border: solid;
+    border-color: black;*/
 }
 
 #filterParams{
@@ -23,8 +23,8 @@
     top:6em;
     left:5em;
     border-color: #000000;
-    border: solid;
-    background-color: white;
+    /*border: solid;
+    background-color: white;*/
     z-index:3;
 }
 
@@ -34,8 +34,8 @@
     height: 31em;
     top:6em;
     left:15em;
-    border-color: black;
-    border: solid;
+    /*border-color: black;
+    border: solid;*/
     z-index:2;
     overflow: scroll;
 
@@ -44,6 +44,14 @@
 .resultsInfoHome{
     position:relative;
     top: -1.5em;
+}
+
+.tableResultsVideo td{
+    padding:5px;
+}
+
+.tableResultsVideo .tableResultsVideo1 td{
+    padding:5px;
 }
 
 /*.titleInfoHome{

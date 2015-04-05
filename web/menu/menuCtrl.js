@@ -23,6 +23,13 @@ angular.module('menuApp',[])
 
     }])
 
+    .filter('trustAsResourceUrl', ['$sce', function($sce) {
+        'use strict';
+        return function(val) {
+            return $sce.trustAsResourceUrl(val);
+        };
+    }])
+
     .service('menuService', function($http, $rootScope){
         'use strict';
         function readSelected(searchParams){

@@ -28,7 +28,7 @@ public class VideoWebService {
             video.setTitleVideo(title);
             video.setDescriptionVideo(description);
             video.setLinkVideo(link);
-            //video.setShortLinkVideo(link.substring(link.indexOf("=")+1)); //fix me: add control youtube-daylimotion
+            video.setShortLinkVideo("https://www.youtube.com/embed/"+ link.substring(link.indexOf("=")+1).trim()); //fix me: add control youtube-daylimotion
             video.setListTagsVideo(listTags);
         return DaoVideo.getInstance().create(video);
     }
