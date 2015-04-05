@@ -21,11 +21,23 @@ angular.module('app', ['ui.router', 'loginApp', 'homeApp', 'profileApp', 'conten
             })
             .state('menu.home', {
                 url: '/home',
+                parent:'menu',
                 templateUrl: 'home/home.html'
             })
             .state('menu.home.display', {
                 url: '/home',
+                parent:'menu.home',
                 templateUrl: 'home/displayResults.html'
+            })
+            .state('menu.home.displayResultsWebsites', {
+                url: '/home',
+                parent:'menu.home',
+                templateUrl: 'home/displayResultsWebsites.html'
+            })
+            .state('menu.home.displayResultsSocialNetworks', {
+                url: '/home',
+                parent:'menu.home',
+                templateUrl: 'home/displayResultsSocialNetworks.html'
             })
             .state('menu.profile', {
                 url: '/profile',

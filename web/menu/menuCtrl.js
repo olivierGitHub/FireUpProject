@@ -12,8 +12,21 @@ angular.module('menuApp',[])
         $rootScope.listResultsVideo = [];
 
         $scope.searchResults = function(){
-            $rootScope.$broadcast('search',$scope.searchParams);
-            console.log("broadcast results OK");
+            console.log($state.current.name);
+            if ($state.current.name === "menu.home.display"){
+                $rootScope.$broadcast('searchVideos',$scope.searchParams);
+                console.log("broadcast results OK State  VIDEOS found");
+            }else if ($state.current.name === "menu.home.displayResultsWebsites"){
+                $rootScope.$broadcast('searchVideos',$scope.searchParams);
+                console.log("broadcast results OK State  WEBSITES found");
+            }else if ($state.current.name === "menu.home.displayResultsSocialNetworks"){
+                $rootScope.$broadcast('searchVideos',$scope.searchParams);
+                console.log("broadcast results OK State  SOCIAL NETWORKS found");
+            }else {
+                $rootScope.$broadcast('searchVideos',$scope.searchParams);
+                $state.go("menu.home.display");
+                console.log("state not found");
+            }
         };
 
         $scope.essai = function(){
