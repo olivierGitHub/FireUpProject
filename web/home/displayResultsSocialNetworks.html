@@ -1,10 +1,13 @@
 <div ng-controller="homeController">
-    <table class="tableResultsVideo">
-        <tr ng-repeat="res in listResultsVideo">
-            <td>
-                <iframe width="200" height="113" src="{{res.shortLinkVideo | trustAsResourceUrl}}" frameborder="0"></iframe>
-            </td>
-            <td class="resultsInfoHome" style="padding-top: 50px">
+    <table class="tableResultsSocialNetwork">
+        <tr ng-repeat="res in listResultsSocialNetwork">
+            <td class="resultsInfoSocialNetwork" style="padding-top: 50px">
+                <table  class="tableResultsSocialNetwork1">
+                    <tr><td><label class="titleInfoSocialNetwork"><b>{{res.titleSocialNetwork}}</b></label></td></tr>
+                    <tr><td></td></tr>
+                    <tr><td><a class="linkInfoSocialNetwork" href="{{res.linkSocialNetwork}}">{{res.linkSocialNetwork}}</a></td></tr>
+                    <tr><td><span class="descriptionInfoSocialNetwork" >{{res.descriptionSocialNetwork}}</span></td></tr>
+                </table>
             </td>
         </tr>
     </table>

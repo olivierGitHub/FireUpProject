@@ -5,6 +5,7 @@ import socialnetwork.SocialNetwork;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.StringTokenizer;
 
 /**
  * Created by oliver on 20/03/15.
@@ -102,15 +103,25 @@ public class DaoSocialNetwork implements DAO<SocialNetwork>{
         }
     }
 
+    private String createSQL(String sql){
+        String createdSQL = "select * from socialnetwork where listTagsSocialNetwork like '%dummyArequestBtoCsetDfirstEiteratioFnotGsupposedHtoIbeJfound%'";
+        StringTokenizer st = new StringTokenizer(sql);
+        while (st.hasMoreElements()) {
+            createdSQL = createdSQL + " or listTagsSocialNetwork like '%" + st.nextElement() + "%'";
+        }
+        return createdSQL;
+    }
+
     @Override
-    public List<SocialNetwork> readSelected(String sql) {
+    public List<SocialNetwork> readSelected(String param) {
         EntityManager em = emf.createEntityManager();
         EntityTransaction t = em.getTransaction();
         List<SocialNetwork> listSocialNetworks = null;
 
         try{
             t.begin();
-            TypedQuery query = em.createQuery(sql, SocialNetwork.class);
+            String sql = createSQL(param);
+            Query query = em.createNativeQuery(sql, SocialNetwork.class);
             listSocialNetworks = query.getResultList();
             t.commit();
         }catch(Exception e){
@@ -123,4 +134,28 @@ public class DaoSocialNetwork implements DAO<SocialNetwork>{
         }
         return listSocialNetworks;
     }
+
+    public List<SocialNetwork> readAll() {
+        EntityManager em = emf.createEntityManager();
+        EntityTransaction t = em.getTransaction();
+        List<SocialNetwork> listSocialNetworks = null;
+
+        try{
+            t.begin();
+            String sql = "select sc from SocialNetwork sc order by idSocialNetwork DESC";
+            TypedQuery query = em.createQuery(sql, SocialNetwork.class).setMaxResults(5);
+            listSocialNetworks = query.getResultList();
+            t.commit();
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally{
+            if (t.isActive()){
+                t.rollback();
+                em.close();
+            }
+        }
+        return listSocialNetworks;
+    }
+
+
 }

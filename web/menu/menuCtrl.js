@@ -17,13 +17,13 @@ angular.module('menuApp',[])
                 $rootScope.$broadcast('searchVideos',$scope.searchParams);
                 console.log("broadcast results OK State  VIDEOS found");
             }else if ($state.current.name === "menu.home.displayResultsWebsites"){
-                $rootScope.$broadcast('searchVideos',$scope.searchParams);
+                $rootScope.$broadcast('searchSelectedWebsites',$scope.searchParams);
                 console.log("broadcast results OK State  WEBSITES found");
             }else if ($state.current.name === "menu.home.displayResultsSocialNetworks"){
-                $rootScope.$broadcast('searchVideos',$scope.searchParams);
+                $rootScope.$broadcast('searchSelectedSocialNetworks',$scope.searchParams);
                 console.log("broadcast results OK State  SOCIAL NETWORKS found");
             }else {
-                $rootScope.$broadcast('search',$scope.searchParams);
+                $rootScope.$broadcast('searchVideos',$scope.searchParams);
                 $state.go("menu.home.display");
                 console.log("state not found");
             }

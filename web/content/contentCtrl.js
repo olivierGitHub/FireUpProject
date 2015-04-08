@@ -10,7 +10,7 @@ angular.module('contentApp',[])
 
     .constant("maxLength",{
         "title": 50,
-        "description":200,
+        "description":2000,
         "link":1024,
         "listTags":200
     })

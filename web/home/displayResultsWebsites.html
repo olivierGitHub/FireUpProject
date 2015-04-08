@@ -1,14 +1,12 @@
 <div ng-controller="homeController">
-    <table class="tableResultsVideo">
-        <tr ng-repeat="res in listResultsVideo">
-            <td>
-            </td>
-            <td class="resultsInfoHome" style="padding-top: 50px">
-                <table  class="tableResultsVideo1">
-                    <tr><td><label class="titleInfoHome"><b>{{res.titleVideo}}</b></label></td></tr>
+    <table class="tableResultsWebsite">
+        <tr ng-repeat="res in listResultsWebsite">
+            <td class="resultsInfoWebsite" style="padding-top: 50px">
+                <table  class="tableResultsWebsite1">
+                    <tr><td><label class="titleInfoWebsite"><b>{{res.titleWebsite}}</b></label></td></tr>
                     <tr><td></td></tr>
-                    <tr><td><a class="linkInfoHome" href="{{res.linkVideo}}">{{res.linkVideo}}</a></td></tr>
-                    <tr><td><span class="descriptionInfoHome" >{{res.descriptionVideo}}</span></td></tr>
+                    <tr><td><a class="linkInfoWebsite" href="{{res.linkWebsite}}">{{res.linkWebsite}}</a></td></tr>
+                    <tr><td><span class="descriptionInfoWebsite" >{{res.descriptionWebsite}}</span></td></tr>
                 </table>
             </td>
         </tr>

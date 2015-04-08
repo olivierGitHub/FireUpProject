@@ -40,6 +40,14 @@ public class VideoWebService {
         return DaoVideo.getInstance().readAll();
     }
 
+
+    @POST
+    @Path("/displaySelected")
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<Video> displaySelectedVideos(@QueryParam("searchParams") String searchParams){
+        return DaoVideo.getInstance().readSelected(searchParams);
+    }
+
     @POST
     @Path("/read")
     @Produces(MediaType.APPLICATION_JSON)
