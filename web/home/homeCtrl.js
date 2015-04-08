@@ -12,6 +12,8 @@ angular.module('homeApp',[])
         $scope.list = $rootScope.listResults;
 
         searchService.searchAll();
+        searchService.searchAllWebsites();
+        searchService.searchAllSocialNetworks();
 
         $scope.$on('search', function(event,searchParams){
             searchService.searchAll(searchParams);
